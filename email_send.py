@@ -34,7 +34,7 @@ for row in reader:
     content += '<font size="6">'+str(row)+'<br></font>'
 
 for row_ema in EMA_ALL:
-    content += '<font size="6">'+str(row_ema)+'<br></font>'
+    content += '<font size="6">'+'EMA:'+str(row_ema)+'<br></font>'
 
 
 content += '<font size="6">Regards Sean</font>'

@@ -51,3 +51,17 @@ crontab -e
 Execute on workdays 1AM	0 1 * * 1-5 /bin/execute/this/script.sh
 Execute every 10 minutes	*/10 * * * * /bin/execute/this/script.sh
 Log output to file	*/10 * * * * /bin/execute/this/script.sh >> /var/log/script_output.log 2>&1
+
+*/1 * * * * /Users/seanhung06/Desktop/python/Binance/run_eth.sh
+*/1 * * * * /Users/seanhung06/Desktop/python/Binance/run_eth_notify.sh
+*/1 * * * * /Users/seanhung06/Desktop/python/Binance/run_eth_notify.sh >> /Users/seanhung06/Desktop/python/Binance/Logs/Log.txt  2>&1
+
+--Grep 
+
+grep --color run_eth_notify  /var/log/*
+grep permitted  /var/log/system.log * 
+
+
+--Shell
+check for working shell 
+ps -p $$   
