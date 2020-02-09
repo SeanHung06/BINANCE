@@ -21,3 +21,1666 @@
 224.65 222.55001709061185 906
 226.27 223.63001709061186 906
 226.3 223.65001709061187 906
+225.17 222.8966837572785 906
+225.36 223.0233504239452 906
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x11197c370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11197c370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11197c370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1116723d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1116723d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1116723d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x115ffe3d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x115ffe3d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x115ffe3d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x118fe9400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118fe9400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118fe9400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x113a4b370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x113a4b370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x113a4b370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x117338400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x117338400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x117338400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x11aaf83d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11aaf83d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11aaf83d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x113ba3370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x113ba3370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x113ba3370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1108773d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1108773d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1108773d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x116d18400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x116d18400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x116d18400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x112cf23a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x112cf23a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x112cf23a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1171f3370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1171f3370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1171f3370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x11097f370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11097f370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11097f370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x10d569340>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10d569340>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10d569340>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x115a913a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x115a913a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x115a913a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1193333d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1193333d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1193333d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x117aeb370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x117aeb370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x117aeb370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x116278370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x116278370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x116278370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x11268a370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11268a370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11268a370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x10e3bf370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10e3bf370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10e3bf370>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+228.41 226.10111680798173 907
+228.34 226.05445014131507 907
+227.8 225.6944501413151 907
+227.88 225.7477834746484 907
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1125809a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1125809a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1125809a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x114426a00>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x114426a00>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x114426a00>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 77, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x11b6bea30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11b6bea30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11b6bea30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+228.45 226.1277834746484 907
+228.63 226.2477834746484 907
+227.3 225.36111680798174 907
+227.25 225.3277834746484 907
+226.05 224.52778347464843 907
+226.1 224.56111680798173 907
