@@ -56,6 +56,10 @@ Log output to file	*/10 * * * * /bin/execute/this/script.sh >> /var/log/script_o
 */1 * * * * /Users/seanhung06/Desktop/python/Binance/run_eth_notify.sh
 */1 * * * * /Users/seanhung06/Desktop/python/Binance/run_eth_notify.sh >> /Users/seanhung06/Desktop/python/Binance/Logs/Log.txt  2>&1
 
+--with timestamp 
+*/10 * * * * (/bin/date && /Users/seanhung06/Binance/run_eth.sh) >> /Users/seanhung06/Binance/Logs/Log1.txt  2>&1
+
+
 --Grep 
 
 grep --color run_eth_notify  /var/log/*
