@@ -5899,3 +5899,839 @@ Wed Feb 12 15:10:00 CST 2020
 248.43 243.10423889412277 910
 Wed Feb 12 15:20:00 CST 2020
 249.46 243.79090556078947 910
+Wed Feb 12 15:30:00 CST 2020
+251.68 245.27090556078943 910
+Wed Feb 12 15:40:00 CST 2020
+254.32 247.03090556078942 910
+Wed Feb 12 15:50:01 CST 2020
+252.91 246.09090556078945 910
+Wed Feb 12 16:00:00 CST 2020
+253.34 246.3775722274561 910
+Wed Feb 12 16:10:00 CST 2020
+251.9 245.41757222745613 910
+Wed Feb 12 16:20:01 CST 2020
+252.86 246.05757222745612 910
+Wed Feb 12 16:30:00 CST 2020
+253.57 246.53090556078942 910
+Wed Feb 12 17:40:00 CST 2020
+252.34 245.71090556078946 910
+Wed Feb 12 17:50:00 CST 2020
+252.26 245.6575722274561 910
+Wed Feb 12 18:00:00 CST 2020
+253.07 246.1975722274561 910
+Wed Feb 12 18:10:00 CST 2020
+251.88 245.40423889412276 910
+Wed Feb 12 18:20:00 CST 2020
+254.95 247.45090556078944 910
+Wed Feb 12 18:30:00 CST 2020
+255.88 248.07090556078944 910
+Wed Feb 12 18:40:00 CST 2020
+255.44 247.7775722274561 910
+Wed Feb 12 18:50:00 CST 2020
+254.37 247.06423889412278 910
+Wed Feb 12 19:00:01 CST 2020
+254.34 247.0442388941228 910
+Wed Feb 12 19:10:01 CST 2020
+255.26 247.6575722274561 910
+Wed Feb 12 19:20:01 CST 2020
+256.43 248.43757222745612 910
+Wed Feb 12 19:30:00 CST 2020
+257.77 249.33090556078943 910
+Wed Feb 12 19:40:00 CST 2020
+255.83 248.03757222745614 910
+Wed Feb 12 19:50:00 CST 2020
+256.88 248.7375722274561 910
+Wed Feb 12 20:00:00 CST 2020
+255.56 247.8575722274561 910
+Wed Feb 12 20:10:01 CST 2020
+253.81 246.69090556078945 910
+Wed Feb 12 20:20:00 CST 2020
+254.78 247.33757222745612 910
+Wed Feb 12 20:30:00 CST 2020
+254.05 246.85090556078944 910
+Wed Feb 12 20:40:00 CST 2020
+255.09 247.5442388941228 910
+Wed Feb 12 20:50:00 CST 2020
+254.95 247.45090556078944 910
+Wed Feb 12 21:00:00 CST 2020
+255.56 247.8575722274561 910
+Wed Feb 12 21:10:00 CST 2020
+256.0 248.15090556078943 910
+Wed Feb 12 21:20:00 CST 2020
+256.29 248.34423889412278 910
+Wed Feb 12 21:30:01 CST 2020
+256.0 248.15090556078943 910
+Wed Feb 12 21:40:00 CST 2020
+256.04 248.17757222745612 910
+Wed Feb 12 21:50:00 CST 2020
+255.76 247.99090556078943 910
+Wed Feb 12 22:00:00 CST 2020
+256.21 248.2909055607894 910
+Wed Feb 12 22:10:00 CST 2020
+257.05 248.85090556078944 910
+Wed Feb 12 22:20:00 CST 2020
+254.18 246.93757222745612 910
+Wed Feb 12 22:30:00 CST 2020
+255.17 247.5975722274561 910
+Wed Feb 12 22:40:00 CST 2020
+256.5 248.48423889412277 910
+Wed Feb 12 22:50:00 CST 2020
+255.9 248.0842388941228 910
+Wed Feb 12 23:00:00 CST 2020
+255.9 248.0842388941228 910
+Wed Feb 12 23:10:00 CST 2020
+254.29 247.01090556078944 910
+Wed Feb 12 23:20:00 CST 2020
+253.9 246.75090556078945 910
+Wed Feb 12 23:30:00 CST 2020
+252.37 245.73090556078944 910
+Wed Feb 12 23:40:00 CST 2020
+253.21 246.29090556078947 910
+Wed Feb 12 23:50:00 CST 2020
+253.21 246.29090556078947 910
+Thu Feb 13 00:00:00 CST 2020
+254.23 246.97090556078945 910
+Thu Feb 13 00:10:00 CST 2020
+254.75 247.3175722274561 910
+Thu Feb 13 00:20:00 CST 2020
+254.81 247.3575722274561 910
+Thu Feb 13 00:30:00 CST 2020
+255.93 248.10423889412277 910
+Thu Feb 13 00:40:00 CST 2020
+256.69 248.61090556078943 910
+Thu Feb 13 00:50:01 CST 2020
+262.69 252.61090556078943 910
+Thu Feb 13 01:00:00 CST 2020
+261.81 252.02423889412276 910
+Thu Feb 13 01:10:00 CST 2020
+265.53 254.50423889412275 910
+Thu Feb 13 01:20:00 CST 2020
+266.67 255.26423889412277 910
+Thu Feb 13 01:30:00 CST 2020
+264.7 253.95090556078944 910
+Thu Feb 13 01:40:00 CST 2020
+265.72 254.63090556078944 910
+Thu Feb 13 01:50:01 CST 2020
+265.0 254.15090556078943 910
+Thu Feb 13 02:00:00 CST 2020
+264.64 253.91090556078942 910
+Thu Feb 13 02:10:00 CST 2020
+264.52 253.83090556078943 910
+Thu Feb 13 19:30:00 CST 2020
+262.15 259.64807963137423 911
+Thu Feb 13 19:40:00 CST 2020
+260.84 258.7747462980409 911
+Thu Feb 13 19:50:00 CST 2020
+261.06 258.9214129647076 911
+Thu Feb 13 20:00:00 CST 2020
+262.79 260.0747462980409 911
+Thu Feb 13 20:10:01 CST 2020
+263.05 260.24807963137425 911
+Thu Feb 13 20:20:00 CST 2020
+264.29 261.0747462980409 911
+Thu Feb 13 20:30:00 CST 2020
+264.85 261.44807963137424 911
+Thu Feb 13 20:40:00 CST 2020
+263.19 260.34141296470756 911
+Thu Feb 13 20:50:01 CST 2020
+266.09 262.2747462980409 911
+Thu Feb 13 21:00:01 CST 2020
+268.45 263.8480796313742 911
+Thu Feb 13 21:10:01 CST 2020
+270.21 265.02141296470757 911
+Thu Feb 13 21:20:00 CST 2020
+270.75 265.3814129647076 911
+Thu Feb 13 21:30:00 CST 2020
+272.3 266.41474629804094 911
+Thu Feb 13 21:40:00 CST 2020
+277.16 269.65474629804095 911
+Thu Feb 13 21:50:01 CST 2020
+276.47 269.1947462980409 911
+Thu Feb 13 22:00:01 CST 2020
+269.05 264.24807963137425 911
+Thu Feb 13 22:10:00 CST 2020
+270.42 265.1614129647076 911
+Thu Feb 13 22:20:00 CST 2020
+269.15 264.3147462980409 911
+Thu Feb 13 22:30:00 CST 2020
+272.02 266.2280796313742 911
+Thu Feb 13 22:40:00 CST 2020
+270.14 264.9747462980409 911
+Thu Feb 13 22:50:00 CST 2020
+271.2 265.6814129647076 911
+Thu Feb 13 23:00:00 CST 2020
+269.94 264.84141296470756 911
+Thu Feb 13 23:10:00 CST 2020
+268.38 263.8014129647076 911
+Thu Feb 13 23:20:00 CST 2020
+269.89 264.80807963137426 911
+Thu Feb 13 23:30:00 CST 2020
+269.6 264.6147462980409 911
+Thu Feb 13 23:40:00 CST 2020
+270.21 265.02141296470757 911
+Thu Feb 13 23:50:00 CST 2020
+272.13 266.3014129647076 911
+Fri Feb 14 00:00:00 CST 2020
+270.56 265.2547462980409 911
+Fri Feb 14 00:10:00 CST 2020
+268.97 264.1947462980409 911
+Fri Feb 14 00:20:00 CST 2020
+270.72 265.3614129647076 911
+Fri Feb 14 00:30:00 CST 2020
+269.61 264.6214129647076 911
+Fri Feb 14 00:40:00 CST 2020
+268.27 263.7280796313742 911
+Fri Feb 14 08:30:00 CST 2020
+266.07 265.3004709882359 912
+Fri Feb 14 08:40:00 CST 2020
+265.48 264.90713765490256 912
+Fri Feb 14 08:50:00 CST 2020
+267.64 266.3471376549025 912
+Fri Feb 14 09:00:00 CST 2020
+268.21 266.7271376549025 912
+Fri Feb 14 09:10:00 CST 2020
+269.72 267.7338043215692 912
+Fri Feb 14 09:20:00 CST 2020
+268.35 266.82047098823585 912
+Fri Feb 14 09:30:00 CST 2020
+268.66 267.02713765490256 912
+Fri Feb 14 09:40:01 CST 2020
+268.44 266.88047098823586 912
+Fri Feb 14 09:50:00 CST 2020
+267.78 266.44047098823586 912
+Fri Feb 14 10:00:00 CST 2020
+267.31 266.1271376549025 912
+Fri Feb 14 10:10:00 CST 2020
+267.72 266.4004709882359 912
+Fri Feb 14 10:20:01 CST 2020
+268.65 267.02047098823584 912
+Fri Feb 14 10:30:00 CST 2020
+267.74 266.4138043215692 912
+Fri Feb 14 10:40:00 CST 2020
+268.1 266.6538043215692 912
+Fri Feb 14 10:50:00 CST 2020
+267.46 266.2271376549025 912
+Fri Feb 14 11:00:00 CST 2020
+267.97 266.5671376549025 912
+Fri Feb 14 11:10:00 CST 2020
+267.65 266.35380432156916 912
+Fri Feb 14 11:20:00 CST 2020
+267.46 266.2271376549025 912
+Fri Feb 14 11:30:00 CST 2020
+267.31 266.1271376549025 912
+Fri Feb 14 11:40:00 CST 2020
+265.99 265.24713765490253 912
+Fri Feb 14 11:50:00 CST 2020
+265.85 265.1538043215692 912
+Fri Feb 14 12:00:00 CST 2020
+266.63 265.6738043215692 912
+Fri Feb 14 12:10:00 CST 2020
+266.07 265.3004709882359 912
+Fri Feb 14 12:20:00 CST 2020
+265.41 264.8604709882359 912
+Fri Feb 14 12:30:00 CST 2020
+265.07 264.6338043215692 912
+Fri Feb 14 12:40:00 CST 2020
+266.35 265.48713765490254 912
+Fri Feb 14 12:50:00 CST 2020
+266.9 265.85380432156916 912
+Fri Feb 14 13:00:00 CST 2020
+266.72 265.7338043215692 912
+Fri Feb 14 13:10:00 CST 2020
+266.59 265.6471376549025 912
+Fri Feb 14 13:20:00 CST 2020
+266.04 265.2804709882359 912
+Fri Feb 14 13:30:00 CST 2020
+264.58 264.30713765490253 912
+Fri Feb 14 13:40:00 CST 2020
+265.16 264.6938043215692 912
+Fri Feb 14 13:50:00 CST 2020
+265.42 264.86713765490254 912
+Fri Feb 14 14:00:00 CST 2020
+264.35 264.1538043215692 912
+Fri Feb 14 14:10:00 CST 2020
+263.52 263.6004709882358 912
+Fri Feb 14 14:20:00 CST 2020
+264.98 264.5738043215692 912
+Fri Feb 14 14:30:00 CST 2020
+263.71 263.7271376549025 912
+Fri Feb 14 14:40:00 CST 2020
+264.16 264.02713765490256 912
+Fri Feb 14 14:50:00 CST 2020
+264.73 264.40713765490256 912
+Fri Feb 14 15:00:00 CST 2020
+264.42 264.20047098823585 912
+Fri Feb 14 15:10:00 CST 2020
+263.3 263.4538043215692 912
+Fri Feb 14 15:20:00 CST 2020
+263.19 263.38047098823586 912
+Fri Feb 14 15:30:00 CST 2020
+262.94 263.21380432156917 912
+Fri Feb 14 15:40:00 CST 2020
+261.89 262.5138043215692 912
+Fri Feb 14 15:50:00 CST 2020
+261.67 262.36713765490254 912
+Fri Feb 14 16:00:00 CST 2020
+262.71 263.06047098823586 912
+Fri Feb 14 16:10:00 CST 2020
+264.04 263.9471376549025 912
+Fri Feb 14 16:20:00 CST 2020
+264.88 264.5071376549025 912
+Fri Feb 14 16:30:01 CST 2020
+264.52 264.2671376549025 912
+Fri Feb 14 16:40:00 CST 2020
+264.12 264.00047098823586 912
+Fri Feb 14 16:50:00 CST 2020
+264.53 264.2738043215692 912
+Fri Feb 14 17:00:00 CST 2020
+265.76 265.09380432156917 912
+Fri Feb 14 17:10:00 CST 2020
+265.83 265.14047098823585 912
+Fri Feb 14 17:20:00 CST 2020
+266.93 265.8738043215692 912
+Fri Feb 14 17:30:00 CST 2020
+268.01 266.59380432156917 912
+Fri Feb 14 17:40:00 CST 2020
+267.66 266.3604709882359 912
+Fri Feb 14 17:50:00 CST 2020
+267.59 266.3138043215692 912
+Fri Feb 14 18:00:00 CST 2020
+268.26 266.76047098823585 912
+Fri Feb 14 18:10:00 CST 2020
+267.91 266.52713765490256 912
+Fri Feb 14 18:20:00 CST 2020
+270.86 268.4938043215692 912
+Fri Feb 14 18:30:00 CST 2020
+271.54 268.9471376549025 912
+Fri Feb 14 18:40:00 CST 2020
+271.98 269.24047098823587 912
+Fri Feb 14 18:50:00 CST 2020
+271.27 268.7671376549025 912
+Fri Feb 14 19:00:00 CST 2020
+270.3 268.12047098823587 912
+Fri Feb 14 19:10:01 CST 2020
+268.83 267.14047098823585 912
+Fri Feb 14 19:20:00 CST 2020
+269.73 267.74047098823587 912
+Fri Feb 14 19:30:00 CST 2020
+270.15 268.02047098823584 912
+Fri Feb 14 19:40:00 CST 2020
+270.61 268.3271376549025 912
+Fri Feb 14 19:50:00 CST 2020
+271.5 268.9204709882359 912
+Fri Feb 14 20:00:00 CST 2020
+270.92 268.5338043215692 912
+Fri Feb 14 20:10:00 CST 2020
+271.32 268.8004709882359 912
+Fri Feb 14 20:20:00 CST 2020
+271.15 268.68713765490253 912
+Fri Feb 14 20:30:00 CST 2020
+270.21 268.06047098823586 912
+Fri Feb 14 20:40:00 CST 2020
+270.25 268.0871376549025 912
+Fri Feb 14 20:50:00 CST 2020
+270.69 268.38047098823586 912
+Fri Feb 14 21:00:00 CST 2020
+270.69 268.38047098823586 912
+Fri Feb 14 21:10:00 CST 2020
+270.82 268.4671376549025 912
+Fri Feb 14 21:20:00 CST 2020
+269.27 267.4338043215692 912
+Fri Feb 14 21:30:00 CST 2020
+269.47 267.5671376549025 912
+Fri Feb 14 21:40:00 CST 2020
+270.02 267.9338043215692 912
+Fri Feb 14 21:50:00 CST 2020
+269.9 267.85380432156916 912
+Fri Feb 14 22:00:00 CST 2020
+270.22 268.0671376549025 912
+Fri Feb 14 22:10:00 CST 2020
+271.95 269.22047098823583 912
+Sat Feb 15 00:10:01 CST 2020
+273.39 270.18047098823587 912
+Sat Feb 15 00:20:00 CST 2020
+274.33 270.80713765490253 912
+Sat Feb 15 00:30:01 CST 2020
+276.18 272.0404709882359 912
+Sat Feb 15 00:40:00 CST 2020
+274.9 271.18713765490253 912
+Sat Feb 15 00:50:00 CST 2020
+275.56 271.6271376549025 912
+Sat Feb 15 01:00:00 CST 2020
+277.88 273.1738043215692 912
+Sat Feb 15 04:30:00 CST 2020
+281.98 275.90713765490256 912
+Sat Feb 15 20:50:01 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1167b13d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1167b13d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1167b13d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_send.py", line 73, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Sat Feb 15 21:00:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x10fd863d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fd863d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fd863d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_send.py", line 73, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Sun Feb 16 00:30:00 CST 2020
+272.5 274.34015699607863 913
+Sun Feb 16 00:40:00 CST 2020
+266.26 270.1801569960786 913
+Sun Feb 16 00:50:00 CST 2020
+269.74 272.5001569960786 913
+Sun Feb 16 01:00:00 CST 2020
+267.03 270.69349032941193 913
+Sun Feb 16 01:10:00 CST 2020
+269.91 272.61349032941195 913
+Sun Feb 16 01:20:00 CST 2020
+268.59 271.73349032941195 913
+Sun Feb 16 01:30:00 CST 2020
+269.12 272.0868236627453 913
+Sun Feb 16 01:40:01 CST 2020
+265.47 269.65349032941197 913
+Sun Feb 16 01:50:00 CST 2020
+265.98 269.99349032941194 913
+Sun Feb 16 02:00:00 CST 2020
+262.92 267.953490329412 913
+Sun Feb 16 02:10:00 CST 2020
+264.61 269.08015699607864 913
+Sun Feb 16 02:20:00 CST 2020
+265.93 269.96015699607864 913
+Sun Feb 16 02:30:00 CST 2020
+267.46 270.9801569960786 913
+Sun Feb 16 02:40:00 CST 2020
+266.59 270.4001569960786 913
+Sun Feb 16 02:50:00 CST 2020
+267.8 271.2068236627453 913
+Sun Feb 16 03:00:00 CST 2020
+268.67 271.7868236627453 913
+Sun Feb 16 08:10:00 CST 2020
+260.7 263.5533856653595 914
+Sun Feb 16 08:20:00 CST 2020
+261.68 264.20671899869285 914
+Sun Feb 16 08:30:00 CST 2020
+263.79 265.61338566535954 914
+Sun Feb 16 08:40:01 CST 2020
+265.07 266.46671899869284 914
+Sun Feb 16 08:50:00 CST 2020
+264.7 266.22005233202617 914
+Sun Feb 16 09:00:00 CST 2020
+265.88 267.00671899869286 914
+Sun Feb 16 09:10:00 CST 2020
+266.0 267.0867189986929 914
+Sun Feb 16 09:20:00 CST 2020
+267.65 268.18671899869287 914
+Sun Feb 16 09:30:00 CST 2020
+267.57 268.1333856653595 914
+Sun Feb 16 09:40:00 CST 2020
+265.99 267.08005233202624 914
+Sun Feb 16 09:50:00 CST 2020
+266.43 267.37338566535954 914
+Sun Feb 16 10:00:00 CST 2020
+267.94 268.3800523320262 914
+Sun Feb 16 10:10:00 CST 2020
+267.69 268.2133856653595 914
+Sun Feb 16 10:20:00 CST 2020
+267.62 268.1667189986929 914
+Sun Feb 16 10:30:00 CST 2020
+270.68 270.20671899869285 914
+Sun Feb 16 10:40:00 CST 2020
+271.47 270.73338566535955 914
+Sun Feb 16 10:50:00 CST 2020
+273.96 272.3933856653595 914
+Sun Feb 16 11:00:00 CST 2020
+273.42 272.0333856653595 914
+Sun Feb 16 11:10:00 CST 2020
+272.51 271.4267189986929 914
+Sun Feb 16 11:20:00 CST 2020
+270.88 270.34005233202623 914
+Sun Feb 16 11:30:00 CST 2020
+272.81 271.62671899869287 914
+Sun Feb 16 11:40:00 CST 2020
+272.22 271.23338566535955 914
+Sun Feb 16 11:50:00 CST 2020
+271.07 270.46671899869284 914
+Sun Feb 16 12:00:00 CST 2020
+271.38 270.67338566535955 914
+Sun Feb 16 12:10:01 CST 2020
+270.21 269.8933856653595 914
+Sun Feb 16 12:20:00 CST 2020
+270.16 269.8600523320262 914
+Sun Feb 16 12:30:00 CST 2020
+270.39 270.0133856653595 914
+Sun Feb 16 12:40:01 CST 2020
+271.19 270.5467189986928 914
+Sun Feb 16 12:50:00 CST 2020
+272.0 271.0867189986929 914
+Sun Feb 16 13:00:00 CST 2020
+272.94 271.7133856653595 914
+Sun Feb 16 13:10:00 CST 2020
+272.01 271.09338566535956 914
+Sun Feb 16 13:20:00 CST 2020
+270.48 270.0733856653596 914
+Sun Feb 16 13:30:00 CST 2020
+270.08 269.8067189986928 914
+Sun Feb 16 13:40:00 CST 2020
+269.62 269.5000523320262 914
+Sun Feb 16 13:50:00 CST 2020
+268.73 268.9067189986929 914
+Sun Feb 16 14:00:01 CST 2020
+270.91 270.3600523320262 914
+Sun Feb 16 14:10:00 CST 2020
+270.62 270.1667189986929 914
+Sun Feb 16 14:20:00 CST 2020
+271.54 270.7800523320262 914
+Sun Feb 16 15:20:00 CST 2020
+271.76 270.9267189986929 914
+Sun Feb 16 15:30:00 CST 2020
+270.43 270.04005233202616 914
+Sun Feb 16 15:40:01 CST 2020
+270.76 270.2600523320262 914
+Sun Feb 16 15:50:01 CST 2020
+270.88 270.34005233202623 914
+Sun Feb 16 16:00:01 CST 2020
+270.24 269.91338566535956 914
+Sun Feb 16 16:10:00 CST 2020
+269.76 269.59338566535956 914
+Sun Feb 16 16:20:00 CST 2020
+268.46 268.72671899869283 914
+Sun Feb 16 16:30:00 CST 2020
+269.26 269.2600523320262 914
+Sun Feb 16 16:40:00 CST 2020
+270.46 270.06005233202615 914
+Sun Feb 16 16:50:00 CST 2020
+271.71 270.8933856653595 914
+Sun Feb 16 17:00:00 CST 2020
+271.06 270.4600523320262 914
+Sun Feb 16 17:10:00 CST 2020
+272.17 271.2000523320262 914
+Sun Feb 16 17:20:00 CST 2020
+272.04 271.11338566535954 914
+Sun Feb 16 17:30:00 CST 2020
+270.93 270.37338566535954 914
+Sun Feb 16 17:40:00 CST 2020
+270.64 270.1800523320262 914
+Sun Feb 16 17:50:00 CST 2020
+271.18 270.54005233202616 914
+Sun Feb 16 18:00:00 CST 2020
+269.9 269.68671899869287 914
+Sun Feb 16 18:10:00 CST 2020
+269.92 269.7000523320262 914
+Sun Feb 16 18:20:00 CST 2020
+269.97 269.73338566535955 914
+Sun Feb 16 18:30:01 CST 2020
+270.28 269.9400523320262 914
+Sun Feb 16 18:40:00 CST 2020
+269.81 269.62671899869287 914
+Sun Feb 16 18:50:00 CST 2020
+268.99 269.08005233202624 914
+Sun Feb 16 20:10:00 CST 2020
+265.65 266.85338566535955 914
+Sun Feb 16 20:20:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x115a5f9a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x115a5f9a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x115a5f9a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_send.py", line 73, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Sun Feb 16 20:30:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1165419a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1165419a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1165419a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_send.py", line 73, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Sun Feb 16 20:40:00 CST 2020
+265.78 266.9400523320262 914
+Sun Feb 16 20:50:00 CST 2020
+265.82 266.96671899869284 914
+Sun Feb 16 21:00:00 CST 2020
+265.65 266.85338566535955 914
+Sun Feb 16 21:10:00 CST 2020
+264.06 265.7933856653595 914
+Sun Feb 16 21:20:00 CST 2020
+263.97 265.73338566535955 914
+Sun Feb 16 21:30:00 CST 2020
+262.64 264.8467189986929 914
+Sun Feb 16 21:40:00 CST 2020
+263.72 265.5667189986929 914
+Sun Feb 16 21:50:00 CST 2020
+266.2 267.22005233202617 914
+Sun Feb 16 22:00:00 CST 2020
+266.64 267.5133856653595 914
+Sun Feb 16 22:10:01 CST 2020
+266.73 267.5733856653596 914
+Sun Feb 16 22:20:00 CST 2020
+265.96 267.06005233202615 914
+Sun Feb 16 22:30:00 CST 2020
+265.15 266.5200523320262 914
