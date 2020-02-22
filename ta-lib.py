@@ -13,4 +13,21 @@ len(all_ta_label)
 a = talib.ADX(whole_df['high'],whole_df['low'],whole_df['close'],timeperiod = 14)
 
 
-abstract.SMA(whole_df,5)
+EMA = talib.EMA(whole_df['close'])
+print(EMA)
+
+EMA.to_excel("EMA.xlsx")
+#MACD = talib.MACD(whole_df['close'],fastperiod=6, slowperiod=12, signalperiod=9)
+#print(MACD)
+#MACD.to_excel("MACD.xlsx")
+
+
+close = [float(x) for x in four_df['close']]
+
+four_df['MACD'],four_df['MACDsignal'],four_df['MACDhist'] = talib.MACD(np.array(close),
+                            fastperiod=6, slowperiod=12, signalperiod=9) 
+
+four_df.sort_values(by=['Open_time'], inplace=True, ascending=False)
+four_df.to_excel("binance_ETHUSDT_MACD.xlsx")
+                            
+four_df.plot()

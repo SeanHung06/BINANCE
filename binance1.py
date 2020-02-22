@@ -23,6 +23,8 @@ date1 = '10 Dec, 2019'
 
 
 klines = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_1DAY, '10 Aug, 2016')
+klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR, '10 Aug, 2016')
+
 signal = 0 
 #constant
 
@@ -55,13 +57,22 @@ np.savetxt('trade_details.csv', [arr], delimiter=',', fmt='%s')
 
 # use panda data frame to process the Kline data 
 whole_df = pd.DataFrame(klines)
+four_df = pd.DataFrame(klines_4hr)
 
 whole_df.columns = ['Open_time','open','high','low','close','volume','Close_time', 'Quote asset volume', 'number of trades', 'Taker buy base asset volume', 'Taker buy quote asset volume', 'Ignore']
+four_df.columns = ['Open_time','open','high','low','close','volume','Close_time', 'Quote asset volume', 'number of trades', 'Taker buy base asset volume', 'Taker buy quote asset volume', 'Ignore']
+
+
 
 whole_df = whole_df.drop_duplicates(subset=['Open_time'], keep=False)
+four_df = four_df.drop_duplicates(subset=['Open_time'], keep=False)
+four_df = four_df.drop_duplicates(subset=['Close_time'], keep=False)
 
-# use lambda to  transfor tje timestamp to local time 
+
+# use lambda to  transfor the timestamp to local time 
 whole_df['Open_time_GST']=whole_df['Open_time'].apply(lambda d: datetime.datetime.fromtimestamp(int(d)/1000).strftime('%Y-%m-%d %H:%M:%S'))
+four_df['Open_time_GST']=four_df['Open_time'].apply(lambda d: datetime.datetime.fromtimestamp(int(d)/1000).strftime('%Y-%m-%d %H:%M:%S'))
+four_df['Close_time_GST']=four_df['Close_time'].apply(lambda d: datetime.datetime.fromtimestamp(int(d)/1000).strftime('%Y-%m-%d %H:%M:%S'))
 
 
 #get the Moving average for 7 days 15 days 30 days
