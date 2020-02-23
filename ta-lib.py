@@ -29,5 +29,10 @@ four_df['MACD'],four_df['MACDsignal'],four_df['MACDhist'] = talib.MACD(np.array(
 
 four_df.sort_values(by=['Open_time'], inplace=True, ascending=False)
 four_df.to_excel("binance_ETHUSDT_MACD.xlsx")
-                            
-four_df.plot()
+
+ax = plt.gca()
+
+four_df.plot(kind='line',y='MACD',ax=ax)
+#four_df.plot(kind='line',y='close',ax=ax)
+
+plt.show()
