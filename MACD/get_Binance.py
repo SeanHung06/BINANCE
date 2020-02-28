@@ -9,6 +9,8 @@ from datetime import date
 from binance.client import Client
 import matplotlib.pyplot as plt
 import csv
+from talib import abstract
+import talib
 
 
 
@@ -68,3 +70,28 @@ def transform_time(df):
 # use lambda to  transfor the timestamp to local time 
 four_df['Open_time_GST']=transform_time(four_df['Open_time'])
 four_df['Close_time_GST'] = transform_time(four_df['Close_time'])
+
+
+close = [float(x) for x in four_df['close']]
+
+four_df['MACD'],four_df['MACDsignal'],four_df['MACDhist'] = talib.MACD(np.array(close),
+                            fastperiod=12, slowperiod=26, signalperiod=9) 
+
+four_df.sort_values(by=['Open_time'], inplace=True, ascending=False)
+four_df.to_excel("binance_ETHUSDT_MACD.xlsx")
+
+print(float(four_df['MACDhist'].iloc[0]))
+if (float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]) > 0 ):
+    data = open('MACD_Signal.txt', 'w')
+    data.write('1')
+elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[0]) < 0 ):
+    data = open('MACD_Signal.txt', 'w')
+    data.write('2')
+else:
+    data = open('MACD_Signal.txt', 'w')
+    data.write('0')
+    
+MyList = str(four_df['MACDhist'].iloc[0])
+MyFile=open('MACD.txt','w')
+MyFile.writelines(MyList)
+MyFile.close()

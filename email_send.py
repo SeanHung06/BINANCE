@@ -74,8 +74,9 @@ server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
 # if the signal = 1 then send the mail
 email_data = open('email_send_signal.txt', 'r')
-
+MACD_data = open('./MACD/MACD_Signal.txt', 'r')
 email_signal_temp = email_data.read()
+email_signal_temp2 = MACD_data.read()
 
 if email_signal_temp == '1':
   server.starttls()

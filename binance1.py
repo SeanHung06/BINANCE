@@ -53,8 +53,6 @@ arr = np.array([trade_price,trade_time_trans])
 np.savetxt('trade_details.csv', [arr], delimiter=',', fmt='%s')
 
 
-
-
 # use panda data frame to process the Kline data 
 whole_df = pd.DataFrame(klines)
 four_df = pd.DataFrame(klines_4hr)
@@ -67,6 +65,7 @@ four_df.columns = ['Open_time','open','high','low','close','volume','Close_time'
 whole_df = whole_df.drop_duplicates(subset=['Open_time'], keep=False)
 four_df = four_df.drop_duplicates(subset=['Open_time'], keep=False)
 four_df = four_df.drop_duplicates(subset=['Close_time'], keep=False)
+
 
 
 # use lambda to  transfor the timestamp to local time 
