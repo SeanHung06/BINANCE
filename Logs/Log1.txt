@@ -8760,3 +8760,801 @@ Sun Feb 23 14:50:01 CST 2020
 Sun Feb 23 15:00:00 CST 2020
 271.16 268.1617101290956 921
 Sun Feb 23 15:10:00 CST 2020
+270.9 267.98837679576224 921
+Sun Feb 23 15:20:00 CST 2020
+270.15 267.48837679576224 921
+Sun Feb 23 15:30:00 CST 2020
+270.68 267.8417101290956 921
+Sun Feb 23 15:40:00 CST 2020
+270.32 267.6017101290956 921
+Sun Feb 23 15:50:00 CST 2020
+270.62 267.8017101290956 921
+Sun Feb 23 16:00:00 CST 2020
+270.36 267.6283767957623 921
+Sun Feb 23 16:10:00 CST 2020
+270.42 267.66837679576224 921
+Sun Feb 23 16:20:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 313, in recv_into
+    return self.connection.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1840, in recv_into
+    self._raise_ssl_error(self._ssl, result)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1646, in _raise_ssl_error
+    raise WantReadError()
+OpenSSL.SSL.WantReadError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 313, in recv_into
+    return self.connection.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1840, in recv_into
+    self._raise_ssl_error(self._ssl, result)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1646, in _raise_ssl_error
+    raise WantReadError()
+OpenSSL.SSL.WantReadError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 313, in recv_into
+    return self.connection.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1840, in recv_into
+    self._raise_ssl_error(self._ssl, result)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1646, in _raise_ssl_error
+    raise WantReadError()
+OpenSSL.SSL.WantReadError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 313, in recv_into
+    return self.connection.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1840, in recv_into
+    self._raise_ssl_error(self._ssl, result)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1646, in _raise_ssl_error
+    raise WantReadError()
+OpenSSL.SSL.WantReadError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 313, in recv_into
+    return self.connection.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1840, in recv_into
+    self._raise_ssl_error(self._ssl, result)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1646, in _raise_ssl_error
+    raise WantReadError()
+OpenSSL.SSL.WantReadError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 313, in recv_into
+    return self.connection.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1840, in recv_into
+    self._raise_ssl_error(self._ssl, result)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1646, in _raise_ssl_error
+    raise WantReadError()
+OpenSSL.SSL.WantReadError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 313, in recv_into
+    return self.connection.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1840, in recv_into
+    self._raise_ssl_error(self._ssl, result)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1646, in _raise_ssl_error
+    raise WantReadError()
+OpenSSL.SSL.WantReadError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 313, in recv_into
+    return self.connection.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1840, in recv_into
+    self._raise_ssl_error(self._ssl, result)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1646, in _raise_ssl_error
+    raise WantReadError()
+OpenSSL.SSL.WantReadError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 313, in recv_into
+    return self.connection.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1840, in recv_into
+    self._raise_ssl_error(self._ssl, result)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1646, in _raise_ssl_error
+    raise WantReadError()
+OpenSSL.SSL.WantReadError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/response.py", line 425, in _error_catcher
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/response.py", line 755, in read_chunked
+    chunk = self._handle_chunk(amt)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/response.py", line 699, in _handle_chunk
+    value = self._fp._safe_read(amt)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 608, in _safe_read
+    data = self.fp.read(amt)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 328, in recv_into
+    return self.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 328, in recv_into
+    return self.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 328, in recv_into
+    return self.recv_into(*args, **kwargs)
+  [Previous line repeated 5 more times]
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 326, in recv_into
+    raise timeout("The read operation timed out")
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/models.py", line 750, in generate
+    for chunk in self.raw.stream(chunk_size, decode_content=True):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/response.py", line 560, in stream
+    for line in self.read_chunked(amt, decode_content=decode_content):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/response.py", line 781, in read_chunked
+    self._original_response.close()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/response.py", line 430, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.")
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 26, in <module>
+    klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR, '10 Aug, 2016')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 794, in get_historical_klines
+    temp_data = self.get_klines(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 720, in get_klines
+    return self._get('klines', data=params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 686, in send
+    r.content
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/models.py", line 828, in content
+    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/models.py", line 757, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out.
+Sun Feb 23 16:30:01 CST 2020
+269.49 267.0483767957623 921
+Sun Feb 23 16:40:00 CST 2020
+270.11 267.4617101290956 921
+Sun Feb 23 16:50:00 CST 2020
+270.51 267.72837679576224 921
+Sun Feb 23 17:00:00 CST 2020
+270.9 267.98837679576224 921
+Sun Feb 23 17:10:00 CST 2020
+271.52 268.4017101290956 921
+Sun Feb 23 17:20:01 CST 2020
+272.44 269.0150434624289 921
+Sun Feb 23 17:30:00 CST 2020
+273.15 269.48837679576224 921
+Sun Feb 23 17:40:00 CST 2020
+272.22 268.8683767957623 921
+Sun Feb 23 17:50:00 CST 2020
+272.32 268.9350434624289 921
+Sun Feb 23 22:20:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 161, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.VerifiedHTTPSConnection object at 0x114958610>, 'Connection to api.binance.com timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x114958610>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x114958610>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "email_send.py", line 73, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 807, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+Sun Feb 23 22:30:00 CST 2020
+272.41 268.9950434624289 921
+Sun Feb 23 22:40:00 CST 2020
+271.93 268.6750434624289 921
+Sun Feb 23 22:50:00 CST 2020
+271.93 268.6750434624289 921
+Sun Feb 23 23:00:00 CST 2020
+272.06 268.76171012909555 921
+Sun Feb 23 23:10:01 CST 2020
+272.08 268.77504346242887 921
+Sun Feb 23 23:24:48 CST 2020
+269.88 267.3083767957623 921
+Sun Feb 23 23:30:00 CST 2020
+270.2 267.52171012909554 921
+Sun Feb 23 23:40:00 CST 2020
+269.84 267.28171012909553 921
+Sun Feb 23 23:50:00 CST 2020
+269.5 267.05504346242896 921
+Mon Feb 24 00:00:00 CST 2020
+269.99 267.3817101290956 921
+Mon Feb 24 00:10:00 CST 2020
+270.97 268.035043462429 921
+Mon Feb 24 00:20:00 CST 2020
+269.21 266.86171012909557 921
+Mon Feb 24 00:30:00 CST 2020
+269.2 266.8550434624289 921
+Mon Feb 24 00:40:00 CST 2020
+269.21 266.86171012909557 921
+Mon Feb 24 00:50:00 CST 2020
+269.58 267.10837679576224 921
+Mon Feb 24 01:30:00 CST 2020
+270.68 267.8417101290956 921
+Mon Feb 24 02:10:00 CST 2020
+270.04 267.4150434624289 921
+Mon Feb 24 08:20:00 CST 2020
+275.22 273.60501448747635 922
+Mon Feb 24 08:30:00 CST 2020
+276.62 274.53834782080963 922
+Mon Feb 24 08:40:00 CST 2020
+276.68 274.57834782080965 922
+Mon Feb 24 08:50:00 CST 2020
+275.86 274.031681154143 922
+Mon Feb 24 09:00:01 CST 2020
+275.91 274.06501448747633 922
+Mon Feb 24 09:10:00 CST 2020
+274.24 272.951681154143 922
+Mon Feb 24 09:20:00 CST 2020
+273.64 272.55168115414295 922
+Mon Feb 24 09:30:00 CST 2020
+274.23 272.9450144874763 922
+Mon Feb 24 09:40:01 CST 2020
+274.51 273.131681154143 922
+Mon Feb 24 09:50:00 CST 2020
+273.56 272.49834782080967 922
+Mon Feb 24 10:00:00 CST 2020
+272.19 271.5850144874763 922
+Mon Feb 24 10:10:01 CST 2020
+272.99 272.1183478208097 922
+Mon Feb 24 10:20:00 CST 2020
+273.27 272.3050144874763 922
+Mon Feb 24 10:30:00 CST 2020
+271.56 271.1650144874763 922
+Mon Feb 24 10:40:00 CST 2020
+268.65 269.2250144874763 922
+Mon Feb 24 10:50:00 CST 2020
+269.24 269.6183478208097 922
+Mon Feb 24 11:00:00 CST 2020
+268.15 268.891681154143 922
+Mon Feb 24 11:10:00 CST 2020
+268.52 269.13834782080966 922
+Mon Feb 24 11:20:00 CST 2020
+267.26 268.2983478208096 922
+Mon Feb 24 11:30:01 CST 2020
+267.39 268.3850144874763 922
+Mon Feb 24 11:40:00 CST 2020
+268.4 269.0583478208096 922
+Mon Feb 24 11:50:00 CST 2020
+268.13 268.87834782080967 922
+Mon Feb 24 12:00:00 CST 2020
+267.94 268.751681154143 922
+Mon Feb 24 12:10:00 CST 2020
+266.91 268.06501448747633 922
+Mon Feb 24 12:20:00 CST 2020
+267.29 268.31834782080966 922
+Mon Feb 24 12:30:00 CST 2020
+266.35 267.691681154143 922
+Mon Feb 24 12:40:00 CST 2020
+266.65 267.891681154143 922
+Mon Feb 24 12:50:01 CST 2020
+266.8 267.991681154143 922
+Mon Feb 24 13:00:00 CST 2020
+267.62 268.53834782080963 922
+Mon Feb 24 13:10:00 CST 2020
+267.07 268.17168115414296 922
+Mon Feb 24 13:20:00 CST 2020
+267.41 268.39834782080965 922
+Mon Feb 24 13:30:01 CST 2020
+267.33 268.3450144874763 922
+Mon Feb 24 13:40:00 CST 2020
+267.9 268.7250144874763 922
+Mon Feb 24 13:50:00 CST 2020
+268.32 269.00501448747633 922
+Mon Feb 24 14:00:00 CST 2020
+268.62 269.2050144874763 922
+Mon Feb 24 14:10:00 CST 2020
+268.38 269.0450144874763 922
+Mon Feb 24 14:20:00 CST 2020
+267.52 268.47168115414297 922
+Mon Feb 24 14:30:00 CST 2020
+267.27 268.3050144874763 922
+Mon Feb 24 14:40:00 CST 2020
+267.91 268.731681154143 922
+Mon Feb 24 14:50:00 CST 2020
+266.99 268.1183478208097 922
+Mon Feb 24 15:00:00 CST 2020
+266.81 267.99834782080967 922
+Mon Feb 24 15:10:01 CST 2020
+265.77 267.3050144874763 922
+Mon Feb 24 15:20:01 CST 2020
+265.36 267.031681154143 922
+Mon Feb 24 15:30:00 CST 2020
+266.48 267.77834782080964 922
+Mon Feb 24 15:40:00 CST 2020
+267.29 268.31834782080966 922
+Mon Feb 24 15:50:00 CST 2020
+266.66 267.89834782080965 922
+Mon Feb 24 16:00:00 CST 2020
+267.6 268.5250144874763 922
+Mon Feb 24 16:10:00 CST 2020
+267.4 268.391681154143 922
+Mon Feb 24 16:20:01 CST 2020
+267.22 268.271681154143 922
+Mon Feb 24 16:30:00 CST 2020
+267.49 268.451681154143 922
+Mon Feb 24 16:40:00 CST 2020
+267.37 268.371681154143 922
+Mon Feb 24 16:50:01 CST 2020
+267.66 268.56501448747633 922
+Mon Feb 24 17:00:01 CST 2020
+267.72 268.60501448747635 922
+Mon Feb 24 17:10:00 CST 2020
+267.22 268.271681154143 922
+Mon Feb 24 17:20:00 CST 2020
+267.24 268.2850144874763 922
+Mon Feb 24 17:30:00 CST 2020
+267.41 268.39834782080965 922
+Mon Feb 24 17:40:00 CST 2020
+266.36 267.69834782080966 922
+Mon Feb 24 17:50:01 CST 2020
+266.2 267.591681154143 922
+Mon Feb 24 18:00:00 CST 2020
+266.3 267.65834782080964 922
+Mon Feb 24 18:10:00 CST 2020
+266.21 267.59834782080964 922
+Mon Feb 24 18:20:00 CST 2020
+267.17 268.2383478208097 922
+Mon Feb 24 18:30:00 CST 2020
+267.3 268.3250144874763 922
+Mon Feb 24 18:40:00 CST 2020
+267.19 268.251681154143 922
+Mon Feb 24 18:50:00 CST 2020
+266.69 267.91834782080963 922
+Mon Feb 24 19:00:00 CST 2020
+267.29 268.31834782080966 922
+Mon Feb 24 19:10:00 CST 2020
+267.48 268.4450144874763 922
+Mon Feb 24 19:20:00 CST 2020
+268.44 269.0850144874763 922
+Mon Feb 24 19:30:00 CST 2020
+269.01 269.4650144874763 922
+Mon Feb 24 19:40:01 CST 2020
+269.3 269.65834782080964 922
+Mon Feb 24 19:50:00 CST 2020
+269.29 269.651681154143 922
+Mon Feb 24 20:00:01 CST 2020
+271.87 271.371681154143 922
+Mon Feb 24 20:10:00 CST 2020
+271.99 271.451681154143 922
+Mon Feb 24 20:20:00 CST 2020
+271.94 271.41834782080963 922
+Mon Feb 24 20:30:00 CST 2020
+271.19 270.91834782080963 922
+Mon Feb 24 20:40:00 CST 2020
+271.16 270.89834782080965 922
+Mon Feb 24 20:50:00 CST 2020
+270.67 270.571681154143 922
+Mon Feb 24 21:00:00 CST 2020
+270.73 270.611681154143 922
+Mon Feb 24 21:10:00 CST 2020
+270.63 270.5450144874763 922
+Mon Feb 24 21:20:00 CST 2020
+270.8 270.65834782080964 922
+Mon Feb 24 21:30:00 CST 2020
+270.55 270.491681154143 922
+Mon Feb 24 21:40:00 CST 2020
+270.07 270.17168115414296 922
+Mon Feb 24 21:50:00 CST 2020
+269.63 269.87834782080967 922
+Mon Feb 24 22:00:00 CST 2020
+268.93 269.41168115414297 922
+Mon Feb 24 22:10:00 CST 2020
+269.2 269.591681154143 922
+Mon Feb 24 22:20:00 CST 2020
+269.47 269.771681154143 922
+Mon Feb 24 22:30:00 CST 2020
+271.62 271.2050144874763 922
+Mon Feb 24 22:40:00 CST 2020
+270.83 270.6783478208096 922
+Mon Feb 24 22:50:00 CST 2020
+268.98 269.4450144874763 922
+Mon Feb 24 23:00:00 CST 2020
+268.75 269.29168115414296 922
+Mon Feb 24 23:10:00 CST 2020
+269.63 269.87834782080967 922
+Mon Feb 24 23:20:00 CST 2020
+268.48 269.111681154143 922
+Mon Feb 24 23:30:00 CST 2020
+268.6 269.191681154143 922
+Mon Feb 24 23:40:00 CST 2020
+268.09 268.85168115414297 922
+Mon Feb 24 23:50:00 CST 2020
+267.83 268.6783478208096 922
+Tue Feb 25 00:00:00 CST 2020
+267.55 268.491681154143 922
+Tue Feb 25 04:30:01 CST 2020
+258.52 261.3927826069366 923
+Tue Feb 25 21:40:00 CST 2020
+260.11 262.4527826069366 923
+Tue Feb 25 21:50:00 CST 2020
+260.07 262.4261159402699 923
+Tue Feb 25 22:00:00 CST 2020
+259.0 261.71278260693657 923
+Tue Feb 25 22:10:00 CST 2020
+258.68 261.4994492736032 923
+Tue Feb 25 22:20:00 CST 2020
+258.01 261.05278260693655 923
+Tue Feb 25 23:20:00 CST 2020
+251.14 256.47278260693656 923
+Tue Feb 25 23:30:00 CST 2020
+252.6 257.44611594026986 923
+Wed Feb 26 08:10:00 CST 2020
+248.42 250.1109275356455 924
+Wed Feb 26 08:20:00 CST 2020
+249.15 250.59759420231217 924
+Wed Feb 26 08:30:00 CST 2020
+249.21 250.63759420231221 924
+Wed Feb 26 08:40:00 CST 2020
+248.21 249.97092753564553 924
+Wed Feb 26 08:50:00 CST 2020
+246.41 248.77092753564548 924
+Wed Feb 26 09:00:00 CST 2020
+246.86 249.07092753564552 924
+Wed Feb 26 09:10:00 CST 2020
+245.27 248.0109275356455 924
+Wed Feb 26 09:20:00 CST 2020
+243.39 246.75759420231216 924
+Wed Feb 26 09:30:00 CST 2020
+241.67 245.6109275356455 924
+Wed Feb 26 09:40:00 CST 2020
+241.89 245.75759420231216 924
+Wed Feb 26 09:50:00 CST 2020
+242.36 246.07092753564552 924
+Wed Feb 26 10:00:01 CST 2020
+239.8 244.36426086897885 924
+Wed Feb 26 10:10:00 CST 2020
+238.27 243.34426086897884 924
+Wed Feb 26 10:20:01 CST 2020
+237.32 242.7109275356455 924
+Wed Feb 26 10:30:00 CST 2020
+240.14 244.5909275356455 924
+Wed Feb 26 10:40:00 CST 2020
+239.69 244.29092753564552 924
+Wed Feb 26 10:50:00 CST 2020
+241.14 245.25759420231216 924
+Wed Feb 26 11:00:00 CST 2020
+240.12 244.57759420231218 924
+Wed Feb 26 11:10:01 CST 2020
+239.07 243.87759420231217 924
+Wed Feb 26 11:20:00 CST 2020
+238.69 243.62426086897884 924
+Wed Feb 26 11:30:00 CST 2020
+238.28 243.3509275356455 924
+Wed Feb 26 11:40:00 CST 2020
+238.83 243.7175942023122 924
+Wed Feb 26 11:50:01 CST 2020
+238.39 243.42426086897885 924
+Wed Feb 26 12:00:00 CST 2020
+238.9 243.76426086897882 924
+Wed Feb 26 12:10:00 CST 2020
+238.47 243.4775942023122 924
+Wed Feb 26 12:20:01 CST 2020
+238.46 243.47092753564553 924
+Wed Feb 26 12:30:00 CST 2020
+238.33 243.38426086897888 924
+Wed Feb 26 12:40:00 CST 2020
+239.73 244.3175942023122 924
+Wed Feb 26 12:50:00 CST 2020
+240.62 244.91092753564553 924
+Wed Feb 26 13:00:00 CST 2020
+240.63 244.9175942023122 924
+Wed Feb 26 13:10:00 CST 2020
+239.58 244.2175942023122 924
+Wed Feb 26 13:20:01 CST 2020
+239.09 243.89092753564555 924
+Wed Feb 26 13:30:00 CST 2020
+239.08 243.88426086897888 924
+Wed Feb 26 13:40:00 CST 2020
+239.52 244.17759420231218 924
+Wed Feb 26 13:50:01 CST 2020
+240.66 244.93759420231217 924
+Wed Feb 26 14:00:01 CST 2020
+240.84 245.0575942023122 924
+Wed Feb 26 14:10:00 CST 2020
+240.91 245.10426086897883 924
+Wed Feb 26 14:20:00 CST 2020
+240.34 244.72426086897886 924
+Wed Feb 26 14:30:00 CST 2020
+240.97 245.14426086897888 924
+Wed Feb 26 14:40:00 CST 2020
+241.27 245.34426086897884 924
+Wed Feb 26 14:50:01 CST 2020
+241.45 245.46426086897884 924
+Wed Feb 26 15:00:00 CST 2020
+241.78 245.68426086897884 924
+Wed Feb 26 15:10:00 CST 2020
+241.04 245.1909275356455 924
+Wed Feb 26 15:20:00 CST 2020
+239.85 244.3975942023122 924
+Wed Feb 26 15:30:00 CST 2020
+239.23 243.98426086897885 924
+Wed Feb 26 15:40:00 CST 2020
+239.54 244.1909275356455 924
+Wed Feb 26 15:50:01 CST 2020
+238.79 243.6909275356455 924
+Wed Feb 26 16:00:00 CST 2020
+237.95 243.1309275356455 924
+Wed Feb 26 16:10:00 CST 2020
+238.57 243.54426086897885 924
+Wed Feb 26 16:20:00 CST 2020
+238.7 243.6309275356455 924
+Wed Feb 26 16:30:00 CST 2020
+236.44 242.12426086897884 924
+Wed Feb 26 16:40:00 CST 2020
+236.93 242.45092753564552 924
+Wed Feb 26 16:50:01 CST 2020
+238.66 243.60426086897883 924
+Wed Feb 26 17:00:01 CST 2020
+238.66 243.60426086897883 924
+Wed Feb 26 17:10:00 CST 2020
+236.92 242.44426086897883 924
+Wed Feb 26 17:20:00 CST 2020
+236.65 242.26426086897882 924
+Wed Feb 26 17:30:00 CST 2020
+236.03 241.8509275356455 924
+Wed Feb 26 17:40:00 CST 2020
+236.79 242.35759420231216 924
+Wed Feb 26 17:50:00 CST 2020
+235.89 241.75759420231216 924
+Wed Feb 26 18:00:00 CST 2020
+235.37 241.41092753564553 924
+Wed Feb 26 18:10:00 CST 2020
+236.54 242.1909275356455 924
+Wed Feb 26 18:20:00 CST 2020
+235.84 241.72426086897886 924
+Wed Feb 26 18:30:00 CST 2020
+236.14 241.92426086897885 924
+Wed Feb 26 18:40:00 CST 2020
+237.69 242.95759420231218 924
+Wed Feb 26 18:50:00 CST 2020
+237.44 242.79092753564552 924
+Wed Feb 26 19:00:01 CST 2020
+237.69 242.95759420231218 924
+Wed Feb 26 19:10:00 CST 2020
+236.87 242.41092753564553 924
+Wed Feb 26 19:20:01 CST 2020
+236.75 242.33092753564551 924
+Wed Feb 26 19:30:00 CST 2020
+236.01 241.83759420231218 924
+Wed Feb 26 19:40:01 CST 2020
+235.99 241.82426086897885 924
+Wed Feb 26 19:50:01 CST 2020
+235.27 241.34426086897884 924
+Wed Feb 26 20:00:00 CST 2020
+235.64 241.5909275356455 924
+Wed Feb 26 20:10:00 CST 2020
+236.95 242.46426086897884 924
+Wed Feb 26 20:20:00 CST 2020
+239.5 244.16426086897886 924
+Wed Feb 26 20:30:01 CST 2020
+239.68 244.28426086897886 924
+Wed Feb 26 20:40:01 CST 2020
+241.37 245.41092753564553 924
+Wed Feb 26 20:50:00 CST 2020
+239.6 244.23092753564552 924
+Wed Feb 26 21:00:00 CST 2020
+240.98 245.15092753564554 924
+Wed Feb 26 21:10:00 CST 2020
+238.49 243.4909275356455 924
+Wed Feb 26 21:20:00 CST 2020
+238.36 243.40426086897887 924
+Wed Feb 26 21:30:00 CST 2020
+237.45 242.79759420231218 924
+Wed Feb 26 21:40:00 CST 2020
+236.05 241.86426086897885 924
+Wed Feb 26 21:50:00 CST 2020
+235.43 241.45092753564552 924
+Wed Feb 26 22:00:01 CST 2020
+234.32 240.7109275356455 924
+Wed Feb 26 22:10:00 CST 2020
+235.35 241.3975942023122 924
+Wed Feb 26 22:20:00 CST 2020
+233.14 239.92426086897885 924
+Wed Feb 26 22:30:01 CST 2020
+231.4 238.76426086897882 924
+Wed Feb 26 22:40:00 CST 2020
+232.64 239.5909275356455 924
+Wed Feb 26 22:50:00 CST 2020
+231.69 238.95759420231218 924
+Wed Feb 26 23:00:00 CST 2020
+231.52 238.84426086897884 924
+Wed Feb 26 23:10:00 CST 2020
+230.7 238.29759420231218 924
+Wed Feb 26 23:20:00 CST 2020
+228.52 236.84426086897884 924
+Wed Feb 26 23:30:00 CST 2020
+226.02 235.17759420231218 924
+Wed Feb 26 23:40:00 CST 2020
+228.57 236.87759420231217 924
+Wed Feb 26 23:50:00 CST 2020
+228.53 236.8509275356455 924
+Thu Feb 27 00:00:00 CST 2020
+226.53 235.51759420231215 924
+Thu Feb 27 20:10:04 CST 2020
+230.57 231.64142028965964 925
+Thu Feb 27 20:20:00 CST 2020
+232.5 232.9280869563263 925
+Thu Feb 27 20:30:00 CST 2020
+230.49 231.5880869563263 925
+Thu Feb 27 20:40:00 CST 2020
+227.86 229.83475362299296 925
+Thu Feb 27 20:50:00 CST 2020
+228.11 230.00142028965965 925
+Thu Feb 27 21:00:00 CST 2020
+226.96 229.23475362299294 925
+Thu Feb 27 21:10:00 CST 2020
+228.05 229.96142028965963 925
+Thu Feb 27 21:20:00 CST 2020
+228.83 230.4814202896596 925
+Thu Feb 27 21:30:00 CST 2020
+227.87 229.84142028965962 925
+Thu Feb 27 21:40:00 CST 2020
+227.7 229.72808695632628 925
+Thu Feb 27 21:50:00 CST 2020
+228.53 230.28142028965962 925
+Thu Feb 27 22:00:00 CST 2020
+228.95 230.56142028965962 925
+Thu Feb 27 22:10:00 CST 2020
+228.26 230.10142028965961 925
+Thu Feb 27 22:20:00 CST 2020
+229.47 230.9080869563263 925
+Thu Feb 27 22:30:00 CST 2020
+230.38 231.51475362299297 925
+Thu Feb 27 22:40:00 CST 2020
+230.32 231.47475362299295 925
+Thu Feb 27 22:50:00 CST 2020
+231.21 232.06808695632628 925
+Thu Feb 27 23:00:00 CST 2020
+229.9 231.19475362299295 925
+Thu Feb 27 23:10:00 CST 2020
+231.2 232.06142028965962 925
+Thu Feb 27 23:20:00 CST 2020
+231.22 232.07475362299294 925
+Thu Feb 27 23:30:00 CST 2020
+232.57 232.97475362299295 925
+Thu Feb 27 23:40:00 CST 2020
+231.27 232.10808695632628 925
+Thu Feb 27 23:50:00 CST 2020
+230.48 231.5814202896596 925
+Fri Feb 28 00:00:00 CST 2020
+231.05 231.96142028965963 925
+Fri Feb 28 00:10:00 CST 2020
+232.21 232.73475362299294 925
+Fri Feb 28 00:20:01 CST 2020
+235.54 234.95475362299294 925
+Fri Feb 28 00:30:01 CST 2020
+235.4 234.8614202896596 925
+Fri Feb 28 00:40:00 CST 2020
+236.1 235.32808695632627 925
+Fri Feb 28 00:50:00 CST 2020
+237.09 235.98808695632627 925
+Fri Feb 28 01:00:00 CST 2020
+236.35 235.49475362299293 925
+Fri Feb 28 01:10:00 CST 2020
+237.0 235.9280869563263 925
+Fri Feb 28 01:20:00 CST 2020
+235.79 235.1214202896596 925
+Fri Feb 28 01:30:00 CST 2020
+235.89 235.1880869563263 925
+Fri Feb 28 01:40:00 CST 2020
+235.35 234.82808695632627 925
+Fri Feb 28 01:50:00 CST 2020
+237.04 235.95475362299294 925
+Fri Feb 28 02:00:00 CST 2020
+235.8 235.1280869563263 925
+Fri Feb 28 02:10:00 CST 2020
+235.27 234.77475362299296 925
+Fri Feb 28 02:20:00 CST 2020
+236.14 235.35475362299294 925
+Fri Feb 28 12:40:00 CST 2020
+230.16 230.03602898544207 926
+Fri Feb 28 12:50:00 CST 2020
+230.4 230.1960289854421 926
+Fri Feb 28 13:00:00 CST 2020
+228.95 229.22936231877543 926
+Fri Feb 28 13:10:00 CST 2020
+227.55 228.29602898544212 926
+Fri Feb 28 13:20:00 CST 2020
+228.11 228.66936231877546 926
+Fri Feb 28 13:30:00 CST 2020
+227.22 228.0760289854421 926
+Fri Feb 28 13:40:00 CST 2020
+227.05 227.96269565210878 926
+Fri Feb 28 15:10:00 CST 2020
+224.66 226.36936231877542 926
+Fri Feb 28 15:20:00 CST 2020
+224.81 226.46936231877544 926
+Fri Feb 28 15:30:00 CST 2020
+223.1 225.32936231877542 926
+Fri Feb 28 15:40:00 CST 2020
+224.33 226.14936231877542 926
