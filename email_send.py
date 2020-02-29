@@ -8,24 +8,37 @@ import csv
 
 from_address = "u8351574@gmail.com"
 to_address = "u8351574@gmail.com"
+
+
 # Create message container - the correct MIME type is multipart/alternative.
 msg = MIMEMultipart('alternative')
+msg1 = MIMEMultipart('alternative')
 
 msg['From'] = from_address
+msg1['From'] = from_address
 msg['To'] = to_address
+msg1['To'] = to_address
 # Create the message (CSV).
 
 # Open the file csv and input the content in the loop 
 f = open('trade_details.csv')
 content = '<font size="8">ALERT!</font><br>'
+content1 = '<font size="8">ALERT!</font><br>'
 reader = csv.reader(f)
 # read the buy sell data 
 buy_sell_data = open('buy_sell.txt', 'r')
 buy_sell = buy_sell_data.read()
-#read the EMA data
-EMA_ALL = open('EMA.txt', 'r')
+MACD_signal_data = open('./MACD/MACD_Signal.txt', 'r')
+MACD_signal = MACD_signal_data.read()
 
-if buy_sell == '0':
+
+#read the EMA and MACD data
+EMA_ALL = open('EMA.txt', 'r')
+MACD = open('./MACD/MACD.txt', 'r')
+MACD_data = MACD.read()
+
+#For EMA strategy
+if buy_sell == '0' :
   content += '<font size="6">BUY!<br></font>'
 else:
   content += '<font size="6">SELL!<br></font>'
@@ -36,10 +49,25 @@ for row in reader:
 for row_ema in EMA_ALL:
     content += '<font size="6">'+'EMA:'+str(row_ema)+'<br></font>'
 
+#For MACD strategy
+
+if MACD_signal == '1' :
+  content1 += '<font size="6">BUY!<br></font>'
+elif MACD_signal == '2' :
+  content1 += '<font size="6">SELL!<br></font>'
+
+content1 += '<font size="6">'+'MACD:'+MACD_data+'<br></font>'
+
 
 content += '<font size="6">Regards Sean</font>'
+content1 += '<font size="6">Regards Sean</font>'
+
 part1 = MIMEText(content)
-msg['Subject'] = "ETH BUY OR SELL email"
+MACD_part1 = MIMEText(content1)
+
+msg['Subject'] = "ETH EMA email"
+msg1['Subject'] = "ETH MACD email"
+
 html = """
 <html>
   <head></head>
@@ -50,8 +78,20 @@ html = """
   </body>
 </html>
 """
+
+html1 = """
+<html>
+  <head></head>
+  <body>
+    <p>
+    <br>"""+content1+"""<br>
+    </p>
+  </body>
+</html>
+"""
 # Record the MIME type - text/html.
 part2 = MIMEText(html, 'html')
+MACD_part2 = MIMEText(html1, 'html')
 
 #add the file in the mail
 
@@ -62,7 +102,9 @@ att["Content-Disposition"] = 'attachment; filename="binance_ETHUSDT_data.xlsx"'
 # Attach parts into message container
 msg.attach(part1)
 msg.attach(part2)
-msg.attach(att)
+msg1.attach(MACD_part1)
+msg1.attach(MACD_part2)
+#msg.attach(att)
 
 
 # Credentials
@@ -78,10 +120,24 @@ MACD_data = open('./MACD/MACD_Signal.txt', 'r')
 email_signal_temp = email_data.read()
 email_signal_temp2 = MACD_data.read()
 
+
+
+
 if email_signal_temp == '1':
   server.starttls()
   server.login(username,password)  
   server.sendmail(from_address, to_address, msg.as_string())  
   server.quit()
   email_data = open('email_send_signal.txt', 'w')
+  email_data.write('0')
+  
+  
+  
+  
+if email_signal_temp2 == '1' or email_signal_temp2 == '2':
+  server.starttls()
+  server.login(username,password)  
+  server.sendmail(from_address, to_address, msg1.as_string())  
+  server.quit()
+  email_data = open('./MACD/MACD_Signal.txt', 'w')
   email_data.write('0')
