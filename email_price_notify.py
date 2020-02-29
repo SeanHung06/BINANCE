@@ -20,9 +20,10 @@ content = '<font size="4">The price for now is</font><br>'
 reader = csv.reader(f)
 reader_f1 = csv.reader(f_1)
 
-#read the EMA data
+#read the data
 EMA_ALL = open('EMA.txt', 'r')
-
+MACD = open('./MACD/MACD.txt', 'r')
+MACD_data = MACD.read()
 
 for row in reader:
     content += '<font size="6">'+str(row)+'<br></font>'
@@ -33,7 +34,7 @@ for row_f1 in reader_f1:
 
 for row_ema in EMA_ALL:
     content += '<font size="6">'+'EMA:'+str(row_ema)+'<br></font>'
-
+content += '<font size="6">'+'MACD:'+MACD_data+'<br></font>'
 content += '<font size="6">Regards Sean</font>'
 part1 = MIMEText(content)
 
@@ -62,7 +63,7 @@ att["Content-Disposition"] = 'attachment; filename="binance_ETHUSDT_data.xlsx"'
 # Attach parts into message container
 msg.attach(part1)
 msg.attach(part2)
-msg.attach(att)
+#msg.attach(att)
 
 
 
