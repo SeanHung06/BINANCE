@@ -2952,3 +2952,538 @@ Sat Feb 29 15:59:01 CST 2020
 Sat Feb 29 16:00:00 CST 2020
 229.32 228.80312077292513 927
 1.5567467535330595
+Sat Feb 29 16:59:00 CST 2020
+228.53 228.27645410625848 927
+1.5120743888607082
+Sat Feb 29 17:00:00 CST 2020
+228.57 228.30312077292513 927
+1.5139889187752145
+Sat Feb 29 18:59:00 CST 2020
+222.34 224.14978743959182 927
+1.154057294843608
+Sat Feb 29 19:00:00 CST 2020
+222.74 224.41645410625847 927
+1.149590058376373
+Sun Mar  1 00:59:00 CST 2020
+222.49 224.2497874395918 927
+0.9997328815110809
+Sun Mar  1 01:00:00 CST 2020
+222.33 224.14312077292516 927
+0.986969348747575
+Sun Mar  1 01:59:00 CST 2020
+225.16 226.02978743959181 927
+1.1777841635623556
+Sun Mar  1 02:00:00 CST 2020
+225.23 226.07645410625847 927
+1.1643824541606724
+Sun Mar  1 02:59:00 CST 2020
+224.91 225.86312077292516 927
+1.15225709803532
+Sun Mar  1 03:00:00 CST 2020
+224.82 225.80312077292513 927
+1.143960801739004
+Sun Mar  1 12:59:00 CST 2020
+222.74 222.06992914653063 928
+0.7963042511772809
+Sun Mar  1 13:00:00 CST 2020
+222.38 221.82992914653062 928
+0.7777971286701639
+Sun Mar  1 15:59:00 CST 2020
+220.45 220.54326247986396 928
+0.6507999776730049
+Sun Mar  1 16:00:00 CST 2020
+220.01 220.2499291465306 928
+0.5869556242181844
+Sun Mar  1 16:59:00 CST 2020
+220.3 220.44326247986396 928
+0.5678103250728679
+Sun Mar  1 17:00:00 CST 2020
+219.72 220.05659581319728 928
+0.5499413792039505
+Sun Mar  1 18:03:15 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x111358a30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x111358a30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x111358a30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x118501ac0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118501ac0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./MACD/get_Binance.py", line 24, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118501ac0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 78, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Sun Mar  1 18:59:00 CST 2020
+221.25 221.0765958131973 928
+0.6488587581213228
+Sun Mar  1 19:00:00 CST 2020
+221.16 221.01659581319726 928
+0.6526878179503584
+Sun Mar  1 19:59:00 CST 2020
+224.24 223.06992914653063 928
+0.8517989290615002
+Sun Mar  1 20:00:00 CST 2020
+224.4 223.17659581319728 928
+1.0082822874949997
+Sun Mar  1 23:59:00 CST 2020
+220.54 220.60326247986393 928
+0.756202515415235
+Mon Mar  2 00:00:00 CST 2020
+220.35 220.47659581319726 928
+0.6830174468358186
+Mon Mar  2 07:59:00 CST 2020
+218.21 219.04992914653062 928
+0.38642834106438073
+Mon Mar  2 08:00:00 CST 2020
+217.79 218.12108749328797 929
+0.3544940534402814
+Mon Mar  2 08:59:00 CST 2020
+218.89 218.85442082662132 929
+0.4285225434687714
+Mon Mar  2 09:00:00 CST 2020
+218.93 218.881087493288 929
+0.4317134266596536
+Mon Mar  2 09:59:00 CST 2020
+219.27 219.10775415995465 929
+0.4400097229559474
+Mon Mar  2 10:00:01 CST 2020
+219.14 219.02108749328798 929
+0.4508587258049701
+Mon Mar  2 10:59:00 CST 2020
+220.82 220.14108749328798 929
+0.5676450505912829
+Mon Mar  2 11:00:00 CST 2020
+221.29 220.45442082662132 929
+0.5880667030129292
+Mon Mar  2 11:59:00 CST 2020
+218.7 218.72775415995466 929
+0.41958807053430114
+Mon Mar  2 12:00:00 CST 2020
+218.79 218.78775415995463 929
+0.4884736425731022
+Mon Mar  2 12:59:00 CST 2020
+221.23 220.4144208266213 929
+0.6448269189263769
+Mon Mar  2 13:00:00 CST 2020
+221.1 220.32775415995465 929
+0.6409978590973182
+Mon Mar  2 13:59:00 CST 2020
+221.43 220.54775415995468 929
+0.6582286283280823
+Mon Mar  2 14:00:00 CST 2020
+221.41 220.5344208266213 929
+0.6684394545389054
+Mon Mar  2 14:59:00 CST 2020
+221.07 220.30775415995467 929
+0.6327015628010013
+Mon Mar  2 15:00:01 CST 2020
+220.83 220.14775415995464 929
+0.6205762066756488
+Mon Mar  2 15:59:01 CST 2020
+220.11 219.66775415995468 929
+0.5612257793252393
+Mon Mar  2 16:00:01 CST 2020
+220.05 219.62775415995466 929
+0.6756858741834533
+Mon Mar  2 16:59:00 CST 2020
+221.75 220.761087493288 929
+0.8039593784569874
+Mon Mar  2 17:00:00 CST 2020
+221.84 220.821087493288 929
+0.8014066719042585
+Mon Mar  2 17:59:00 CST 2020
+222.36 221.16775415995468 929
+0.8428881533857275
+Mon Mar  2 18:00:00 CST 2020
+222.69 221.38775415995465 929
+0.8582043927019853
+Mon Mar  2 18:59:00 CST 2020
+224.13 222.34775415995466 929
+0.9354237659213585
+Mon Mar  2 19:00:00 CST 2020
+223.89 222.18775415995466 929
+0.9392528257504171
+Mon Mar  2 19:59:00 CST 2020
+224.42 222.54108749328796 929
+0.9622271847247692
+Mon Mar  2 20:00:00 CST 2020
+224.77 222.7744208266213 929
+1.2481070747308953
+Mon Mar  2 20:59:01 CST 2020
+223.9 222.19442082662133 929
+1.1925857072095223
+Mon Mar  2 21:00:00 CST 2020
+224.08 222.31442082662133 929
+1.198967473591309
+Mon Mar  2 21:59:00 CST 2020
+227.26 224.43442082662133 929
+1.3936113482351704
+Mon Mar  2 22:00:00 CST 2020
+227.39 224.52108749328798 929
+1.410203940827758
+Mon Mar  2 22:59:00 CST 2020
+227.96 224.90108749328797 929
+1.441474596098427
+Mon Mar  2 23:00:01 CST 2020
+227.72 224.74108749328798 929
+1.441474596098427
+Mon Mar  2 23:59:00 CST 2020
+228.16 225.0344208266213 929
+1.4535999522237795
+Tue Mar  3 00:00:00 CST 2020
+228.35 225.16108749328797 929
+1.753776075483822
+Tue Mar  3 07:59:01 CST 2020
+231.8 227.461087493288 929
+2.2187304370326206
+Tue Mar  3 08:00:00 CST 2020
+232.16 230.63147360887376 930
+2.3084754577912365
+Tue Mar  3 08:59:00 CST 2020
+228.21 227.99814027554044 930
+2.07107374838953
+Tue Mar  3 09:00:00 CST 2020
+228.05 227.89147360887378 930
+2.050652095967884
+Tue Mar  3 09:59:00 CST 2020
+228.48 228.17814027554041 930
+2.0749028082185887
+Tue Mar  3 10:00:00 CST 2020
+228.03 227.87814027554043 930
+2.0646919820077656
+Tue Mar  3 10:59:00 CST 2020
+229.89 229.11814027554044 930
+2.1814783067941006
+Tue Mar  3 11:00:00 CST 2020
+230.06 229.23147360887378 930
+2.186583719899512
+Tue Mar  3 11:59:00 CST 2020
+232.1 230.59147360887377 930
+2.319324460640236
+Tue Mar  3 12:00:00 CST 2020
+231.47 230.17147360887375 930
+2.204625140472823
+Tue Mar  3 12:59:00 CST 2020
+229.72 229.0048069422071 930
+2.122300354148016
+Tue Mar  3 13:00:00 CST 2020
+229.64 228.95147360887378 930
+2.1044314082790985
+Tue Mar  3 13:59:00 CST 2020
+230.08 229.2448069422071 930
+2.131234827082486
+Tue Mar  3 14:00:00 CST 2020
+230.02 229.2048069422071 930
+2.1216621775098394
+Tue Mar  3 14:59:00 CST 2020
+227.99 227.8514736088738 930
+1.9372291290768011
+Tue Mar  3 15:00:01 CST 2020
+226.71 226.99814027554044 930
+1.902129413977074
+Tue Mar  3 15:59:00 CST 2020
+227.05 227.22480694220712 930
+1.931485539333213
+Tue Mar  3 16:00:00 CST 2020
+226.77 227.03814027554043 930
+1.6143046560584509
+Tue Mar  3 16:59:00 CST 2020
+227.05 227.22480694220712 930
+1.63600266175645
+Tue Mar  3 17:00:00 CST 2020
+226.78 227.0448069422071 930
+1.6104755962293695
+Tue Mar  3 17:59:00 CST 2020
+228.76 228.3648069422071 930
+1.759808929562726
+Tue Mar  3 18:00:00 CST 2020
+228.95 228.49147360887378 930
+1.7668288725826669
+Tue Mar  3 18:59:00 CST 2020
+229.63 228.94480694220712 930
+1.8051194708732767
+Tue Mar  3 19:00:00 CST 2020
+229.36 228.76480694220712 930
+1.795546821300607
+Tue Mar  3 19:59:00 CST 2020
+231.15 229.95814027554044 930
+1.9040368497906486
+Tue Mar  3 20:00:01 CST 2020
+231.18 229.97814027554045 930
+1.8164385670302567
+Tue Mar  3 20:59:00 CST 2020
+228.12 227.93814027554046 930
+1.6173274559191602
+Tue Mar  3 21:00:00 CST 2020
+228.46 228.1648069422071 930
+1.6562562308479234
+Tue Mar  3 21:59:01 CST 2020
+228.61 228.26480694220712 930
+1.6492362878279825
+Tue Mar  3 22:00:00 CST 2020
+228.56 228.23147360887378 930
+1.6377491083408064
+Tue Mar  3 22:59:01 CST 2020
+224.57 225.5714736088738 930
+1.4016237522154529
+Tue Mar  3 23:00:00 CST 2020
+224.86 225.76480694220712 930
+1.4041764587681587
+Tue Mar  3 23:59:01 CST 2020
+224.61 225.59814027554046 930
+1.3843929829846888
+Wed Mar  4 00:00:00 CST 2020
+224.61 225.59814027554046 930
+1.0044921865391725
+Wed Mar  4 00:59:00 CST 2020
+221.75 223.6914736088738 930
+0.8334608475078393
+Wed Mar  4 01:00:01 CST 2020
+221.85 223.75814027554043 930
+0.8328226708696629
+Wed Mar  4 01:59:00 CST 2020
+222.8 224.39147360887378 930
+0.9068511608981535
+Wed Mar  4 02:00:00 CST 2020
+222.79 224.3848069422071 930
+0.9074893375363071
+Wed Mar  4 21:59:00 CST 2020
+224.49 224.70382453629125 931
+0.2582309383034489
+Wed Mar  4 22:00:00 CST 2020
+224.42 224.6571578696246 931
+0.2607836448561547
+Wed Mar  4 22:59:00 CST 2020
+222.88 223.63049120295793 931
+0.14846455653707724
+Wed Mar  4 23:00:00 CST 2020
+222.98 223.69715786962456 931
+0.16505714912966485
+Thu Mar  5 06:59:00 CST 2020
+223.06 223.75049120295793 931
+-0.0345016162325571
+Thu Mar  5 07:00:00 CST 2020
+223.23 223.86382453629122 931
+-0.028119849850792633
+Thu Mar  5 07:59:00 CST 2020
+224.4 224.64382453629128 931
+0.049099523368580034
+Thu Mar  5 08:00:00 CST 2020
+224.3 224.38349706765266 932
+0.10153261158558569
+Thu Mar  5 08:59:00 CST 2020
+226.73 226.0034970676526 932
+0.24129329534627297
+Thu Mar  5 09:00:00 CST 2020
+226.49 225.84349706765263 932
+0.23810241215539074
+Thu Mar  5 09:59:00 CST 2020
+226.85 226.08349706765262 932
+0.2617149477679419
+Thu Mar  5 10:00:00 CST 2020
+226.85 226.08349706765262 932
+0.2642676543206477
+Thu Mar  5 10:59:00 CST 2020
+227.52 226.53016373431933 932
+0.2949001329531171
+Thu Mar  5 11:00:00 CST 2020
+227.6 226.58349706765262 932
+0.3044727825257638
+Thu Mar  5 11:59:00 CST 2020
+226.49 225.84349706765263 932
+0.22342434947735512
+Thu Mar  5 12:00:00 CST 2020
+226.39 225.77683040098597 932
+0.35100496660669944
+Thu Mar  5 12:59:00 CST 2020
+226.72 225.99683040098594 932
+0.3567485563503101
+Thu Mar  5 13:00:00 CST 2020
+226.59 225.9101637343193 932
+0.35483402643578077
+Thu Mar  5 13:59:00 CST 2020
+228.77 227.36349706765267 932
+0.47991664751838714
+Thu Mar  5 14:00:00 CST 2020
+228.97 227.49683040098594 932
+0.5041673597690921
+Thu Mar  5 14:59:01 CST 2020
+228.4 227.116830400986 932
+0.4709821745839169
+Thu Mar  5 15:00:00 CST 2020
+228.45 227.1501637343193 932
+0.47608758768932846
+Thu Mar  5 15:59:00 CST 2020
+227.66 226.62349706765266 932
+0.4224807500824841
+Thu Mar  5 16:00:00 CST 2020
+227.84 226.7434970676526 932
+0.5484118102303219
+Thu Mar  5 16:59:00 CST 2020
+228.5 227.18349706765264 932
+0.5860642318827549
+Thu Mar  5 17:00:00 CST 2020
+228.62 227.26349706765265 932
+0.6020186478371661
+Thu Mar  5 17:59:00 CST 2020
+231.39 229.1101637343193 932
+0.7807081065266166
+Thu Mar  5 18:00:00 CST 2020
+231.44 229.14349706765265 932
+0.7915571093756162
+Thu Mar  5 18:59:00 CST 2020
+232.02 229.53016373431933 932
+0.8266568244753435
+Thu Mar  5 19:00:01 CST 2020
+232.03 229.536830400986 932
+0.8158078216263439
+Thu Mar  5 19:59:00 CST 2020
+232.09 229.57683040098595 932
+0.8266568244753435
+Thu Mar  5 20:00:00 CST 2020
+232.13 229.60349706765263 932
+1.0381479337682042
+Thu Mar  5 20:59:00 CST 2020
+231.9 229.45016373431932 932
+1.023469871090146
+Thu Mar  5 21:00:00 CST 2020
+231.57 229.2301637343193 932
+1.0113445149647935
+Sat Mar  7 11:59:01 CST 2020
+244.07 242.36483300751695 934
+1.7392997905448762
+Sat Mar  7 12:00:00 CST 2020
+243.74 242.14483300751695 934
+1.6530469998699684
+Sat Mar  7 14:59:00 CST 2020
+242.19 241.11149967418362 934
+Sat Mar  7 15:00:00 CST 2020
+1.5573205041434788
+242.13 241.07149967418363 934
+1.5554059742289494
+Sat Mar  7 15:59:00 CST 2020
+243.13 241.73816634085028 934
+Sat Mar  7 16:00:00 CST 2020
+1.443888370301388
+243.13 241.73816634085028 934
+1.4298484842614831
