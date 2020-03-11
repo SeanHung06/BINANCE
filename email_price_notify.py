@@ -22,7 +22,7 @@ reader_f1 = csv.reader(f_1)
 
 #read the data
 EMA_ALL = open('EMA.txt', 'r')
-MACD = open('./MACD/MACD.txt', 'r')
+MACD = open('./MACD.txt', 'r')
 MACD_data = MACD.read()
 
 for row in reader:

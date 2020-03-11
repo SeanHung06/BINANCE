@@ -28,13 +28,13 @@ reader = csv.reader(f)
 # read the buy sell data 
 buy_sell_data = open('buy_sell.txt', 'r')
 buy_sell = buy_sell_data.read()
-MACD_signal_data = open('./MACD/MACD_Signal.txt', 'r')
+MACD_signal_data = open('./MACD_Signal.txt', 'r')
 MACD_signal = MACD_signal_data.read()
 
 
 #read the EMA and MACD data
 EMA_ALL = open('EMA.txt', 'r')
-MACD = open('./MACD/MACD.txt', 'r')
+MACD = open('./MACD.txt', 'r')
 MACD_data = MACD.read()
 
 #For EMA strategy

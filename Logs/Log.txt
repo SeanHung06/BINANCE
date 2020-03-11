@@ -3487,3 +3487,378 @@ Sat Mar  7 16:00:00 CST 2020
 1.443888370301388
 243.13 241.73816634085028 934
 1.4298484842614831
+Sat Mar  7 16:59:00 CST 2020
+244.28 242.50483300751694 934
+1.5128114472244443
+Sat Mar  7 17:00:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 161, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.VerifiedHTTPSConnection object at 0x1192a0670>, 'Connection to api.binance.com timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1192a0670>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1192a0670>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 161, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.VerifiedHTTPSConnection object at 0x110babbb0>, 'Connection to api.binance.com timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x110babbb0>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./MACD/get_Binance.py", line 24, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x110babbb0>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 78, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Sun Mar  8 00:59:01 CST 2020
+244.88 242.90483300751694 934
+1.2604028515039731
+Sun Mar  8 01:00:00 CST 2020
+245.12 243.06483300751697 934
+1.2750809141820314
+Sun Mar  8 10:59:01 CST 2020
+229.73 232.42161100250564 935
+-0.5919131471755259
+Sun Mar  8 11:00:00 CST 2020
+230.08 232.654944335839 935
+-0.5612806685430565
+Sun Mar  8 11:59:00 CST 2020
+231.37 233.514944335839 935
+-0.4623632896256846
+Sun Mar  8 12:00:00 CST 2020
+231.67 233.71494433583896 935
+-0.9371753388504134
+Sun Mar  8 12:59:01 CST 2020
+231.28 233.45494433583897 935
+-0.9678078174828828
+Sun Mar  8 13:00:00 CST 2020
+230.95 233.234944335839 935
+-0.9735514072264935
+Sun Mar  8 23:59:00 CST 2020
+216.85 223.83494433583897 935
+-2.326518778242648
+Mon Mar  9 00:00:00 CST 2020
+216.63 223.68827766917232 935
+-2.9246187697023323
+Mon Mar  9 00:59:00 CST 2020
+212.16 220.7082776691723 935
+-3.1888238979074495
+Mon Mar  9 01:00:01 CST 2020
+212.47 220.91494433583898 935
+-3.176060365143943
+Mon Mar  9 01:59:00 CST 2020
+215.68 223.054944335839 935
+-2.9507840118675666
+Mon Mar  9 02:00:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 1322, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 303, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 264, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 328, in recv_into
+    return self.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 318, in recv_into
+    raise SocketError(str(e))
+OSError: (54, 'ECONNRESET')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 400, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 1322, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 303, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 264, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 328, in recv_into
+    return self.recv_into(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py", line 318, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(54, 'ECONNRESET')"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 26, in <module>
+    klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR, '10 Aug, 2016')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 794, in get_historical_klines
+    temp_data = self.get_klines(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 720, in get_klines
+    return self._get('klines', data=params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(54, 'ECONNRESET')"))
+-2.99737090645447
+Mon Mar  9 19:59:00 CST 2020
+199.73 203.89387033416855 936
+-4.433181715354539
+Mon Mar  9 20:00:00 CST 2020
+201.2 204.87387033416857 936
+-4.018110878892568
+Mon Mar  9 20:59:00 CST 2020
+204.55 207.10720366750192 936
+-3.7998544686361546
+Mon Mar  9 21:00:00 CST 2020
+204.75 207.24053700083525 936
+-3.7813473461290377
+Mon Mar  9 21:59:00 CST 2020
+202.33 205.6272036675019 936
+-3.9236607364424083
+Mon Mar  9 22:00:00 CST 2020
+202.72 205.8872036675019 936
+-3.898771847553527
+Tue Mar 10 00:59:00 CST 2020
+196.33 201.6272036675019 936
+-4.095010349073206
+Tue Mar 10 01:00:00 CST 2020
+195.99 201.40053700083524 936
+-4.134577300640146
+Tue Mar 10 01:59:00 CST 2020
+193.23 199.5605370008352 936
+Tue Mar 10 02:00:00 CST 2020
+194.18 200.19387033416857 936
+-4.262850804913657
+-4.197756787819637
+Tue Mar 10 19:59:00 CST 2020
+203.24 204.14240122250064 937
+-1.306605288530461
+Tue Mar 10 20:00:00 CST 2020
+203.12 204.06240122250063 937
+-0.7258651149785615
+Tue Mar 10 20:59:00 CST 2020
+205.73 205.80240122250063 937
+-0.5835517246651687
+Tue Mar 10 21:00:00 CST 2020
+205.5 205.6490678891673 937
+-0.585466254579698
+Tue Mar 10 21:59:00 CST 2020
+202.89 203.9090678891673 937
+-0.7603266534400897
+Tue Mar 10 22:00:00 CST 2020
+202.7 203.78240122250062 937
+-0.7603266534400897
+Wed Mar 11 19:59:00 CST 2020
+196.59 198.54302262972246 938
+0.2874655401543791
+Wed Mar 11 20:00:00 CST 2020
+196.52 198.49635596305575 938
+0.3279886602523394
+Wed Mar 11 20:59:00 CST 2020
+196.47 198.46302262972245 938
+0.33117954344322165
+Wed Mar 11 21:00:00 CST 2020
+196.41 198.4230226297224 938
+0.3305413668050452
+Wed Mar 11 21:59:00 CST 2020
+196.8 198.68302262972244 938
+0.3362849565486332
+Wed Mar 11 22:00:00 CST 2020
+196.68 198.60302262972243 938
+0.32543595369963363
+Wed Mar 11 22:59:00 CST 2020
+193.48 196.4696892963891 938
+0.1352593155229842
+Wed Mar 11 23:00:01 CST 2020
+193.79 196.67635596305573 938
+0.13845019871388864
+Wed Mar 11 23:59:00 CST 2020
+191.91 195.4230226297224 938
+0.0197493440130021
+Thu Mar 12 00:00:00 CST 2020
+191.76 195.32302262972243 938
+-0.09888310514659615
+Thu Mar 12 00:59:00 CST 2020
+191.84 195.37635596305577 938
+-0.06761244987592807
+Thu Mar 12 01:00:00 CST 2020
+192.0 195.48302262972243 938
+-0.05229621055969336
+Thu Mar 12 01:59:00 CST 2020
+183.96 190.12302262972244 938
+-0.5704956407591268
+Thu Mar 12 02:00:00 CST 2020
+184.29 190.3430226297224 938
+-0.5666665809300451
+Thu Mar 12 02:59:00 CST 2020
+189.78 194.0030226297224 938
+-0.19269507095855687
+Thu Mar 12 03:00:00 CST 2020
+189.78 194.0030226297224 938
+-0.19014236440585108
+Thu Mar 12 03:59:00 CST 2020
+190.28 194.33635596305575 938
+-0.17993153819500485
+Thu Mar 12 04:00:01 CST 2020
+189.88 194.0696892963891 938
+-0.22867883766011232
+Thu Mar 12 04:59:00 CST 2020
+192.43 195.7696892963891 938
+-0.06785832483960252
+Thu Mar 12 05:00:00 CST 2020
+192.79 196.00968929638907 938
+-0.04935120233248558
+Thu Mar 12 05:59:00 CST 2020
+189.1 193.54968929638912 938
+-0.29632556130683874
+Thu Mar 12 06:00:00 CST 2020
+189.47 193.7963559630558 938
+-0.2778184387997218
+Thu Mar 12 06:59:00 CST 2020
+194.61 197.22302262972244 938
+0.0521188831376147
+Thu Mar 12 07:00:00 CST 2020
+194.34 197.04302262972246 938
+0.0521188831376147
