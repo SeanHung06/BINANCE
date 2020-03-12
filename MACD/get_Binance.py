@@ -13,6 +13,8 @@ from talib import abstract
 import talib
 
 
+start = time.time()
+
 
 #constant
 today = date.today()
@@ -26,13 +28,13 @@ client = Client("api-key", "api-secret", {"verify": False, "timeout": 20})
 date1 = '10 Dec, 2019'
 
 
-klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR, '10 Aug, 2016')
+klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR, '1 Feb, 2020')
 
 
 
 
 
-trade_price = client.get_recent_trades(symbol='ETHUSDT')[250]['price']
+#trade_price = client.get_recent_trades(symbol='ETHUSDT')[250]['price']
 trade_time = client.get_recent_trades(symbol='ETHUSDT')[250]['time']
 trades = client.get_recent_trades(symbol='ETHUSDT')
 
@@ -44,9 +46,9 @@ Server_time = client.get_server_time()
 
 #print(Server_time)
 #print(trade_price,trade_time)
-trades_df = pd.DataFrame(trades)
+#trades_df = pd.DataFrame(trades)
 #trades_df.to_excel("trades_df.xlsx")
-trades_df.to_csv('trades_df.csv', encoding='utf-8')
+#trades_df.to_csv('trades_df.csv', encoding='utf-8')
 
 
 # transform the data time
@@ -55,8 +57,8 @@ trade_time_trans = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
 
 
 # Create a Numpy array for trade price and trade time
-arr = np.array([trade_price,trade_time_trans])
-np.savetxt('trade_details.csv', [arr], delimiter=',', fmt='%s')
+#arr = np.array([trade_price,trade_time_trans])
+#np.savetxt('trade_details.csv', [arr], delimiter=',', fmt='%s')
 
 
 four_df = pd.DataFrame(klines_4hr)
@@ -87,6 +89,9 @@ if (float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]
 elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[0]) < 0 ):
     data = open('MACD_Signal.txt', 'w')
     data.write('2')
+elif (float(four_df['MACDhist'].iloc[0]) > -0.5 and float(four_df['MACDhist'].iloc[0]) < 0.5 ):
+    data = open('MACD_Signal.txt', 'w')
+    data.write('3')
 
 else:
     data = open('MACD_Signal.txt', 'w')
@@ -96,3 +101,6 @@ MyList = str(four_df['MACDhist'].iloc[0])
 MyFile=open('MACD.txt','w')
 MyFile.writelines(MyList)
 MyFile.close()
+end = time.time()
+
+print('Execute-Time:',end-start)

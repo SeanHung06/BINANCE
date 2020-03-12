@@ -134,7 +134,7 @@ if email_signal_temp == '1':
   
   
   
-if email_signal_temp2 == '1' or email_signal_temp2 == '2':
+if email_signal_temp2 == '1' or email_signal_temp2 == '2' or email_signal_temp2 == '3':
   server.starttls()
   server.login(username,password)  
   server.sendmail(from_address, to_address, msg1.as_string())  
