@@ -87,6 +87,7 @@ if (float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]
 elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[0]) < 0 ):
     data = open('MACD_Signal.txt', 'w')
     data.write('2')
+
 else:
     data = open('MACD_Signal.txt', 'w')
     data.write('0')

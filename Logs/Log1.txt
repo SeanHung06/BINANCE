@@ -12027,3 +12027,10 @@ Thu Mar 12 07:40:00 CST 2020
 Thu Mar 12 07:50:00 CST 2020
 193.78 196.66968929638907 938
 0.0029792819980061225
+Thu Mar 12 08:00:00 CST 2020
+194.64 195.5010075432408 939
+0.27919082082065394
+Traceback (most recent call last):
+  File "email_send.py", line 119, in <module>
+    MACD_data = open('./MACD/MACD_Signal.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: './MACD/MACD_Signal.txt'
