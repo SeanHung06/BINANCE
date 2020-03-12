@@ -89,7 +89,7 @@ if (float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]
 elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[0]) < 0 ):
     data = open('MACD_Signal.txt', 'w')
     data.write('2')
-elif (float(four_df['MACDhist'].iloc[0]) > -0.5 and float(four_df['MACDhist'].iloc[0]) < 0.5 ):
+elif (float(four_df['MACDhist'].iloc[0]) > -0.5 or float(four_df['MACDhist'].iloc[0]) < 0.5 ):
     data = open('MACD_Signal.txt', 'w')
     data.write('3')
 
@@ -98,9 +98,13 @@ else:
     data.write('0')
     
 MyList = str(four_df['MACDhist'].iloc[0])
+Price_now = str(four_df['close'].iloc[0])
 MyFile=open('MACD.txt','w')
+Price=open('Price.txt','w')
 MyFile.writelines(MyList)
+Price.writelines(Price_now)
 MyFile.close()
+Price.close()
 end = time.time()
 
 print('Execute-Time:',end-start)

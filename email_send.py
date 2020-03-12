@@ -36,7 +36,8 @@ MACD_signal = MACD_signal_data.read()
 EMA_ALL = open('EMA.txt', 'r')
 MACD = open('./MACD.txt', 'r')
 MACD_data = MACD.read()
-
+Price = open('./Price.txt', 'r')
+Price_data = Price.read()
 #For EMA strategy
 if buy_sell == '0' :
   content += '<font size="6">BUY!<br></font>'
@@ -57,6 +58,7 @@ elif MACD_signal == '2' :
   content1 += '<font size="6">SELL!<br></font>'
 
 content1 += '<font size="6">'+'MACD:'+MACD_data+'<br></font>'
+content1 += '<font size="6">'+'Price:'+Price_data+'<br></font>'
 
 
 content += '<font size="6">Regards Sean</font>'
