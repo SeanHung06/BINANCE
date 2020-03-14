@@ -9,7 +9,7 @@ from datetime import date
 from binance.client import Client
 import matplotlib.pyplot as plt
 import csv
-
+start = time.time()
 #constant
 today = date.today()
 timestampStr = today.strftime("%d %b, %Y")
@@ -111,12 +111,12 @@ whole_df['OSC'] = whole_df['DIF'] - whole_df['DEM']
 EMA1 = whole_df['EMA_1'][whole_df['EMA_1'].size-1]
 EMA2 = whole_df['EMA_2'][whole_df['EMA_2'].size-1]
 
-data = open('data.txt', 'r')
+data = open('./Signal/data.txt', 'r')
 
 # read and write the EMA file
 MyList = [str(EMA1),'\n',str(EMA2)]
 
-MyFile=open('EMA.txt','w')
+MyFile=open('./Signal/EMA.txt','w')
 MyFile.writelines(MyList)
 MyFile.close()
 
@@ -125,8 +125,8 @@ print(EMA1,EMA2,whole_df['EMA_1'].size)
 signal_temp = data.read()
 if EMA1 > EMA2 :
     signal = 1
-    data = open('data.txt', 'w')
-    data2 = open('buy_sell.txt', 'w')
+    data = open('./Signal/data.txt', 'w')
+    data2 = open('./Signal/buy_sell.txt', 'w')
     data2.write('0')
     data.write(str(signal))
     data.close()
@@ -134,15 +134,15 @@ if EMA1 > EMA2 :
 
 if EMA1 < EMA2:
     signal = 2
-    data1 = open('data.txt', 'w')
-    data2 = open('buy_sell.txt', 'w')
+    data1 = open('./Signal/data.txt', 'w')
+    data2 = open('./Signal/buy_sell.txt', 'w')
     data1.write(str(signal))
     data2.write('1')
     data1.close()
     data2.close()
 
 if(signal_temp != str(signal)):
-    email_data = open('email_send_signal.txt', 'w')
+    email_data = open('./Signal/email_send_signal.txt', 'w')
     email_data.write(str(1))
 
     
@@ -157,6 +157,7 @@ whole_df= whole_df.drop(columns=['Ignore', 'Open_time'])
 whole_df.to_excel("binance_ETHUSDT_data.xlsx")
 whole_df.to_csv('binance_ETHUSDT_data.csv', encoding='utf-8')
 
-
+end = time.time()
+print('Execute-Time:',end-start)
 
 

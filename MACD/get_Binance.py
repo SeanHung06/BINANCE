@@ -34,7 +34,7 @@ klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR
 
 
 
-#trade_price = client.get_recent_trades(symbol='ETHUSDT')[250]['price']
+trade_price = client.get_recent_trades(symbol='ETHUSDT')[250]['price']
 trade_time = client.get_recent_trades(symbol='ETHUSDT')[250]['time']
 trades = client.get_recent_trades(symbol='ETHUSDT')
 
@@ -46,9 +46,9 @@ Server_time = client.get_server_time()
 
 #print(Server_time)
 #print(trade_price,trade_time)
-#trades_df = pd.DataFrame(trades)
-#trades_df.to_excel("trades_df.xlsx")
-#trades_df.to_csv('trades_df.csv', encoding='utf-8')
+trades_df = pd.DataFrame(trades)
+trades_df.to_excel("trades_df.xlsx")
+trades_df.to_csv('trades_df.csv', encoding='utf-8')
 
 
 # transform the data time
@@ -57,8 +57,8 @@ trade_time_trans = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
 
 
 # Create a Numpy array for trade price and trade time
-#arr = np.array([trade_price,trade_time_trans])
-#np.savetxt('trade_details.csv', [arr], delimiter=',', fmt='%s')
+arr = np.array([trade_price,trade_time_trans])
+np.savetxt('trade_details.csv', [arr], delimiter=',', fmt='%s')
 
 
 four_df = pd.DataFrame(klines_4hr)
@@ -83,24 +83,39 @@ four_df.sort_values(by=['Open_time'], inplace=True, ascending=False)
 four_df.to_excel("binance_ETHUSDT_MACD.xlsx")
 
 print(float(four_df['MACDhist'].iloc[0]))
-if (float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]) > 0 ):
-    data = open('MACD_Signal.txt', 'w')
-    data.write('1')
+if (float(four_df['MACDhist'].iloc[4]) < 0 and float(four_df['MACDhist'].iloc[0]) > 0 ):
+    Ready_buy_time = time.time()
+    Ready_buy_time_pre_data = open('./Signal/Ready_but_time.txt', 'r')
+    Ready_buy_time_pre = Ready_buy_time_pre_data.read()
+    print("PRE:",Ready_buy_time-float(Ready_buy_time_pre))
+    if(Ready_buy_time-float(Ready_buy_time_pre)>1800):
+        data_time = open('./Signal/Ready_but_time.txt', 'w')
+        data_time.write(str(Ready_buy_time))
+        data = open('./Signal/MACD_Signal.txt', 'w')
+        data.write('1')
+    else:
+        data = open('./Signal/MACD_Signal.txt', 'w')
+        data.write('0')
+    ##ready to Buy
 elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[0]) < 0 ):
-    data = open('MACD_Signal.txt', 'w')
+    data = open('./Signal/MACD_Signal.txt', 'w')
     data.write('2')
-elif (float(four_df['MACDhist'].iloc[0]) > -0.5 or float(four_df['MACDhist'].iloc[0]) < 0.5 ):
-    data = open('MACD_Signal.txt', 'w')
+elif (float(four_df['MACDhist'].iloc[0]) > -0.5 and float(four_df['MACDhist'].iloc[0]) < 0.5 ):
+    data = open('./Signal/MACD_Signal.txt', 'w')
     data.write('3')
-
+elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[0]) > 0 ) and float(four_df['MACDhist'].iloc[2]) < 0: 
+    Buy_time = time.time()
+    data = open('./Signal/MACD_Signal.txt', 'w')
+    data.write('4')
+    ##Buy
 else:
-    data = open('MACD_Signal.txt', 'w')
+    data = open('./Signal/MACD_Signal.txt', 'w')
     data.write('0')
     
 MyList = str(four_df['MACDhist'].iloc[0])
 Price_now = str(four_df['close'].iloc[0])
-MyFile=open('MACD.txt','w')
-Price=open('Price.txt','w')
+MyFile=open('./Signal/MACD.txt','w')
+Price=open('./Signal/Price.txt','w')
 MyFile.writelines(MyList)
 Price.writelines(Price_now)
 MyFile.close()

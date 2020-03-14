@@ -26,17 +26,17 @@ content = '<font size="8">ALERT!</font><br>'
 content1 = '<font size="8">ALERT!</font><br>'
 reader = csv.reader(f)
 # read the buy sell data 
-buy_sell_data = open('buy_sell.txt', 'r')
+buy_sell_data = open('./Signal/buy_sell.txt', 'r')
 buy_sell = buy_sell_data.read()
-MACD_signal_data = open('./MACD_Signal.txt', 'r')
+MACD_signal_data = open('./Signal/MACD_Signal.txt', 'r')
 MACD_signal = MACD_signal_data.read()
 
 
 #read the EMA and MACD data
-EMA_ALL = open('EMA.txt', 'r')
-MACD = open('./MACD.txt', 'r')
+EMA_ALL = open('./Signal/EMA.txt', 'r')
+MACD = open('./Signal/MACD.txt', 'r')
 MACD_data = MACD.read()
-Price = open('./Price.txt', 'r')
+Price = open('./Signal/Price.txt', 'r')
 Price_data = Price.read()
 #For EMA strategy
 if buy_sell == '0' :
@@ -117,8 +117,8 @@ password = 'qknvwdlikvbozwap'
 server = smtplib.SMTP('smtp.gmail.com', 587) 
 server.ehlo()
 # if the signal = 1 then send the mail
-email_data = open('email_send_signal.txt', 'r')
-MACD_data = open('./MACD_Signal.txt', 'r')
+email_data = open('./Signal/email_send_signal.txt', 'r')
+MACD_data = open('./Signal/MACD_Signal.txt', 'r')
 email_signal_temp = email_data.read()
 email_signal_temp2 = MACD_data.read()
 
@@ -130,16 +130,16 @@ if email_signal_temp == '1':
   server.login(username,password)  
   server.sendmail(from_address, to_address, msg.as_string())  
   server.quit()
-  email_data = open('email_send_signal.txt', 'w')
+  email_data = open('./Signal/email_send_signal.txt', 'w')
   email_data.write('0')
   
   
   
   
-if email_signal_temp2 == '1' or email_signal_temp2 == '2' or email_signal_temp2 == '3':
+if email_signal_temp2 == '1' or email_signal_temp2 == '2' or email_signal_temp2 == '3' or email_signal_temp2 == '4':
   server.starttls()
   server.login(username,password)  
   server.sendmail(from_address, to_address, msg1.as_string())  
   server.quit()
-  email_data = open('./MACD_Signal.txt', 'w')
+  email_data = open('./Signal/MACD_Signal.txt', 'w')
   email_data.write('0')
