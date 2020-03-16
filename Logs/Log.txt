@@ -4358,3 +4358,484 @@ Execute-Time: 1.3569929599761963
 1.6876751047912464
 PRE: 381.69133019447327
 Execute-Time: 1.3282699584960938
+Sun Mar 15 09:00:00 CST 2020
+122.98 124.24522250160152 44
+Execute-Time: 1.4309520721435547
+1.754236460257193
+Execute-Time: 1.0468828678131104
+Traceback (most recent call last):
+  File "email_price_notify.py", line 24, in <module>
+    EMA_ALL = open('EMA.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'EMA.txt'
+Sun Mar 15 09:30:00 CST 2020
+122.19 123.71855583493483 44
+Execute-Time: 1.467529058456421
+1.691695149715855
+Execute-Time: 1.2443513870239258
+Traceback (most recent call last):
+  File "email_price_notify.py", line 24, in <module>
+    EMA_ALL = open('EMA.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'EMA.txt'
+Sun Mar 15 10:00:01 CST 2020
+121.21 123.06522250160151 44
+Execute-Time: 1.531925916671753
+1.644470078490798
+Execute-Time: 1.207406997680664
+Traceback (most recent call last):
+  File "email_price_notify.py", line 24, in <module>
+    EMA_ALL = open('EMA.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'EMA.txt'
+Sun Mar 15 10:30:00 CST 2020
+121.82 123.47188916826816 44
+Execute-Time: 1.3299901485443115
+1.6821225001432296
+Execute-Time: 1.0377578735351562
+Traceback (most recent call last):
+  File "email_price_notify.py", line 24, in <module>
+    EMA_ALL = open('EMA.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'EMA.txt'
+Sun Mar 15 11:00:00 CST 2020
+121.34 123.15188916826817 44
+Execute-Time: 1.156015157699585
+1.648937314958033
+Execute-Time: 1.0234477519989014
+Traceback (most recent call last):
+  File "email_price_notify.py", line 24, in <module>
+    EMA_ALL = open('EMA.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'EMA.txt'
+Sun Mar 15 11:30:00 CST 2020
+121.53 123.27855583493483 44
+Execute-Time: 1.4267902374267578
+1.6623390243597385
+Execute-Time: 1.168517827987671
+Traceback (most recent call last):
+  File "email_price_notify.py", line 24, in <module>
+    EMA_ALL = open('EMA.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'EMA.txt'
+Sun Mar 15 12:00:00 CST 2020
+121.13 123.01188916826817 44
+Execute-Time: 1.2159640789031982
+1.734841524114973
+Execute-Time: 1.2325849533081055
+Traceback (most recent call last):
+  File "email_price_notify.py", line 24, in <module>
+    EMA_ALL = open('EMA.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'EMA.txt'
+Sun Mar 15 12:30:00 CST 2020
+121.5 123.25855583493484 44
+Execute-Time: 1.611227035522461
+1.7463287036021242
+Execute-Time: 1.339738130569458
+Traceback (most recent call last):
+  File "email_price_notify.py", line 24, in <module>
+    EMA_ALL = open('EMA.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'EMA.txt'
+Sun Mar 15 13:00:00 CST 2020
+122.52 123.93855583493485 44
+Execute-Time: 1.3952600955963135
+1.8158899571633818
+Execute-Time: 1.3812470436096191
+Traceback (most recent call last):
+  File "email_price_notify.py", line 24, in <module>
+    EMA_ALL = open('EMA.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'EMA.txt'
+Sun Mar 15 13:30:01 CST 2020
+122.4 123.85855583493485 44
+Execute-Time: 1.4599802494049072
+1.804402777676227
+Execute-Time: 1.0953090190887451
+Traceback (most recent call last):
+  File "email_price_notify.py", line 24, in <module>
+    EMA_ALL = open('EMA.txt', 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'EMA.txt'
+Sun Mar 15 14:00:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x117ab93d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x117ab93d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x117ab93d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x10fd8aa60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fd8aa60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./MACD/get_Binance.py", line 26, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fd8aa60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 78, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Sun Mar 15 18:30:00 CST 2020
+124.91 125.53188916826817 44
+Execute-Time: 3.2592780590057373
+2.173270751466667
+Execute-Time: 1.5265710353851318
+Sun Mar 15 19:00:00 CST 2020
+126.4 126.5252225016015 44
+Execute-Time: 1.537071943283081
+2.266444540640471
+Execute-Time: 1.3738090991973877
+Sun Mar 15 19:30:00 CST 2020
+125.9 126.19188916826818 44
+Execute-Time: 1.8409087657928467
+2.2358120620080015
+Execute-Time: 3.2402079105377197
+Sun Mar 15 20:00:00 CST 2020
+126.07 126.3052225016015 44
+Execute-Time: 2.9675769805908203
+2.531433540689328
+Execute-Time: 1.8399372100830078
+Sun Mar 15 20:30:00 CST 2020
+126.18 126.37855583493484 44
+Execute-Time: 9.474424839019775
+2.550578839834621
+Execute-Time: 5.497175931930542
+Sun Mar 15 21:00:00 CST 2020
+124.72 125.4052225016015 44
+Execute-Time: 4.9242119789123535
+2.444003341259112
+Execute-Time: 2.863748073577881
+Mon Mar 16 00:30:00 CST 2020
+123.35 124.49188916826817 44
+Execute-Time: 1.7082180976867676
+2.4837607973394427
+Execute-Time: 1.2243947982788086
+Mon Mar 16 01:00:00 CST 2020
+123.81 124.79855583493485 44
+Execute-Time: 1.3138999938964844
+2.51503145261011
+Execute-Time: 1.154923915863037
+Mon Mar 16 01:30:00 CST 2020
+124.76 125.43188916826819 44
+Execute-Time: 1.4231197834014893
+2.5731055266841807
+Execute-Time: 1.1602387428283691
+Mon Mar 16 02:00:00 CST 2020
+122.96 124.23188916826818 44
+Execute-Time: 1.6020898818969727
+2.462062791641454
+Execute-Time: 1.2189388275146484
+Mon Mar 16 02:30:01 CST 2020
+123.37 124.50522250160151 44
+Execute-Time: 1.1183199882507324
+2.485037150615806
+Execute-Time: 1.123060941696167
+Mon Mar 16 03:00:00 CST 2020
+123.2 124.39188916826818 44
+Execute-Time: 1.346534013748169
+2.4722736178522773
+Execute-Time: 1.1410260200500488
+Mon Mar 16 03:30:00 CST 2020
+124.35 125.15855583493483 44
+Execute-Time: 1.4464960098266602
+2.5488548144334615
+Execute-Time: 1.2911450862884521
+Mon Mar 16 04:00:00 CST 2020
+123.2 124.39188916826818 44
+Execute-Time: 1.2493338584899902
+2.5391770044730215
+Execute-Time: 1.1971020698547363
+Mon Mar 16 04:30:00 CST 2020
+122.19 123.71855583493483 44
+Execute-Time: 1.64884614944458
+2.477912047208047
+Execute-Time: 1.1496570110321045
+Mon Mar 16 05:00:01 CST 2020
+120.41 122.53188916826817 44
+Execute-Time: 1.352457046508789
+2.364316605612606
+Execute-Time: 1.275791883468628
+Mon Mar 16 05:30:00 CST 2020
+126.35 126.49188916826817 44
+Execute-Time: 1.4921350479125977
+2.743393528689529
+Execute-Time: 1.0538108348846436
+Mon Mar 16 06:00:00 CST 2020
+132.94 130.8852225016015 44
+Execute-Time: 1.2404677867889404
+3.1665046398006496
+Execute-Time: 1.1920571327209473
+Mon Mar 16 06:30:00 CST 2020
+124.05 124.95855583493484 44
+Execute-Time: 1.4033122062683105
+2.600441961737971
+Execute-Time: 1.2432608604431152
+Mon Mar 16 07:00:00 CST 2020
+123.79 124.78522250160152 44
+Execute-Time: 1.453057050704956
+2.5749148962109025
+Execute-Time: 1.2490811347961426
+Mon Mar 16 07:30:00 CST 2020
+124.56 125.29855583493485 44
+Execute-Time: 1.2856178283691406
+2.6246926739886867
+Execute-Time: 1.0684070587158203
+Mon Mar 16 08:00:00 CST 2020
+123.69 124.05285194497827 45
+Execute-Time: 1.2759511470794678
+2.6483078066287025
+Execute-Time: 1.0433518886566162
+Mon Mar 16 08:30:00 CST 2020
+122.1 122.99285194497827 45
+Execute-Time: 1.5860469341278076
+2.5398177781386835
+Execute-Time: 1.0391700267791748
+Mon Mar 16 09:00:00 CST 2020
+121.62 122.67285194497828 45
+Execute-Time: 1.4634418487548828
+2.5123761826970963
+Execute-Time: 1.1537141799926758
+Mon Mar 16 09:30:01 CST 2020
+123.3 123.79285194497828 45
+Execute-Time: 1.365731954574585
+2.6163989747198677
+Execute-Time: 0.9980509281158447
+Mon Mar 16 10:00:00 CST 2020
+122.98 123.57951861164496 45
+Execute-Time: 1.3812479972839355
+2.59980638212728
+Execute-Time: 1.230376958847046
+Mon Mar 16 10:30:01 CST 2020
+123.47 123.90618527831161 45
+Execute-Time: 1.272104263305664
+2.6285243308452326
+Execute-Time: 1.0843889713287354
+Mon Mar 16 11:00:00 CST 2020
+123.87 124.17285194497828 45
+Execute-Time: 1.164350986480713
+2.654051396372301
+Execute-Time: 1.241307258605957
+Mon Mar 16 11:30:00 CST 2020
+122.86 123.49951861164494 45
+Execute-Time: 1.357511281967163
+2.5889573792782805
+Execute-Time: 1.1788580417633057
+Mon Mar 16 12:00:00 CST 2020
+122.49 123.25285194497827 45
+Execute-Time: 1.4396278858184814
+2.5663540317344165
+Execute-Time: 1.0689458847045898
+Mon Mar 16 12:30:00 CST 2020
+122.31 123.13285194497827 45
+Execute-Time: 1.319368839263916
+2.5561432055235827
+Execute-Time: 1.1827170848846436
+Mon Mar 16 13:00:01 CST 2020
+121.1 122.3261852783116 45
+Execute-Time: 1.6380820274353027
+2.4795620089423984
+Execute-Time: 1.2070109844207764
+Mon Mar 16 13:30:00 CST 2020
+121.04 122.28618527831162 45
+Execute-Time: 1.4856209754943848
+2.4750947724751633
+Execute-Time: 1.2559857368469238
+Mon Mar 16 14:00:00 CST 2020
+116.63 119.34618527831161 45
+Execute-Time: 1.4167239665985107
+2.1860007553811407
+Execute-Time: 1.1876649856567383
+Mon Mar 16 14:30:00 CST 2020
+112.97 116.90618527831161 45
+Execute-Time: 1.342851161956787
+1.956895342275729
+Execute-Time: 1.2989718914031982
+Mon Mar 16 15:00:01 CST 2020
+112.7 116.72618527831162 45
+Execute-Time: 1.2093391418457031
+1.9422172795976813
+Execute-Time: 1.1185500621795654
+Mon Mar 16 15:30:00 CST 2020
+110.16 115.03285194497828 45
+Execute-Time: 1.2121601104736328
+1.7705477639281604
+Execute-Time: 1.2896130084991455
+Mon Mar 16 16:00:00 CST 2020
+107.0 112.9261852783116 45
+Execute-Time: 1.180408000946045
+1.0136976473472572
+Execute-Time: 1.3377416133880615
+Mon Mar 16 16:30:00 CST 2020
+108.33 113.81285194497828 45
+Execute-Time: 1.2770318984985352
+1.0941079037575125
+Execute-Time: 1.286696195602417
+Mon Mar 16 17:00:00 CST 2020
+111.19 115.71951861164494 45
+Execute-Time: 1.1317808628082275
+1.2772645989142095
+Execute-Time: 1.2445180416107178
+Mon Mar 16 17:30:00 CST 2020
+110.29 115.11951861164495 45
+Execute-Time: 1.4274039268493652
+1.2211050547546698
+Execute-Time: 1.159289836883545
+Mon Mar 16 18:00:00 CST 2020
+108.14 113.68618527831161 45
+Execute-Time: 1.5142221450805664
+1.0768771345267254
+Execute-Time: 1.098369836807251
+Mon Mar 16 18:30:01 CST 2020
+105.0 111.59285194497828 45
+Execute-Time: 1.1559841632843018
+0.8828714365210519
+Execute-Time: 1.058746099472046
+Mon Mar 16 19:00:01 CST 2020
+101.38 109.17951861164494 45
+Execute-Time: 1.374882698059082
+0.6678059094555202
+Execute-Time: 1.2662010192871094
+Mon Mar 16 19:30:00 CST 2020
+104.72 111.40618527831161 45
+Execute-Time: 1.322746753692627
+0.8624497840993826
+Execute-Time: 1.1144161224365234
+Mon Mar 16 20:00:00 CST 2020
+104.01 110.93285194497828 45
+Execute-Time: 1.3816299438476562
+0.4332839281049239
+Execute-Time: 1.245849847793579
+Mon Mar 16 20:30:00 CST 2020
+106.35 112.49285194497827 45
+Execute-Time: 1.512437105178833
+0.5781500249710341
+Execute-Time: 1.159635066986084
+Mon Mar 16 21:00:00 CST 2020
+107.71 113.39951861164495 45
+Execute-Time: 1.21061110496521
+0.6674947543157597
+Execute-Time: 1.0537469387054443
+Mon Mar 16 21:30:01 CST 2020
+103.95 110.89285194497829 45
+Execute-Time: 1.3984198570251465
+0.43519845801946566
+Alert: 45.22477698326111
+Execute-Time: 1.4357280731201172
+Mon Mar 16 22:00:00 CST 2020
+108.76 114.09951861164495 45
+Execute-Time: 1.241023063659668
+0.7415232443442399
+Alert: 182.28419399261475
+Execute-Time: 1.1167988777160645
+Mon Mar 16 22:30:00 CST 2020
+111.18 115.71285194497828 45
+Execute-Time: 1.2871477603912354
+0.8959619907829843
+Alert: 3.290306806564331
+Execute-Time: 1.4581849575042725

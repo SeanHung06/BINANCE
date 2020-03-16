@@ -38,6 +38,9 @@ MACD = open('./Signal/MACD.txt', 'r')
 MACD_data = MACD.read()
 Price = open('./Signal/Price.txt', 'r')
 Price_data = Price.read()
+
+
+
 #For EMA strategy
 if buy_sell == '0' :
   content += '<font size="6">BUY!<br></font>'
@@ -53,9 +56,16 @@ for row_ema in EMA_ALL:
 #For MACD strategy
 
 if MACD_signal == '1' :
-  content1 += '<font size="6">BUY!<br></font>'
+  content1 = '<font size="6">Ready to BUY<br></font>'
 elif MACD_signal == '2' :
-  content1 += '<font size="6">SELL!<br></font>'
+  content1 += '<font size="6">Ready to SELL<br></font>'
+elif MACD_signal == '3' :
+  content1 += '<font size="6">Warning<br></font>'
+elif MACD_signal == '4' :
+  content1 += '<font size="6">BUY<br></font>'
+elif MACD_signal == '5' :
+  content1 += '<font size="6">SELL<br></font>'
+
 
 content1 += '<font size="6">'+'MACD:'+MACD_data+'<br></font>'
 content1 += '<font size="6">'+'Price:'+Price_data+'<br></font>'
@@ -118,9 +128,7 @@ server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
 # if the signal = 1 then send the mail
 email_data = open('./Signal/email_send_signal.txt', 'r')
-MACD_data = open('./Signal/MACD_Signal.txt', 'r')
 email_signal_temp = email_data.read()
-email_signal_temp2 = MACD_data.read()
 
 
 
@@ -136,7 +144,7 @@ if email_signal_temp == '1':
   
   
   
-if email_signal_temp2 == '1' or email_signal_temp2 == '2' or email_signal_temp2 == '3' or email_signal_temp2 == '4':
+if MACD_signal == '1' or MACD_signal == '2' or MACD_signal == '3' or MACD_signal == '4':
   server.starttls()
   server.login(username,password)  
   server.sendmail(from_address, to_address, msg1.as_string())  

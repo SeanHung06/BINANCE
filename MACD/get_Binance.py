@@ -83,13 +83,13 @@ four_df.sort_values(by=['Open_time'], inplace=True, ascending=False)
 four_df.to_excel("binance_ETHUSDT_MACD.xlsx")
 
 print(float(four_df['MACDhist'].iloc[0]))
-if (float(four_df['MACDhist'].iloc[4]) < 0 and float(four_df['MACDhist'].iloc[0]) > 0 ):
+if (float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]) > 0 ):
     Ready_buy_time = time.time()
-    Ready_buy_time_pre_data = open('./Signal/Ready_but_time.txt', 'r')
+    Ready_buy_time_pre_data = open('./Signal/Ready_buy_time.txt', 'r')
     Ready_buy_time_pre = Ready_buy_time_pre_data.read()
-    print("PRE:",Ready_buy_time-float(Ready_buy_time_pre))
+    print("Ready_toBuy:",Ready_buy_time-float(Ready_buy_time_pre))
     if(Ready_buy_time-float(Ready_buy_time_pre)>1800):
-        data_time = open('./Signal/Ready_but_time.txt', 'w')
+        data_time = open('./Signal/Ready_buy_time.txt', 'w')
         data_time.write(str(Ready_buy_time))
         data = open('./Signal/MACD_Signal.txt', 'w')
         data.write('1')
@@ -98,16 +98,70 @@ if (float(four_df['MACDhist'].iloc[4]) < 0 and float(four_df['MACDhist'].iloc[0]
         data.write('0')
     ##ready to Buy
 elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[0]) < 0 ):
-    data = open('./Signal/MACD_Signal.txt', 'w')
-    data.write('2')
+
+    Ready_Sell_time = time.time()
+    ##Ready Sell
+    Ready_Sell_time_pre_data = open('./Signal/Ready_Sell_time.txt', 'r')
+    Ready_Sell_time_data_pre = Ready_Sell_time_pre_data.read()
+    print("Ready_Sell:",Ready_Sell_time-float(Ready_Sell_time_data_pre))
+    if(Ready_Sell_time-float(Ready_Sell_time_data_pre)>1800):
+        data_time = open('./Signal/Ready_Sell_time.txt', 'w')
+        data_time.write(str(Ready_Sell_time))
+        data = open('./Signal/MACD_Signal.txt', 'w')
+        data.write('2')
+    else:
+        data = open('./Signal/MACD_Signal.txt', 'w')
+        data.write('0')
+        
+elif (float(four_df['MACDhist'].iloc[2]) > 0 and float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]) < 0 ):
+
+    Sell_time = time.time()
+    ## Sell
+    Sell_time_pre_data = open('./Signal/Sell_time.txt', 'r')
+    Sell_time_data_pre = Sell_time_pre_data.read()
+    print("Sell:",Sell_time-float(Sell_time_data_pre))
+    if(Sell_time-float(Sell_time_data_pre)>1800):
+        data_time = open('./Signal/Sell_time.txt', 'w')
+        data_time.write(str(Sell_time))
+        data = open('./Signal/MACD_Signal.txt', 'w')
+        data.write('5')
+    else:
+        data = open('./Signal/MACD_Signal.txt', 'w')
+        data.write('0')
+      
+    
+    
 elif (float(four_df['MACDhist'].iloc[0]) > -0.5 and float(four_df['MACDhist'].iloc[0]) < 0.5 ):
-    data = open('./Signal/MACD_Signal.txt', 'w')
-    data.write('3')
+    Alert_time = time.time()
+    ## Sell
+    Alert_time_pre_data = open('./Signal/Alert_time.txt', 'r')
+    Alert_time_data_pre = Alert_time_pre_data.read()
+    print("Alert:",Alert_time-float(Alert_time_data_pre))
+    if(Alert_time-float(Alert_time_data_pre)>900):
+        data_time = open('./Signal/Alert_time.txt', 'w')
+        data_time.write(str(Alert_time))
+        data = open('./Signal/MACD_Signal.txt', 'w')
+        data.write('3')
+    else:
+        data = open('./Signal/MACD_Signal.txt', 'w')
+        data.write('0')
+
 elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[0]) > 0 ) and float(four_df['MACDhist'].iloc[2]) < 0: 
     Buy_time = time.time()
-    data = open('./Signal/MACD_Signal.txt', 'w')
-    data.write('4')
     ##Buy
+    Buy_time_pre_data = open('./Signal/Buy_time.txt', 'w')
+    Buy_time_data_pre = Buy_time_pre_data.read()
+    print("Buy:",Buy_time-float(Buy_time_data_pre))
+    if(Buy_time-float(Buy_time_data_pre)>1800):
+        data_time = open('./Signal/Buy_time.txt', 'w')
+        data_time.write(str(Ready_buy_time))
+        data = open('./Signal/MACD_Signal.txt', 'w')
+        data.write('4')
+    else:
+        data = open('./Signal/MACD_Signal.txt', 'w')
+        data.write('0')
+    
+    
 else:
     data = open('./Signal/MACD_Signal.txt', 'w')
     data.write('0')

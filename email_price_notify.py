@@ -21,8 +21,8 @@ reader = csv.reader(f)
 reader_f1 = csv.reader(f_1)
 
 #read the data
-EMA_ALL = open('EMA.txt', 'r')
-MACD = open('./MACD.txt', 'r')
+EMA_ALL = open('./Signal/EMA.txt', 'r')
+MACD = open('./Signal/MACD.txt', 'r')
 MACD_data = MACD.read()
 
 for row in reader:
@@ -78,7 +78,7 @@ password = 'qknvwdlikvbozwap'
 server = smtplib.SMTP('smtp.gmail.com', 587) 
 server.ehlo()
 # if the signal = 1 then send the mail
-email_data = open('email_send_signal.txt', 'r')
+email_data = open('./Signal/email_send_signal.txt', 'r')
 
 email_signal_temp = email_data.read()
 
