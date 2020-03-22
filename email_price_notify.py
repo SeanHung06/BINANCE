@@ -13,8 +13,8 @@ msg['To'] = to_address
 # Create the message (CSV).
 
 # Open the file csv and input the content in the loop 
-f = open('trade_details.csv')
-f_1 = open('binance_ETHUSDT_data.csv')
+f = open('./Data/trade_details.csv')
+f_1 = open('./Data/binance_ETHUSDT_data.csv')
 content = '<font size="4">The price for now is</font><br>'
 
 reader = csv.reader(f)
@@ -55,7 +55,7 @@ part2 = MIMEText(html, 'html')
 
 #add the file in the mail
 
-att = MIMEText(open('binance_ETHUSDT_data.xlsx', 'rb').read(), 'base64', 'utf-8')
+att = MIMEText(open('./Data/binance_ETHUSDT_data.xlsx', 'rb').read(), 'base64', 'utf-8')
 att["Content-Type"] = 'application/octet-stream'
 att["Content-Disposition"] = 'attachment; filename="binance_ETHUSDT_data.xlsx"'
 

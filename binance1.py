@@ -40,7 +40,7 @@ lambda Server_time: datetime.datetime.fromtimestamp(int(Server_time)/1000).strft
 #print(trade_price,trade_time)
 trades_df = pd.DataFrame(trades)
 #trades_df.to_excel("trades_df.xlsx")
-trades_df.to_csv('trades_df.csv', encoding='utf-8')
+trades_df.to_csv('./Data/trades_df.csv', encoding='utf-8')
 
 
 # transform the data time
@@ -50,7 +50,7 @@ trade_time_trans = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
 
 # Create a Numpy array for trade price and trade time
 arr = np.array([trade_price,trade_time_trans])
-np.savetxt('trade_details.csv', [arr], delimiter=',', fmt='%s')
+np.savetxt('./Data/trade_details.csv', [arr], delimiter=',', fmt='%s')
 
 
 # use panda data frame to process the Kline data 
@@ -154,8 +154,8 @@ whole_df= whole_df.drop(columns=['Ignore', 'Open_time'])
 #whole_df = whole_df.drop(whole_df.head())
 
 
-whole_df.to_excel("binance_ETHUSDT_data.xlsx")
-whole_df.to_csv('binance_ETHUSDT_data.csv', encoding='utf-8')
+whole_df.to_excel("./Data/binance_ETHUSDT_data.xlsx")
+whole_df.to_csv('./Data/binance_ETHUSDT_data.csv', encoding='utf-8')
 
 end = time.time()
 print('Execute-Time:',end-start)

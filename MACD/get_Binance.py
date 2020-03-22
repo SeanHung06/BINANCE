@@ -28,7 +28,7 @@ client = Client("api-key", "api-secret", {"verify": False, "timeout": 20})
 date1 = '10 Dec, 2019'
 
 
-klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR, '15 Feb, 2020')
+klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR, '29 Feb, 2020')
 
 
 
@@ -47,8 +47,8 @@ Server_time = client.get_server_time()
 #print(Server_time)
 #print(trade_price,trade_time)
 trades_df = pd.DataFrame(trades)
-trades_df.to_excel("trades_df.xlsx")
-trades_df.to_csv('trades_df.csv', encoding='utf-8')
+trades_df.to_excel("./Data/trades_df.xlsx")
+trades_df.to_csv('./Data/trades_df.csv', encoding='utf-8')
 
 
 # transform the data time
@@ -58,7 +58,7 @@ trade_time_trans = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
 
 # Create a Numpy array for trade price and trade time
 arr = np.array([trade_price,trade_time_trans])
-np.savetxt('trade_details.csv', [arr], delimiter=',', fmt='%s')
+np.savetxt('./Data/trade_details.csv', [arr], delimiter=',', fmt='%s')
 
 
 four_df = pd.DataFrame(klines_4hr)
@@ -80,7 +80,7 @@ four_df['MACD'],four_df['MACDsignal'],four_df['MACDhist'] = talib.MACD(np.array(
                             fastperiod=12, slowperiod=26, signalperiod=9) 
 
 four_df.sort_values(by=['Open_time'], inplace=True, ascending=False)
-four_df.to_excel("binance_ETHUSDT_MACD.xlsx")
+four_df.to_excel("./Data/binance_ETHUSDT_MACD.xlsx")
 
 print(float(four_df['MACDhist'].iloc[0]))
 if (float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]) > 0 ):
