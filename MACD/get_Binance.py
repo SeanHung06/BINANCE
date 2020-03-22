@@ -28,7 +28,7 @@ client = Client("api-key", "api-secret", {"verify": False, "timeout": 20})
 date1 = '10 Dec, 2019'
 
 
-klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR, '1 Feb, 2020')
+klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR, '15 Feb, 2020')
 
 
 
