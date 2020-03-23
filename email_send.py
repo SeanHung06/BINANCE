@@ -21,7 +21,7 @@ msg1['To'] = to_address
 # Create the message (CSV).
 
 # Open the file csv and input the content in the loop 
-f = open('trade_details.csv')
+f = open('./Data/trade_details.csv')
 content = '<font size="8">ALERT!</font><br>'
 content1 = '<font size="8">ALERT!</font><br>'
 reader = csv.reader(f)
