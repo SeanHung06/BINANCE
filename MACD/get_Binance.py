@@ -83,7 +83,7 @@ four_df.sort_values(by=['Open_time'], inplace=True, ascending=False)
 four_df.to_excel("./Data/binance_ETHUSDT_MACD.xlsx")
 
 print(float(four_df['MACDhist'].iloc[0]))
-if (float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]) > 0 ):
+if (float(four_df['MACDhist'].iloc[1]) < 1 and float(four_df['MACDhist'].iloc[0]) > 1 ):
     Ready_buy_time = time.time()
     Ready_buy_time_pre_data = open('./Signal/Ready_buy_time.txt', 'r')
     Ready_buy_time_pre = Ready_buy_time_pre_data.read()
@@ -97,7 +97,7 @@ if (float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]
         data = open('./Signal/MACD_Signal.txt', 'w')
         data.write('0')
     ##ready to Buy
-elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[0]) < 0 ):
+elif (float(four_df['MACDhist'].iloc[1]) > -1 and float(four_df['MACDhist'].iloc[0]) < -1 ):
 
     Ready_Sell_time = time.time()
     ##Ready Sell
@@ -113,7 +113,7 @@ elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[
         data = open('./Signal/MACD_Signal.txt', 'w')
         data.write('0')
         
-elif (float(four_df['MACDhist'].iloc[2]) > 0 and float(four_df['MACDhist'].iloc[1]) < 0 and float(four_df['MACDhist'].iloc[0]) < 0 ):
+elif (float(four_df['MACDhist'].iloc[2]) > -1 and float(four_df['MACDhist'].iloc[1]) < -1 and float(four_df['MACDhist'].iloc[0]) < -1 ):
 
     Sell_time = time.time()
     ## Sell
@@ -133,7 +133,7 @@ elif (float(four_df['MACDhist'].iloc[2]) > 0 and float(four_df['MACDhist'].iloc[
     
 elif (float(four_df['MACDhist'].iloc[0]) > -0.5 and float(four_df['MACDhist'].iloc[0]) < 0.5 ):
     Alert_time = time.time()
-    ## Sell
+    ## Warning
     Alert_time_pre_data = open('./Signal/Alert_time.txt', 'r')
     Alert_time_data_pre = Alert_time_pre_data.read()
     print("Alert:",Alert_time-float(Alert_time_data_pre))
@@ -146,7 +146,7 @@ elif (float(four_df['MACDhist'].iloc[0]) > -0.5 and float(four_df['MACDhist'].il
         data = open('./Signal/MACD_Signal.txt', 'w')
         data.write('0')
 
-elif (float(four_df['MACDhist'].iloc[1]) > 0 and float(four_df['MACDhist'].iloc[0]) > 0 ) and float(four_df['MACDhist'].iloc[2]) < 0: 
+elif (float(four_df['MACDhist'].iloc[1]) > 1 and float(four_df['MACDhist'].iloc[0]) > 1 ) and float(four_df['MACDhist'].iloc[2]) < 1: 
     Buy_time = time.time()
     ##Buy
     Buy_time_pre_data = open('./Signal/Buy_time.txt', 'w')
