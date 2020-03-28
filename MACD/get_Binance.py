@@ -131,7 +131,7 @@ elif (float(four_df['MACDhist'].iloc[2]) > -1 and float(four_df['MACDhist'].iloc
       
     
     
-elif (float(four_df['MACDhist'].iloc[0]) > -0.5 and float(four_df['MACDhist'].iloc[0]) < 0.5 ):
+elif (float(four_df['MACDhist'].iloc[0]) > -0.99 and float(four_df['MACDhist'].iloc[0]) < 0.99 ):
     Alert_time = time.time()
     ## Warning
     Alert_time_pre_data = open('./Signal/Alert_time.txt', 'r')
@@ -149,12 +149,12 @@ elif (float(four_df['MACDhist'].iloc[0]) > -0.5 and float(four_df['MACDhist'].il
 elif (float(four_df['MACDhist'].iloc[1]) > 1 and float(four_df['MACDhist'].iloc[0]) > 1 ) and float(four_df['MACDhist'].iloc[2]) < 1: 
     Buy_time = time.time()
     ##Buy
-    Buy_time_pre_data = open('./Signal/Buy_time.txt', 'w')
+    Buy_time_pre_data = open('./Signal/Buy_time.txt', 'r')
     Buy_time_data_pre = Buy_time_pre_data.read()
     print("Buy:",Buy_time-float(Buy_time_data_pre))
     if(Buy_time-float(Buy_time_data_pre)>1800):
         data_time = open('./Signal/Buy_time.txt', 'w')
-        data_time.write(str(Ready_buy_time))
+        data_time.write(str(Buy_time))
         data = open('./Signal/MACD_Signal.txt', 'w')
         data.write('4')
     else:
