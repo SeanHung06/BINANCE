@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import requests.packages.urllib3
+import requests.packages.urllib3 
 requests.packages.urllib3.disable_warnings()
 import binance
 import time

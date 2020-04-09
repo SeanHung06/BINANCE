@@ -12259,3 +12259,2426 @@ Execute-Time: 1.343817949295044
 0.571164263651444
 Alert: 2.3819382190704346
 Execute-Time: 1.1369879245758057
+Tue Mar 31 13:00:01 CST 2020
+130.93 130.73708924074742 60
+Execute-Time: 1.7346360683441162
+0.5124520129391883
+Alert: 842.9174580574036
+Execute-Time: 1.101294755935669
+Tue Mar 31 13:30:00 CST 2020
+131.78 131.30375590741406 60
+Execute-Time: 1.5136277675628662
+0.5730787935659734
+Alert: 721.6393511295319
+Execute-Time: 1.0467050075531006
+Tue Mar 31 14:00:00 CST 2020
+131.45 131.0837559074141 60
+Execute-Time: 1.2079002857208252
+0.5532953177825035
+Alert: 602.808333158493
+Execute-Time: 1.1338858604431152
+Tue Mar 31 14:30:00 CST 2020
+131.67 131.23042257408073 60
+Execute-Time: 1.2436542510986328
+0.5698879103750911
+Alert: 482.6195578575134
+Execute-Time: 1.047637701034546
+Tue Mar 31 15:00:00 CST 2020
+132.2 131.5837559074141 60
+Execute-Time: 1.2065112590789795
+0.5992440357312304
+Alert: 362.44957184791565
+Execute-Time: 1.1343469619750977
+Tue Mar 31 15:30:00 CST 2020
+131.97 131.43042257408072 60
+Execute-Time: 1.1195459365844727
+0.5871186796058779
+Alert: 242.91653299331665
+Execute-Time: 1.006648063659668
+Tue Mar 31 16:00:01 CST 2020
+131.89 131.3770892407474 60
+Execute-Time: 1.2745559215545654
+0.5396484564835862
+Alert: 123.32765316963196
+Execute-Time: 1.1335959434509277
+Tue Mar 31 16:30:01 CST 2020
+132.46 131.7570892407474 60
+Execute-Time: 1.191706895828247
+0.5773008781359965
+Alert: 2.5274081230163574
+Execute-Time: 1.1429760456085205
+Tue Mar 31 17:00:00 CST 2020
+133.13 132.2037559074141 60
+Execute-Time: 1.282642126083374
+0.6187823596174883
+Alert: 842.726044178009
+Execute-Time: 1.2267069816589355
+Tue Mar 31 17:30:01 CST 2020
+132.81 131.99042257408075 60
+Execute-Time: 1.343940258026123
+0.5989988838339957
+Alert: 722.7017302513123
+Execute-Time: 1.1544311046600342
+Tue Mar 31 18:00:00 CST 2020
+132.34 131.6770892407474 60
+Execute-Time: 1.064743995666504
+0.5715572883924085
+Alert: 599.6318190097809
+Execute-Time: 1.0900721549987793
+Tue Mar 31 18:30:00 CST 2020
+132.32 131.66375590741407 60
+Execute-Time: 1.2040462493896484
+0.5670900519251734
+Alert: 482.9487180709839
+Execute-Time: 0.9502720832824707
+Tue Mar 31 19:00:00 CST 2020
+132.31 131.6570892407474 60
+Execute-Time: 1.371131181716919
+0.5683664052015263
+Alert: 362.71852922439575
+Execute-Time: 1.170398235321045
+Tue Mar 31 19:30:00 CST 2020
+131.51 131.12375590741408 60
+Execute-Time: 1.2475240230560303
+0.5153977442328584
+Alert: 242.14238786697388
+Execute-Time: 1.0115408897399902
+Tue Mar 31 20:00:00 CST 2020
+131.87 131.3637559074141 60
+Execute-Time: 1.4218831062316895
+0.4895383007291311
+Alert: 122.56896305084229
+Execute-Time: 1.1456100940704346
+Tue Mar 31 20:30:00 CST 2020
+131.61 131.19042257408077 60
+Execute-Time: 1.090027093887329
+0.4672021183929328
+Alert: 2.7866151332855225
+Execute-Time: 1.2817699909210205
+Tue Mar 31 21:00:00 CST 2020
+132.53 131.80375590741406 60
+Execute-Time: 1.2055389881134033
+0.5284670756579171
+Alert: 842.4591269493103
+Execute-Time: 1.186410903930664
+Tue Mar 31 21:30:00 CST 2020
+132.58 131.83708924074742 60
+Execute-Time: 1.4796910285949707
+0.5316579588487993
+Alert: 723.278183221817
+Execute-Time: 1.127885103225708
+Tue Mar 31 22:00:00 CST 2020
+132.2 131.5837559074141 60
+Execute-Time: 1.3734450340270996
+0.5061308933217188
+Alert: 603.5464420318604
+Execute-Time: 0.9579448699951172
+Tue Mar 31 22:30:00 CST 2020
+132.67 131.8970892407474 60
+Execute-Time: 1.184351921081543
+0.5380397252305638
+Alert: 482.11489820480347
+Execute-Time: 1.0821189880371094
+Tue Mar 31 23:00:00 CST 2020
+132.73 131.93708924074738 60
+Execute-Time: 1.4362199306488037
+0.5431451383359527
+Alert: 362.29931902885437
+Execute-Time: 1.0561280250549316
+Tue Mar 31 23:30:00 CST 2020
+132.65 131.88375590741407 60
+Execute-Time: 1.30458402633667
+0.5354870186778353
+Alert: 241.35137367248535
+Execute-Time: 1.2350730895996094
+Wed Apr  1 00:00:00 CST 2020
+132.77 131.96375590741408 60
+Execute-Time: 1.9879639148712158
+0.5252431617133899
+Alert: 130.04500818252563
+Execute-Time: 2.9746460914611816
+Wed Apr  1 00:30:00 CST 2020
+132.46 131.7570892407474 60
+Execute-Time: 1.3199799060821533
+0.5041833326535672
+Alert: 2.4556171894073486
+Execute-Time: 0.9908449649810791
+Wed Apr  1 01:00:00 CST 2020
+132.2 131.5837559074141 60
+Execute-Time: 1.251570224761963
+0.4875907400609568
+Alert: 843.5567049980164
+Execute-Time: 1.0199148654937744
+Wed Apr  1 01:30:00 CST 2020
+131.88 131.37042257408075 60
+Execute-Time: 1.6200668811798096
+0.46716908763931053
+Alert: 723.6735610961914
+Execute-Time: 1.2773189544677734
+Wed Apr  1 02:00:00 CST 2020
+132.74 131.9437559074141 60
+Execute-Time: 1.2538180351257324
+0.5246049850751907
+Alert: 602.8990480899811
+Execute-Time: 1.031015157699585
+Wed Apr  1 02:30:00 CST 2020
+132.91 132.0570892407474 60
+Execute-Time: 1.2368288040161133
+0.5335394580096837
+Alert: 485.21326899528503
+Execute-Time: 1.0791518688201904
+Wed Apr  1 03:00:00 CST 2020
+132.74 131.9437559074141 60
+Execute-Time: 1.447356939315796
+0.5233286317988378
+Alert: 362.27449107170105
+Execute-Time: 1.2927238941192627
+Wed Apr  1 03:30:00 CST 2020
+132.76 131.95708924074742 60
+Execute-Time: 1.2175710201263428
+0.5271576916279193
+Alert: 243.64070200920105
+Execute-Time: 1.154815912246704
+Wed Apr  1 04:00:00 CST 2020
+133.21 132.2570892407474 60
+Execute-Time: 1.427304983139038
+0.5374695171544424
+Alert: 122.8753252029419
+Execute-Time: 1.000216007232666
+Wed Apr  1 04:30:00 CST 2020
+134.74 133.27708924074742 60
+Execute-Time: 1.2606289386749268
+0.6319196596045792
+Alert: 2.4604928493499756
+Execute-Time: 1.2399547100067139
+Wed Apr  1 05:00:00 CST 2020
+134.39 133.04375590741407 60
+Execute-Time: 1.2250640392303467
+0.6146888903738151
+Alert: 842.7371714115143
+Execute-Time: 1.0006730556488037
+Wed Apr  1 05:30:00 CST 2020
+134.39 133.04375590741407 60
+Execute-Time: 1.368114948272705
+0.6089453006302271
+Alert: 722.0449647903442
+Execute-Time: 1.1033940315246582
+Wed Apr  1 06:00:00 CST 2020
+134.08 132.83708924074742 60
+Execute-Time: 1.4099829196929932
+0.5872472949322279
+Alert: 603.0622727870941
+Execute-Time: 1.0698981285095215
+Wed Apr  1 06:30:00 CST 2020
+133.51 132.45708924074742 60
+Execute-Time: 1.38447904586792
+0.5489566966415957
+Alert: 482.37966108322144
+Execute-Time: 1.0688672065734863
+Wed Apr  1 07:00:00 CST 2020
+133.6 132.5170892407474 60
+Execute-Time: 1.2835760116577148
+0.5598056994905953
+Alert: 363.4587001800537
+Execute-Time: 0.9856410026550293
+Wed Apr  1 07:30:00 CST 2020
+133.09 132.1770892407474 60
+Execute-Time: 1.4195258617401123
+0.5266205143054428
+Alert: 243.0949068069458
+Execute-Time: 1.473362922668457
+Wed Apr  1 08:00:00 CST 2020
+132.73 132.46347419136023 61
+Execute-Time: 1.2565038204193115
+0.44514605942479135
+Alert: 122.81549024581909
+Execute-Time: 1.2265427112579346
+Wed Apr  1 08:30:01 CST 2020
+131.25 131.47680752469356 61
+Execute-Time: 1.4285039901733398
+0.3436759739546909
+Alert: 2.76772403717041
+Execute-Time: 1.0300960540771484
+Wed Apr  1 09:00:00 CST 2020
+132.02 131.99014085802693 61
+Execute-Time: 1.3878529071807861
+0.4011118713905938
+Alert: 843.072612285614
+Execute-Time: 1.1074910163879395
+Wed Apr  1 09:30:00 CST 2020
+131.78 131.8301408580269 61
+Execute-Time: 1.5544421672821045
+0.3857956320743591
+Alert: 724.1107220649719
+Execute-Time: 1.314387321472168
+Wed Apr  1 10:00:00 CST 2020
+131.51 131.6501408580269 61
+Execute-Time: 1.2714800834655762
+0.3640976263763372
+Alert: 602.7653551101685
+Execute-Time: 1.1214590072631836
+Wed Apr  1 10:30:00 CST 2020
+132.2 132.11014085802688 61
+Execute-Time: 1.7625257968902588
+0.41132269760141693
+Alert: 484.06216502189636
+Execute-Time: 1.3864002227783203
+Wed Apr  1 11:00:00 CST 2020
+132.26 132.1501408580269 61
+Execute-Time: 1.4272611141204834
+0.41642811070685126
+Alert: 363.8643388748169
+Execute-Time: 1.178260087966919
+Wed Apr  1 11:30:00 CST 2020
+132.91 132.58347419136024 61
+Execute-Time: 1.6739282608032227
+0.4566332389119674
+Alert: 243.2046411037445
+Execute-Time: 1.2017340660095215
+Wed Apr  1 12:00:00 CST 2020
+132.92 132.5901408580269 61
+Execute-Time: 1.2620899677276611
+0.40435669178264966
+Alert: 123.45734477043152
+Execute-Time: 1.199538230895996
+Wed Apr  1 12:30:00 CST 2020
+133.06 132.68347419136023 61
+Execute-Time: 1.3439197540283203
+0.41265298807894346
+Alert: 2.8562591075897217
+Execute-Time: 1.2073290348052979
+Wed Apr  1 13:00:00 CST 2020
+132.72 132.45680752469357 61
+Execute-Time: 1.4019529819488525
+0.39031680574276784
+Alert: 843.9255542755127
+Execute-Time: 1.1699481010437012
+Wed Apr  1 13:30:00 CST 2020
+132.82 132.52347419136024 61
+Execute-Time: 2.0511980056762695
+0.3941458655718265
+Alert: 731.8885252475739
+Execute-Time: 1.3958921432495117
+Wed Apr  1 14:00:00 CST 2020
+131.97 131.95680752469357 61
+Execute-Time: 1.4234659671783447
+0.34245355787951165
+Alert: 600.2960450649261
+Execute-Time: 1.1594452857971191
+Wed Apr  1 14:30:00 CST 2020
+132.18 132.09680752469356 61
+Execute-Time: 1.4149370193481445
+0.35649344391939347
+Alert: 483.5284650325775
+Execute-Time: 1.1433920860290527
+Wed Apr  1 15:00:00 CST 2020
+132.07 132.02347419136024 61
+Execute-Time: 1.2941601276397705
+0.35074985417582816
+Alert: 364.21347093582153
+Execute-Time: 1.0317611694335938
+Wed Apr  1 15:30:01 CST 2020
+132.22 132.12347419136026 61
+Execute-Time: 1.470576286315918
+0.3584079738339455
+Alert: 243.5929250717163
+Execute-Time: 1.1467230319976807
+Wed Apr  1 16:00:00 CST 2020
+132.42 132.25680752469358 61
+Execute-Time: 1.3287410736083984
+0.29980495475626645
+Alert: 123.16688513755798
+Execute-Time: 1.0942857265472412
+Wed Apr  1 16:30:01 CST 2020
+131.75 131.8101408580269 61
+Execute-Time: 1.210684061050415
+0.2589616499129511
+Alert: 2.5855352878570557
+Execute-Time: 1.0162291526794434
+Wed Apr  1 17:00:01 CST 2020
+132.03 131.9968075246936 61
+Execute-Time: 1.4805049896240234
+0.2761924191437152
+Alert: 842.9761869907379
+Execute-Time: 1.0322668552398682
+Wed Apr  1 17:30:00 CST 2020
+131.97 131.95680752469357 61
+Execute-Time: 1.4255359172821045
+0.2723633593146565
+Alert: 724.3450839519501
+Execute-Time: 1.110591173171997
+Wed Apr  1 18:00:00 CST 2020
+132.11 132.0501408580269 61
+Execute-Time: 1.2137410640716553
+0.2812978322491495
+Alert: 603.1506218910217
+Execute-Time: 1.0020921230316162
+Wed Apr  1 18:30:00 CST 2020
+132.13 132.06347419136023 61
+Execute-Time: 1.2659358978271484
+0.2825741855255024
+Alert: 482.6011710166931
+Execute-Time: 1.1148219108581543
+Wed Apr  1 19:00:00 CST 2020
+131.97 131.95680752469357 61
+Execute-Time: 1.175490140914917
+0.27363971259103215
+Alert: 361.51876306533813
+Execute-Time: 1.0690770149230957
+Wed Apr  1 19:30:00 CST 2020
+131.94 131.93680752469356 61
+Execute-Time: 1.266185998916626
+0.2710870060383036
+Alert: 240.56003189086914
+Execute-Time: 1.0438001155853271
+Wed Apr  1 20:00:00 CST 2020
+132.33 132.19680752469358 61
+Execute-Time: 1.2986669540405273
+0.23005090884648605
+Alert: 122.85113716125488
+Execute-Time: 1.1336581707000732
+Wed Apr  1 20:30:00 CST 2020
+131.57 131.6901408580269 61
+Execute-Time: 1.3322999477386475
+0.18218766098325256
+Alert: 2.491081953048706
+Execute-Time: 1.0397329330444336
+Wed Apr  1 21:00:00 CST 2020
+131.38 131.56347419136023 61
+Execute-Time: 1.4742209911346436
+0.16495689175246575
+Alert: 842.4329977035522
+Execute-Time: 1.0832948684692383
+Wed Apr  1 21:30:00 CST 2020
+131.34 131.5368075246936 61
+Execute-Time: 1.1636600494384766
+0.16814777494337074
+Alert: 724.4451069831848
+Execute-Time: 1.2406976222991943
+Wed Apr  1 22:00:00 CST 2020
+130.7 131.11014085802688 61
+Execute-Time: 1.3960280418395996
+0.1317717065673133
+Alert: 602.2664158344269
+Execute-Time: 0.9998371601104736
+Wed Apr  1 22:30:00 CST 2020
+130.93 131.26347419136025 61
+Execute-Time: 1.481062889099121
+0.14134435613993723
+Alert: 482.5274660587311
+Execute-Time: 1.1348791122436523
+Wed Apr  1 23:00:00 CST 2020
+131.6 131.7101408580269 61
+Execute-Time: 1.3277790546417236
+0.18218766098325256
+Alert: 361.90892481803894
+Execute-Time: 1.0583298206329346
+Wed Apr  1 23:30:00 CST 2020
+131.07 131.35680752469355 61
+Execute-Time: 1.3557958602905273
+0.15027882907443024
+Alert: 244.09334421157837
+Execute-Time: 1.1487200260162354
+Thu Apr  2 00:00:00 CST 2020
+131.05 131.34347419136023 61
+Execute-Time: 1.3326849937438965
+0.050345129938817484
+Alert: 125.79387402534485
+Execute-Time: 1.3298492431640625
+Thu Apr  2 00:30:00 CST 2020
+129.44 130.2701408580269 61
+Execute-Time: 1.37568998336792
+-0.05240130880761312
+Alert: 2.697624921798706
+Execute-Time: 1.1798510551452637
+Thu Apr  2 01:00:00 CST 2020
+129.34 130.20347419136024 61
+Execute-Time: 1.4788949489593506
+-0.057506721913024694
+Alert: 842.5940117835999
+Execute-Time: 1.1117208003997803
+Thu Apr  2 01:30:00 CST 2020
+129.48 130.29680752469358 61
+Execute-Time: 1.3452017307281494
+-0.054315838722165194
+Alert: 720.7068312168121
+Execute-Time: 1.1556780338287354
+Thu Apr  2 02:00:00 CST 2020
+129.57 130.35680752469355 61
+Execute-Time: 1.335209846496582
+-0.041552305958613533
+Alert: 601.7495548725128
+Execute-Time: 1.0910348892211914
+Thu Apr  2 02:30:00 CST 2020
+129.82 130.52347419136024 61
+Execute-Time: 1.4279749393463135
+-0.030703303109613944
+Alert: 482.81075716018677
+Execute-Time: 1.3565587997436523
+Thu Apr  2 03:00:01 CST 2020
+129.45 130.27680752469357 61
+Execute-Time: 1.5870590209960938
+-0.051763132169436676
+Alert: 363.6559498310089
+Execute-Time: 1.1278321743011475
+Thu Apr  2 03:30:00 CST 2020
+129.14 130.0701408580269 61
+Execute-Time: 1.2788805961608887
+-0.07346113786743586
+Alert: 242.42115592956543
+Execute-Time: 1.0242066383361816
+Thu Apr  2 04:00:00 CST 2020
+129.84 130.5368075246936 61
+Execute-Time: 1.2249369621276855
+-0.13222736216178077
+Alert: 122.85906386375427
+Execute-Time: 1.2797858715057373
+Thu Apr  2 04:30:00 CST 2020
+130.68 131.09680752469356 61
+Execute-Time: 1.5061891078948975
+-0.07862052455495927
+Alert: 2.5556259155273438
+Execute-Time: 1.1205620765686035
+Thu Apr  2 05:00:00 CST 2020
+131.76 131.81680752469356 61
+Execute-Time: 1.427253007888794
+-0.010973800908255948
+Alert: 842.8585178852081
+Execute-Time: 1.125549077987671
+Thu Apr  2 05:30:00 CST 2020
+131.79 131.83680752469357 61
+Execute-Time: 1.406379222869873
+-0.004592034526468752
+Alert: 710.3565847873688
+Execute-Time: 1.1424248218536377
+Thu Apr  2 06:00:01 CST 2020
+131.72 131.79014085802692 61
+Execute-Time: 1.3459010124206543
+-0.006506564441020823
+Alert: 603.3403940200806
+Execute-Time: 1.0256421566009521
+Thu Apr  2 06:30:01 CST 2020
+133.54 133.00347419136025 61
+Execute-Time: 1.3533508777618408
+0.10198346404902055
+Alert: 483.62856817245483
+Execute-Time: 1.1136629581451416
+Thu Apr  2 07:00:00 CST 2020
+133.33 132.86347419136027 61
+Execute-Time: 1.043700933456421
+0.09368716775274948
+Alert: 362.64676690101624
+Execute-Time: 0.9935989379882812
+Thu Apr  2 07:30:00 CST 2020
+134.22 133.45680752469357 61
+Execute-Time: 1.45871901512146
+0.14920853527410033
+Alert: 243.2682590484619
+Execute-Time: 1.1603620052337646
+Thu Apr  2 08:00:01 CST 2020
+135.74 135.3056025082312 62
+Execute-Time: 1.5381147861480713
+0.4058325954215516
+Alert: 123.57261085510254
+Execute-Time: 1.0950779914855957
+Thu Apr  2 08:30:00 CST 2020
+136.13 135.5656025082312 62
+Execute-Time: 1.1963047981262207
+0.4173197749087276
+Alert: 2.387803316116333
+Execute-Time: 1.21134614944458
+Thu Apr  2 09:00:00 CST 2020
+136.0 135.47893584156452 62
+Execute-Time: 1.2883751392364502
+0.41476706835602184
+Alert: 843.0625281333923
+Execute-Time: 1.0679352283477783
+Thu Apr  2 09:30:00 CST 2020
+136.08 135.53226917489786 62
+Execute-Time: 1.2757160663604736
+0.41923430482325696
+Alert: 722.1843237876892
+Execute-Time: 1.061366081237793
+Thu Apr  2 10:00:01 CST 2020
+135.12 134.89226917489785 62
+Execute-Time: 1.419051170349121
+0.356054817643766
+Alert: 601.4014148712158
+Execute-Time: 1.174971103668213
+Thu Apr  2 10:30:00 CST 2020
+136.11 135.55226917489787 62
+Execute-Time: 1.4942891597747803
+0.4154052449941983
+Alert: 483.212345123291
+Execute-Time: 0.9971728324890137
+Thu Apr  2 11:00:01 CST 2020
+135.98 135.46560250823117 62
+Execute-Time: 1.2316439151763916
+0.40774712533608093
+Alert: 362.91583824157715
+Execute-Time: 1.1368739604949951
+Thu Apr  2 11:30:00 CST 2020
+135.72 135.29226917489785 62
+Execute-Time: 1.3907899856567383
+0.39179270938166977
+Alert: 243.24693083763123
+Execute-Time: 1.2284729480743408
+Thu Apr  2 12:00:00 CST 2020
+136.31 135.6856025082312 62
+Execute-Time: 1.1663949489593506
+0.5239257925220111
+Alert: 122.30434107780457
+Execute-Time: 1.0419111251831055
+Thu Apr  2 12:30:00 CST 2020
+136.24 135.63893584156452 62
+Execute-Time: 1.3796658515930176
+0.5252021457983412
+Alert: 2.713993787765503
+Execute-Time: 1.0554821491241455
+Thu Apr  2 13:00:01 CST 2020
+135.89 135.40560250823117 62
+Execute-Time: 1.6611862182617188
+0.4958460204422247
+Alert: 842.0805130004883
+Execute-Time: 1.3817999362945557
+Thu Apr  2 13:30:00 CST 2020
+135.64 135.2389358415645 62
+Execute-Time: 1.238555908203125
+0.4849970175932251
+Alert: 724.6205379962921
+Execute-Time: 1.3959012031555176
+Thu Apr  2 14:00:00 CST 2020
+136.13 135.5656025082312 62
+Execute-Time: 1.4229702949523926
+0.5092477298439301
+Alert: 602.6364579200745
+Execute-Time: 1.0535340309143066
+Thu Apr  2 14:30:00 CST 2020
+136.66 135.91893584156452 62
+Execute-Time: 1.3722279071807861
+0.5449856215818338
+Alert: 482.76316118240356
+Execute-Time: 1.2407629489898682
+Thu Apr  2 15:00:00 CST 2020
+137.21 136.2856025082312 62
+Execute-Time: 1.5407967567443848
+0.580085336681561
+Alert: 363.2258131504059
+Execute-Time: 1.2342181205749512
+Thu Apr  2 15:30:01 CST 2020
+137.64 136.57226917489785 62
+Execute-Time: 1.4435451030731201
+0.6056124022085962
+Alert: 243.72760009765625
+Execute-Time: 1.2478489875793457
+Thu Apr  2 16:00:00 CST 2020
+137.38 136.3989358415645 62
+Execute-Time: 1.2569310665130615
+0.6552190650180962
+Alert: 124.79741406440735
+Execute-Time: 1.302213191986084
+Thu Apr  2 16:30:00 CST 2020
+137.04 136.17226917489785 62
+Execute-Time: 1.361962080001831
+0.6347974125964272
+Alert: 2.6823041439056396
+Execute-Time: 1.119175910949707
+Thu Apr  2 17:00:00 CST 2020
+137.33 136.3656025082312 62
+Execute-Time: 1.1973121166229248
+0.6526663584653677
+Alert: 842.9144201278687
+Execute-Time: 1.2885191440582275
+Thu Apr  2 17:30:00 CST 2020
+136.89 136.07226917489785 62
+Execute-Time: 1.3625669479370117
+0.622672056471052
+Alert: 722.6556489467621
+Execute-Time: 0.9789257049560547
+Thu Apr  2 18:00:00 CST 2020
+136.85 136.04560250823118 62
+Execute-Time: 1.2481341361999512
+0.622672056471052
+Alert: 602.1004629135132
+Execute-Time: 1.1495330333709717
+Thu Apr  2 18:30:00 CST 2020
+136.93 136.09893584156453 62
+Execute-Time: 1.4250221252441406
+0.6265011163001334
+Alert: 482.3732798099518
+Execute-Time: 1.1834328174591064
+Thu Apr  2 19:00:00 CST 2020
+137.09 136.20560250823118 62
+Execute-Time: 1.2708771228790283
+0.6399028257018388
+Alert: 363.08648204803467
+Execute-Time: 1.0825130939483643
+Thu Apr  2 19:30:00 CST 2020
+137.42 136.42560250823118 62
+Execute-Time: 1.1789231300354004
+0.6584099482089557
+Alert: 241.53718209266663
+Execute-Time: 1.2369086742401123
+Thu Apr  2 20:00:00 CST 2020
+137.69 136.6056025082312 62
+Execute-Time: 1.2270357608795166
+0.6893208718402162
+Alert: 122.3460898399353
+Execute-Time: 1.1081809997558594
+Thu Apr  2 20:30:00 CST 2020
+137.71 136.61893584156454 62
+Execute-Time: 1.3501169681549072
+0.6918735783929447
+Alert: 2.6022379398345947
+Execute-Time: 1.0234668254852295
+Thu Apr  2 21:00:00 CST 2020
+137.26 136.31893584156452 62
+Execute-Time: 1.4538109302520752
+0.6567738632932174
+Alert: 842.8100919723511
+Execute-Time: 1.1505820751190186
+Thu Apr  2 21:30:00 CST 2020
+136.64 135.90560250823117 62
+Execute-Time: 1.3276519775390625
+0.6159305584499248
+Alert: 723.4967730045319
+Execute-Time: 1.1893339157104492
+Thu Apr  2 22:00:00 CST 2020
+136.48 135.79893584156451 62
+Execute-Time: 1.2052061557769775
+0.6069960855154319
+Alert: 602.1347880363464
+Execute-Time: 1.0990991592407227
+Thu Apr  2 22:30:00 CST 2020
+137.16 136.25226917489786 62
+Execute-Time: 1.3575561046600342
+0.6529448034641587
+Alert: 482.5257432460785
+Execute-Time: 1.0470468997955322
+Thu Apr  2 23:00:00 CST 2020
+139.04 137.5056025082312 62
+Execute-Time: 1.2236149311065674
+0.7716456581650233
+Alert: 362.0857708454132
+Execute-Time: 1.0596649646759033
+Thu Apr  2 23:30:01 CST 2020
+138.61 137.21893584156453 62
+Execute-Time: 1.3478679656982422
+0.7467567692761191
+Alert: 242.85465812683105
+Execute-Time: 1.0791349411010742
+Fri Apr  3 00:00:00 CST 2020
+139.35 137.71226917489784 62
+Execute-Time: 1.1759233474731445
+0.8214441314968972
+Alert: 123.66402411460876
+Execute-Time: 1.122593879699707
+Fri Apr  3 00:30:00 CST 2020
+140.97 138.79226917489785 62
+Execute-Time: 1.4105257987976074
+0.9216378636906222
+Alert: 2.8914527893066406
+Execute-Time: 1.1836490631103516
+Fri Apr  3 01:00:00 CST 2020
+143.79 140.67226917489785 62
+Execute-Time: 1.3538999557495117
+1.1252162112689768
+Ready_toBuy: 602.4818949699402
+Execute-Time: 1.1358239650726318
+Fri Apr  3 01:30:00 CST 2020
+147.05 142.8456025082312 62
+Execute-Time: 1.5579938888549805
+1.312201966254721
+Ready_toBuy: 482.1247100830078
+Execute-Time: 1.0946738719940186
+Fri Apr  3 02:00:00 CST 2020
+145.46 141.7856025082312 62
+Execute-Time: 1.6541991233825684
+1.2088173508701139
+Ready_toBuy: 482.9133448600769
+Execute-Time: 1.2900819778442383
+Fri Apr  3 02:30:00 CST 2020
+142.77 139.99226917489787 62
+Execute-Time: 1.9230668544769287
+1.037786011838758
+Ready_toBuy: 482.08893966674805
+Execute-Time: 1.3167779445648193
+Fri Apr  3 03:00:00 CST 2020
+140.45 138.4456025082312 62
+Execute-Time: 1.439119815826416
+0.8865381485908947
+Alert: 122.88366174697876
+Execute-Time: 1.1719529628753662
+Fri Apr  3 03:30:00 CST 2020
+142.05 139.51226917489785 62
+Execute-Time: 1.2380318641662598
+0.9918372938900539
+Execute-Time: 1.1783843040466309
+Fri Apr  3 04:00:00 CST 2020
+140.83 138.69893584156452 62
+Execute-Time: 1.213059902191162
+0.9336421163229052
+Alert: 722.7020092010498
+Execute-Time: 1.0069248676300049
+Fri Apr  3 04:30:00 CST 2020
+138.82 137.35893584156452 62
+Execute-Time: 1.375903844833374
+0.806006788687593
+Alert: 599.866268157959
+Execute-Time: 0.9997959136962891
+Fri Apr  3 05:00:00 CST 2020
+140.5 138.47893584156452 62
+Execute-Time: 1.3269157409667969
+0.9113059339867295
+Alert: 482.3197410106659
+Execute-Time: 0.9555578231811523
+Fri Apr  3 05:30:00 CST 2020
+141.64 139.2389358415645 62
+Execute-Time: 1.1933660507202148
+0.9872489539297493
+Alert: 362.4706609249115
+Execute-Time: 1.0711750984191895
+Fri Apr  3 06:00:00 CST 2020
+142.4 139.7456025082312 62
+Execute-Time: 1.3751177787780762
+1.0351122017930057
+Ready_toBuy: 1682.5285382270813
+Execute-Time: 0.979255199432373
+Fri Apr  3 06:30:00 CST 2020
+141.63 139.23226917489785 62
+Execute-Time: 1.3966610431671143
+0.9840580707388671
+Alert: 602.9125137329102
+Execute-Time: 1.0583100318908691
+Fri Apr  3 07:00:00 CST 2020
+142.36 139.71893584156453 62
+Execute-Time: 1.3622970581054688
+1.026815905496689
+Ready_toBuy: 484.3596680164337
+Execute-Time: 1.089629888534546
+Fri Apr  3 07:30:01 CST 2020
+140.99 138.8056025082312 62
+Execute-Time: 1.278113842010498
+0.9432147658955519
+Alert: 723.2864761352539
+Execute-Time: 1.0180761814117432
+Fri Apr  3 08:00:00 CST 2020
+141.29 140.5263119471882 63
+Execute-Time: 1.1002130508422852
+0.9296029026368493
+Alert: 602.3535673618317
+Execute-Time: 1.1325631141662598
+Fri Apr  3 08:30:00 CST 2020
+141.09 140.39297861385486 63
+Execute-Time: 1.3471338748931885
+0.9142866633206146
+Alert: 482.74932503700256
+Execute-Time: 1.1621320247650146
+Fri Apr  3 09:00:00 CST 2020
+140.83 140.21964528052152 63
+Execute-Time: 1.2885360717773438
+0.9027994838334612
+Alert: 362.15103697776794
+Execute-Time: 1.1817090511322021
+Fri Apr  3 09:30:00 CST 2020
+141.03 140.35297861385484 63
+Execute-Time: 1.4579479694366455
+0.9174775465114968
+Alert: 242.940847158432
+Execute-Time: 1.124128818511963
+Fri Apr  3 10:00:00 CST 2020
+142.15 141.09964528052151 63
+Execute-Time: 1.2050869464874268
+0.9876769767109512
+Alert: 2.4889447689056396
+Execute-Time: 1.023853063583374
+Fri Apr  3 10:30:00 CST 2020
+142.18 141.1196452805215 63
+Execute-Time: 1.3155879974365234
+0.9895915066254806
+Alert: 841.0593800544739
+Execute-Time: 1.152271032333374
+Fri Apr  3 11:00:00 CST 2020
+142.32 141.21297861385483 63
+Execute-Time: 1.2904179096221924
+1.001078686112634
+Ready_toBuy: 1563.8870248794556
+Execute-Time: 1.1013209819793701
+Fri Apr  3 11:30:00 CST 2020
+141.91 140.93964528052152 63
+Execute-Time: 1.2304539680480957
+0.9717225607565174
+Alert: 123.53841304779053
+Execute-Time: 1.1429271697998047
+Fri Apr  3 12:00:00 CST 2020
+141.55 140.6996452805215 63
+Execute-Time: 1.331592321395874
+0.8778728706417489
+Alert: 2.5956709384918213
+Execute-Time: 0.9983818531036377
+Fri Apr  3 12:30:00 CST 2020
+141.57 140.71297861385483 63
+Execute-Time: 2.896669864654541
+0.8734056341745364
+Alert: 844.5016791820526
+Execute-Time: 1.0043079853057861
+Fri Apr  3 13:00:00 CST 2020
+141.72 140.81297861385485 63
+Execute-Time: 1.4355590343475342
+0.8868073435762418
+Alert: 722.2582972049713
+Execute-Time: 1.0536189079284668
+Fri Apr  3 13:30:00 CST 2020
+141.18 140.45297861385484 63
+Execute-Time: 1.4502129554748535
+0.8529839817528901
+Alert: 604.9276039600372
+Execute-Time: 1.288759708404541
+Fri Apr  3 14:00:01 CST 2020
+141.73 140.8196452805215 63
+Execute-Time: 1.3587651252746582
+0.8868073435762418
+Alert: 482.74324202537537
+Execute-Time: 1.0408477783203125
+Fri Apr  3 14:30:00 CST 2020
+142.2 141.13297861385482 63
+Execute-Time: 1.218351125717163
+0.9180779988468877
+Alert: 361.8475260734558
+Execute-Time: 1.1191089153289795
+Fri Apr  3 16:30:00 CST 2020
+143.77 142.17964528052153 63
+Execute-Time: 1.9693670272827148
+1.0203228140262302
+Buy: 360.48539900779724
+Execute-Time: 1.8772828578948975
+Fri Apr  3 17:00:00 CST 2020
+144.02 142.34631194718818 63
+Execute-Time: 1.6276061534881592
+1.0407444664478764
+Buy: 237.37589502334595
+Execute-Time: 1.5622010231018066
+Fri Apr  3 17:30:00 CST 2020
+143.64 142.09297861385483 63
+Execute-Time: 1.5527119636535645
+1.015217400920796
+Buy: 121.15314197540283
+Execute-Time: 1.687925100326538
+Fri Apr  3 18:00:01 CST 2020
+144.9 142.93297861385486 63
+Execute-Time: 2.857508897781372
+1.0911604208638384
+Buy: 3.265535354614258
+Execute-Time: 1.6538429260253906
+Fri Apr  3 18:30:00 CST 2020
+144.8 142.86631194718817 63
+Execute-Time: 1.6601381301879883
+1.0975421872456028
+Buy: 1801.0923273563385
+Execute-Time: 1.503443956375122
+Fri Apr  3 19:00:00 CST 2020
+146.25 143.83297861385483 63
+Execute-Time: 1.8700780868530273
+1.1779524436558582
+Buy: 1799.989599943161
+Execute-Time: 1.4843580722808838
+Fri Apr  3 19:30:01 CST 2020
+145.56 143.37297861385483 63
+Execute-Time: 1.7883992195129395
+1.1383854920888954
+Buy: 1684.4205179214478
+Execute-Time: 1.7943639755249023
+Fri Apr  3 20:00:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x11a8b5460>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11a8b5460>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x11a8b5460>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x10ee95ac0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10ee95ac0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./MACD/get_Binance.py", line 26, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10ee95ac0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 78, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Fri Apr  3 20:30:01 CST 2020
+145.38 143.25297861385482 63
+Execute-Time: 2.5761971473693848
+1.1074933776838778
+Execute-Time: 1.5639560222625732
+Fri Apr  3 21:00:00 CST 2020
+144.88 142.9196452805215 63
+Execute-Time: 1.6859409809112549
+1.0755845457750324
+Execute-Time: 1.7128357887268066
+Fri Apr  3 21:30:00 CST 2020
+143.87 142.24631194718816 63
+Execute-Time: 1.8088021278381348
+1.0168722950627767
+Execute-Time: 1.41274094581604
+Fri Apr  3 22:00:00 CST 2020
+143.24 141.82631194718817 63
+Execute-Time: 2.0071310997009277
+0.9741144603049547
+Alert: 3.189602851867676
+Execute-Time: 1.6034049987792969
+Fri Apr  3 22:30:00 CST 2020
+142.72 141.4796452805215 63
+Execute-Time: 2.1352601051330566
+0.9390147452052275
+Alert: 844.2766661643982
+Execute-Time: 1.6640779972076416
+Fri Apr  3 23:30:00 CST 2020
+141.2 140.46631194718816 63
+Execute-Time: 1.2644429206848145
+0.8413737195642312
+Alert: 481.6747498512268
+Execute-Time: 1.126283884048462
+Sat Apr  4 00:00:00 CST 2020
+141.37 140.5796452805215 63
+Execute-Time: 1.2475800514221191
+0.5919277150829316
+Alert: 362.80759596824646
+Execute-Time: 1.1626641750335693
+Sat Apr  4 00:30:00 CST 2020
+138.65 138.7663119471882 63
+Execute-Time: 1.6586921215057373
+0.41898184613706935
+Alert: 247.41549110412598
+Execute-Time: 1.8488779067993164
+Sat Apr  4 01:00:00 CST 2020
+141.0 140.33297861385483 63
+Execute-Time: 1.19008207321167
+0.5689533561085796
+Alert: 121.82038378715515
+Execute-Time: 1.0107450485229492
+Sat Apr  4 01:30:00 CST 2020
+140.65 140.09964528052151 63
+Execute-Time: 1.2504630088806152
+0.5395972307524404
+Alert: 2.3831517696380615
+Execute-Time: 1.1219449043273926
+Sat Apr  4 02:00:00 CST 2020
+140.7 140.13297861385482 63
+Execute-Time: 1.0888371467590332
+0.543426290581499
+Alert: 841.4912738800049
+Execute-Time: 1.1963269710540771
+Sat Apr  4 02:30:00 CST 2020
+141.21 140.47297861385485 63
+Execute-Time: 1.2554869651794434
+0.5798023589575791
+Alert: 724.354691028595
+Execute-Time: 1.0308380126953125
+Sat Apr  4 03:00:00 CST 2020
+141.62 140.74631194718816 63
+Execute-Time: 1.4475750923156738
+0.6085203076755192
+Alert: 602.9974091053009
+Execute-Time: 0.987346887588501
+Sat Apr  4 03:30:00 CST 2020
+141.8 140.86631194718817 63
+Execute-Time: 1.2786340713500977
+0.616816603971813
+Alert: 480.9010519981384
+Execute-Time: 1.0902540683746338
+Sat Apr  4 04:00:01 CST 2020
+142.3 141.1996452805215 63
+Execute-Time: 1.3352899551391602
+0.45794784302959224
+Alert: 362.85496711730957
+Execute-Time: 1.0357301235198975
+Sat Apr  4 04:30:00 CST 2020
+142.43 141.28631194718818 63
+Execute-Time: 1.2989280223846436
+0.4713495524312976
+Alert: 242.8431317806244
+Execute-Time: 1.209839105606079
+Sat Apr  4 05:00:00 CST 2020
+140.6 140.06631194718818 63
+Execute-Time: 1.2982571125030518
+0.3507341678159266
+Alert: 122.27998614311218
+Execute-Time: 1.219862699508667
+Sat Apr  4 05:30:00 CST 2020
+141.03 140.35297861385484 63
+Execute-Time: 1.3114681243896484
+0.38200482308657246
+Alert: 2.5453410148620605
+Execute-Time: 1.1621246337890625
+Sat Apr  4 06:00:00 CST 2020
+141.1 140.39964528052153 63
+Execute-Time: 1.394826889038086
+0.3877484128301605
+Alert: 842.4587159156799
+Execute-Time: 1.1047601699829102
+Sat Apr  4 06:30:00 CST 2020
+140.61 140.07297861385484 63
+Execute-Time: 1.2645602226257324
+0.3577541108358444
+Alert: 722.2265801429749
+Execute-Time: 1.1685028076171875
+Sat Apr  4 07:00:00 CST 2020
+141.86 140.9063119471882 63
+Execute-Time: 1.2620198726654053
+0.43497348405524017
+Alert: 602.3962008953094
+Execute-Time: 1.0368568897247314
+Sat Apr  4 07:30:00 CST 2020
+141.84 140.89297861385486 63
+Execute-Time: 1.344810962677002
+0.43624983733159306
+Alert: 482.95731806755066
+Execute-Time: 1.0438556671142578
+Sat Apr  4 08:00:00 CST 2020
+141.36 141.08654842684052 64
+Execute-Time: 1.281019926071167
+0.20236594662122576
+Alert: 362.5282196998596
+Execute-Time: 1.1374521255493164
+Sat Apr  4 08:30:00 CST 2020
+141.27 141.0265484268405 64
+Execute-Time: 1.2979111671447754
+0.1934314736867555
+Alert: 243.99027490615845
+Execute-Time: 1.122053861618042
+Sat Apr  4 09:00:00 CST 2020
+141.41 141.11988176017383 64
+Execute-Time: 1.3142259120941162
+0.21257677283202625
+Alert: 123.14222264289856
+Execute-Time: 1.1702039241790771
+Sat Apr  4 09:30:00 CST 2020
+141.39 141.1065484268405 64
+Execute-Time: 1.3030390739440918
+0.20172776998302666
+Alert: 2.283318042755127
+Execute-Time: 1.0574710369110107
+Sat Apr  4 10:00:01 CST 2020
+141.36 141.08654842684052 64
+Execute-Time: 1.2136220932006836
+0.20236594662122576
+Alert: 842.9206657409668
+Execute-Time: 0.9640812873840332
+Sat Apr  4 10:30:00 CST 2020
+140.94 140.80654842684052 64
+Execute-Time: 1.3467981815338135
+0.17364799790328567
+Alert: 722.3619341850281
+Execute-Time: 1.074958086013794
+Sat Apr  4 11:00:00 CST 2020
+139.73 139.99988176017382 64
+Execute-Time: 1.2439501285552979
+0.09515227140753746
+Alert: 602.0810029506683
+Execute-Time: 1.2097718715667725
+Sat Apr  4 11:30:00 CST 2020
+139.71 139.9865484268405 64
+Execute-Time: 1.237480878829956
+0.0957904480457139
+Alert: 483.7665898799896
+Execute-Time: 1.1634979248046875
+Sat Apr  4 12:00:00 CST 2020
+139.69 139.97321509350718 64
+Execute-Time: 1.1969401836395264
+-0.12282017182059635
+Alert: 362.7268569469452
+Execute-Time: 1.1346890926361084
+Sat Apr  4 12:30:00 CST 2020
+140.44 140.47321509350718 64
+Execute-Time: 1.0589921474456787
+-0.07368057068100997
+Alert: 239.87832498550415
+Execute-Time: 1.0792961120605469
+Sat Apr  4 13:00:00 CST 2020
+140.34 140.4065484268405 64
+Execute-Time: 1.3296520709991455
+-0.08006233706277444
+Alert: 124.02670216560364
+Execute-Time: 1.0920360088348389
+Sat Apr  4 13:30:00 CST 2020
+141.0 140.8465484268405 64
+Execute-Time: 1.1430637836456299
+-0.04240991541034145
+Alert: 2.2791380882263184
+Execute-Time: 1.137319803237915
+Sat Apr  4 14:00:00 CST 2020
+140.1 140.2465484268405 64
+Execute-Time: 1.1568949222564697
+-0.09601675301720825
+Alert: 841.3275022506714
+Execute-Time: 1.0884132385253906
+Sat Apr  4 14:30:00 CST 2020
+140.09 140.23988176017383 64
+Execute-Time: 1.2360129356384277
+-0.09601675301720825
+Alert: 722.7691881656647
+Execute-Time: 1.3094651699066162
+Sat Apr  4 15:00:00 CST 2020
+140.71 140.65321509350716 64
+Execute-Time: 1.2826340198516846
+-0.05453527153569393
+Alert: 602.9898629188538
+Execute-Time: 1.101870059967041
+Sat Apr  4 15:30:00 CST 2020
+140.72 140.65988176017382 64
+Execute-Time: 1.2252960205078125
+-0.05581162481206947
+Alert: 482.86663007736206
+Execute-Time: 1.2836828231811523
+Sat Apr  4 16:00:00 CST 2020
+140.97 140.8265484268405 64
+Execute-Time: 1.225705862045288
+-0.14711861641101986
+Alert: 363.85497426986694
+Execute-Time: 1.1262500286102295
+Sat Apr  4 16:30:01 CST 2020
+141.77 141.35988176017383 64
+Execute-Time: 1.1274609565734863
+-0.09478813208052861
+Alert: 241.77338409423828
+Execute-Time: 1.0533771514892578
+Sat Apr  4 17:00:00 CST 2020
+142.0 141.51321509350717 64
+Execute-Time: 1.2156360149383545
+-0.08202459931699968
+Alert: 122.3318440914154
+Execute-Time: 1.0586810111999512
+Sat Apr  4 17:30:00 CST 2020
+141.69 141.30654842684052 64
+Execute-Time: 1.136281967163086
+-0.10116989846227042
+Alert: 2.384535074234009
+Execute-Time: 0.9859256744384766
+Sat Apr  4 18:00:01 CST 2020
+143.0 142.17988176017386 64
+Execute-Time: 1.3701257705688477
+-0.014377875670251061
+Alert: 842.5770840644836
+Execute-Time: 1.0774598121643066
+Sat Apr  4 18:30:00 CST 2020
+143.67 142.6265484268405 64
+Execute-Time: 1.331395149230957
+0.02646542917304151
+Alert: 723.2649993896484
+Execute-Time: 1.1127979755401611
+Sat Apr  4 19:00:00 CST 2020
+143.54 142.5398817601738 64
+Execute-Time: 1.2498509883880615
+0.016892779600372165
+Alert: 602.6788492202759
+Execute-Time: 1.1591553688049316
+Sat Apr  4 19:30:00 CST 2020
+142.72 141.99321509350716 64
+Execute-Time: 1.201251745223999
+-0.03543770473009644
+Alert: 483.2348470687866
+Execute-Time: 1.2298872470855713
+Sat Apr  4 20:00:00 CST 2020
+140.77 140.69321509350718 64
+Execute-Time: 1.4828879833221436
+-0.24967778488484482
+Alert: 363.32046389579773
+Execute-Time: 1.2840321063995361
+Sat Apr  4 20:30:00 CST 2020
+140.64 140.6065484268405 64
+Execute-Time: 1.224440097808838
+-0.2547831979902564
+Alert: 243.16718816757202
+Execute-Time: 1.0783836841583252
+Sat Apr  4 21:00:00 CST 2020
+141.05 140.87988176017384 64
+Execute-Time: 1.5700647830963135
+-0.2254270726341172
+Alert: 123.10608220100403
+Execute-Time: 1.518622875213623
+Sat Apr  4 21:30:00 CST 2020
+141.2 140.97988176017384 64
+Execute-Time: 1.2340879440307617
+-0.21904530625235274
+Alert: 2.3558290004730225
+Execute-Time: 1.1086368560791016
+Sat Apr  4 22:00:00 CST 2020
+141.86 141.41988176017387 64
+Execute-Time: 1.2549817562103271
+-0.17947835468541307
+Alert: 841.9941370487213
+Execute-Time: 1.1321988105773926
+Sat Apr  4 22:30:00 CST 2020
+141.89 141.43988176017385 64
+Execute-Time: 1.504056692123413
+-0.17820200140906017
+Alert: 723.0774810314178
+Execute-Time: 1.4330642223358154
+Sat Apr  4 23:00:00 CST 2020
+141.64 141.27321509350716 64
+Execute-Time: 1.3084630966186523
+-0.192241887448942
+Alert: 603.9948120117188
+Execute-Time: 1.0785558223724365
+Sat Apr  4 23:30:00 CST 2020
+142.84 142.07321509350717 64
+Execute-Time: 2.1323461532592773
+-0.11629886750592222
+Alert: 483.35037422180176
+Execute-Time: 1.2846660614013672
+Sun Apr  5 00:00:00 CST 2020
+142.26 141.68654842684052 64
+Execute-Time: 1.3921787738800049
+-0.16177194936206307
+Alert: 364.6677849292755
+Execute-Time: 1.738996982574463
+Sun Apr  5 00:30:00 CST 2020
+143.26 142.35321509350717 64
+Execute-Time: 1.3290989398956299
+-0.10050699209707847
+Alert: 244.87839365005493
+Execute-Time: 1.111009120941162
+Sun Apr  5 01:00:00 CST 2020
+143.7 142.6465484268405 64
+Execute-Time: 1.3505661487579346
+-0.07178904337913838
+Alert: 122.91821503639221
+Execute-Time: 1.2682809829711914
+Sun Apr  5 01:30:01 CST 2020
+143.33 142.39988176017383 64
+Execute-Time: 1.4786686897277832
+-0.09540157899169
+Alert: 3.1175897121429443
+Execute-Time: 1.1408469676971436
+Sun Apr  5 02:00:00 CST 2020
+143.01 142.18654842684052 64
+Execute-Time: 1.4054169654846191
+-0.11646140805151273
+Alert: 842.0536291599274
+Execute-Time: 1.054527997970581
+Sun Apr  5 02:30:00 CST 2020
+143.34 142.4065484268405 64
+Execute-Time: 1.5086462497711182
+-0.09476340235349046
+Alert: 722.6501371860504
+Execute-Time: 1.2278590202331543
+Sun Apr  5 03:00:00 CST 2020
+143.07 142.2265484268405 64
+Execute-Time: 1.4157743453979492
+-0.10752693511704248
+Alert: 603.1124033927917
+Execute-Time: 1.2082140445709229
+Sun Apr  5 03:30:00 CST 2020
+142.61 141.91988176017387 64
+Execute-Time: 1.4865672588348389
+-0.1381594137495119
+Alert: 483.3182849884033
+Execute-Time: 1.248533010482788
+Sun Apr  5 04:00:00 CST 2020
+142.85 142.07988176017383 64
+Execute-Time: 1.338331937789917
+-0.12685788725133795
+Alert: 364.70551896095276
+Execute-Time: 1.1499478816986084
+Sun Apr  5 04:30:00 CST 2020
+144.53 143.19988176017384 64
+Execute-Time: 1.4761528968811035
+-0.020920565314002548
+Alert: 243.4042911529541
+Execute-Time: 1.1965291500091553
+Sun Apr  5 05:00:00 CST 2020
+143.4 142.4465484268405 64
+Execute-Time: 1.1191458702087402
+-0.0911199955134343
+Alert: 121.61132311820984
+Execute-Time: 0.9731447696685791
+Sun Apr  5 05:30:00 CST 2020
+143.94 142.80654842684052 64
+Execute-Time: 1.1106750965118408
+-0.060487516880964876
+Alert: 2.1996209621429443
+Execute-Time: 0.9699649810791016
+Sun Apr  5 06:00:00 CST 2020
+144.01 142.85321509350717 64
+Execute-Time: 1.331178903579712
+-0.04900033739378884
+Alert: 843.1431801319122
+Execute-Time: 1.1258690357208252
+Sun Apr  5 06:30:00 CST 2020
+144.1 142.91321509350715 64
+Execute-Time: 1.3066561222076416
+-0.04261857101200173
+Alert: 722.0120639801025
+Execute-Time: 1.051820993423462
+Sun Apr  5 07:00:00 CST 2020
+143.85 142.7465484268405 64
+Execute-Time: 1.5549747943878174
+-0.0655929299863991
+Alert: 604.4648842811584
+Execute-Time: 1.1146306991577148
+Sun Apr  5 07:30:01 CST 2020
+143.86 142.75321509350718 64
+Execute-Time: 1.2818448543548584
+-0.06304022343367066
+Alert: 484.36641001701355
+Execute-Time: 1.3367750644683838
+Sun Apr  5 08:00:00 CST 2020
+144.13 143.72440503116903 65
+Execute-Time: 1.362997055053711
+-0.011425550344765334
+Alert: 361.88398790359497
+Execute-Time: 1.1553750038146973
+Sun Apr  5 08:30:00 CST 2020
+145.13 144.3910716978357 65
+Execute-Time: 1.2272658348083496
+0.05303029011107885
+Alert: 242.72284579277039
+Execute-Time: 1.0218191146850586
+Sun Apr  5 09:00:00 CST 2020
+144.53 143.99107169783574 65
+Execute-Time: 1.2871170043945312
+0.010272455353256937
+Alert: 124.6073522567749
+Execute-Time: 1.2839720249176025
+Sun Apr  5 09:30:01 CST 2020
+144.73 144.12440503116906 65
+Execute-Time: 1.2097558975219727
+0.020483281564056988
+Alert: 2.615048885345459
+Execute-Time: 1.1565618515014648
+Sun Apr  5 10:00:00 CST 2020
+144.82 144.18440503116904 65
+Execute-Time: 1.2761480808258057
+0.030055931136726777
+Alert: 842.477931022644
+Execute-Time: 1.1206300258636475
+Sun Apr  5 10:30:00 CST 2020
+144.16 143.74440503116907 65
+Execute-Time: 1.2648611068725586
+-0.01206372698294178
+Alert: 723.6324779987335
+Execute-Time: 1.2059342861175537
+Sun Apr  5 11:00:00 CST 2020
+144.51 143.97773836450236 65
+Execute-Time: 1.252847671508789
+0.010910631991410291
+Alert: 599.8256349563599
+Execute-Time: 1.0717830657958984
+Sun Apr  5 11:30:01 CST 2020
+143.77 143.48440503116908 65
+Execute-Time: 1.368696689605713
+-0.03759079250999964
+Alert: 483.52116084098816
+Execute-Time: 1.003769874572754
+Sun Apr  5 12:00:01 CST 2020
+143.84 143.53107169783573 65
+Execute-Time: 1.327915906906128
+-0.04105058416084617
+Alert: 363.51041293144226
+Execute-Time: 1.100261926651001
+Sun Apr  5 12:30:00 CST 2020
+142.98 142.95773836450238 65
+Execute-Time: 1.4664137363433838
+-0.0991246582349481
+Alert: 244.1228380203247
+Execute-Time: 1.1147339344024658
+Sun Apr  5 13:00:00 CST 2020
+143.11 143.04440503116905 65
+Execute-Time: 1.4574801921844482
+-0.08955200866227875
+Alert: 123.3972520828247
+Execute-Time: 1.1135637760162354
+Sun Apr  5 13:30:00 CST 2020
+143.63 143.3910716978357 65
+Execute-Time: 1.561424970626831
+-0.05381411692439775
+Alert: 3.2487478256225586
+Execute-Time: 1.0284512042999268
+Sun Apr  5 14:00:00 CST 2020
+142.85 142.87107169783573 65
+Execute-Time: 1.2968521118164062
+-0.10742095453121925
+Alert: 842.2760529518127
+Execute-Time: 1.089717149734497
+Sun Apr  5 14:30:00 CST 2020
+142.75 142.80440503116904 65
+Execute-Time: 1.2724809646606445
+-0.11061183772210148
+Alert: 722.6774950027466
+Execute-Time: 1.059312105178833
+Sun Apr  5 15:30:00 CST 2020
+142.82 142.8510716978357 65
+Execute-Time: 1.2668647766113281
+-0.10869730780759479
+Alert: 724.1787948608398
+Execute-Time: 1.2909221649169922
+Sun Apr  5 16:00:00 CST 2020
+142.67 142.75107169783573 65
+Execute-Time: 1.2602713108062744
+-0.18270475446752066
+Alert: 2.58937406539917
+Execute-Time: 1.3828308582305908
+Sun Apr  5 16:30:00 CST 2020
+142.74 142.79773836450238 65
+Execute-Time: 1.4437592029571533
+-0.17887569463846198
+Alert: 845.5602428913116
+Execute-Time: 1.1292569637298584
+Sun Apr  5 17:00:00 CST 2020
+142.9 142.90440503116906 65
+Execute-Time: 1.4698407649993896
+-0.1680266917894624
+Alert: 721.4837827682495
+Execute-Time: 2.041451930999756
+Sun Apr  5 17:30:00 CST 2020
+143.4 143.2377383645024 65
+Execute-Time: 1.4598071575164795
+-0.13611785988061742
+Alert: 604.142951965332
+Execute-Time: 1.1890192031860352
+Sun Apr  5 18:00:00 CST 2020
+142.65 142.7377383645024 65
+Execute-Time: 1.2332630157470703
+-0.18781016757293223
+Alert: 485.0177080631256
+Execute-Time: 1.4167249202728271
+Sun Apr  5 18:30:00 CST 2020
+142.77 142.8177383645024 65
+Execute-Time: 1.6247291564941406
+-0.17696116472393264
+Alert: 362.71977496147156
+Execute-Time: 1.2032780647277832
+Sun Apr  5 19:00:00 CST 2020
+142.28 142.49107169783574 65
+Execute-Time: 1.3799858093261719
+-0.20759364335640207
+Alert: 241.88430380821228
+Execute-Time: 1.3559372425079346
+Sun Apr  5 19:30:00 CST 2020
+143.02 142.98440503116908 65
+Execute-Time: 1.3438549041748047
+-0.16164492540769793
+Alert: 123.11798024177551
+Execute-Time: 1.0820701122283936
+Sun Apr  5 20:00:01 CST 2020
+142.93 142.92440503116904 65
+Execute-Time: 1.226073980331421
+-0.21620128913193515
+Alert: 2.3329849243164062
+Execute-Time: 1.033940076828003
+Sun Apr  5 20:30:00 CST 2020
+142.98 142.95773836450238 65
+Execute-Time: 1.2906279563903809
+-0.21109587602654623
+Alert: 842.8742120265961
+Execute-Time: 1.1833767890930176
+Sun Apr  5 21:00:00 CST 2020
+143.36 143.2110716978357 65
+Execute-Time: 1.3858962059020996
+-0.18493063386128927
+Alert: 723.3243811130524
+Execute-Time: 1.0999360084533691
+Sun Apr  5 21:30:00 CST 2020
+143.53 143.32440503116905 65
+Execute-Time: 1.1937060356140137
+-0.17727251420317192
+Alert: 599.8722710609436
+Execute-Time: 1.1090419292449951
+Sun Apr  5 22:00:00 CST 2020
+143.78 143.49107169783574 65
+Execute-Time: 1.3496088981628418
+-0.1606799216105843
+Alert: 482.6730651855469
+Execute-Time: 1.1048979759216309
+Sun Apr  5 22:30:00 CST 2020
+143.58 143.3577383645024 65
+Execute-Time: 1.426483154296875
+-0.1728052777359368
+Alert: 366.95564889907837
+Execute-Time: 1.4131388664245605
+Sun Apr  5 23:00:00 CST 2020
+143.15 143.07107169783572 65
+Execute-Time: 1.3001439571380615
+-0.19960869653934754
+Alert: 242.19320011138916
+Execute-Time: 1.069166660308838
+Sun Apr  5 23:30:00 CST 2020
+143.91 143.57773836450238 65
+Execute-Time: 1.4923689365386963
+-0.15174544867611406
+Alert: 123.08951663970947
+Execute-Time: 1.0860717296600342
+Mon Apr  6 00:00:00 CST 2020
+143.68 143.42440503116904 65
+Execute-Time: 1.193842887878418
+-0.1815478058114457
+Alert: 2.4247169494628906
+Execute-Time: 1.1859097480773926
+Mon Apr  6 00:30:00 CST 2020
+143.22 143.1177383645024 65
+Execute-Time: 1.4308297634124756
+-0.209627577891232
+Alert: 844.5042600631714
+Execute-Time: 1.3966259956359863
+Mon Apr  6 01:00:00 CST 2020
+142.67 142.75107169783573 65
+Execute-Time: 1.3373441696166992
+-0.24600364626728943
+Alert: 721.5328161716461
+Execute-Time: 1.048003911972046
+Mon Apr  6 01:30:00 CST 2020
+142.02 142.3177383645024 65
+Execute-Time: 1.3385169506072998
+-0.29322871749236956
+Alert: 604.760812997818
+Execute-Time: 1.1880440711975098
+Mon Apr  6 02:00:00 CST 2020
+143.33 143.19107169783572 65
+Execute-Time: 1.598897933959961
+-0.20579851806215066
+Alert: 491.59234595298767
+Execute-Time: 1.131791114807129
+Mon Apr  6 08:30:00 CST 2020
+143.95 143.55257945483413 66
+Execute-Time: 1.2453911304473877
+-0.24436465967921173
+Alert: 122.69038510322571
+Execute-Time: 1.4894449710845947
+Mon Apr  6 09:00:00 CST 2020
+144.58 143.97257945483412 66
+Execute-Time: 1.5033009052276611
+-0.2067122380268014
+Alert: 2.752159357070923
+Execute-Time: 1.1136298179626465
+Mon Apr  6 09:30:01 CST 2020
+143.86 143.49257945483416 66
+Execute-Time: 1.2657771110534668
+-0.2520227793373291
+Alert: 843.1687171459198
+Execute-Time: 0.99350905418396
+Mon Apr  6 10:00:00 CST 2020
+144.23 143.73924612150077 66
+Execute-Time: 1.408825159072876
+-0.22713389044842502
+Alert: 721.1271040439606
+Execute-Time: 0.981950044631958
+Mon Apr  6 10:30:00 CST 2020
+144.01 143.59257945483412 66
+Execute-Time: 1.3744919300079346
+-0.24117377648830685
+Alert: 603.2713179588318
+Execute-Time: 0.9972319602966309
+Mon Apr  6 11:00:00 CST 2020
+143.77 143.43257945483413 66
+Execute-Time: 1.1334519386291504
+-0.25712819244274066
+Alert: 482.3650529384613
+Execute-Time: 1.145179033279419
+Mon Apr  6 11:30:00 CST 2020
+144.04 143.6125794548341 66
+Execute-Time: 1.1462812423706055
+-0.24053559985015305
+Alert: 362.12797594070435
+Execute-Time: 1.062554121017456
+Mon Apr  6 12:00:00 CST 2020
+144.06 143.62591278816748 66
+Execute-Time: 1.2612683773040771
+-0.21768520432936356
+Alert: 242.4117021560669
+Execute-Time: 1.0852570533752441
+Mon Apr  6 12:30:00 CST 2020
+145.92 144.86591278816744 66
+Execute-Time: 1.4062118530273438
+-0.10089887954305121
+Alert: 122.71662378311157
+Execute-Time: 1.2905528545379639
+Mon Apr  6 13:00:00 CST 2020
+147.99 146.2459127881675 66
+Execute-Time: 1.4416332244873047
+0.030565507921342494
+Alert: 2.9261622428894043
+Execute-Time: 1.133885145187378
+Mon Apr  6 13:30:00 CST 2020
+147.59 145.97924612150078 66
+Execute-Time: 1.1957051753997803
+0.003762089117931744
+Alert: 843.1498599052429
+Execute-Time: 1.0284039974212646
+Mon Apr  6 14:00:01 CST 2020
+148.8 146.78591278816748 66
+Execute-Time: 1.2293391227722168
+0.08161963897548086
+Alert: 723.2854311466217
+Execute-Time: 1.0249857902526855
+Mon Apr  6 14:30:00 CST 2020
+149.08 146.97257945483412 66
+Execute-Time: 1.3100998401641846
+0.10076493812077425
+Alert: 602.3737580776215
+Execute-Time: 1.0631663799285889
+Mon Apr  6 15:00:00 CST 2020
+150.25 147.75257945483415 66
+Execute-Time: 1.4963428974151611
+0.1722407215965589
+Alert: 482.29203510284424
+Execute-Time: 1.0565319061279297
+Mon Apr  6 15:30:00 CST 2020
+149.19 147.04591278816747 66
+Execute-Time: 1.2520079612731934
+0.10076493812077425
+Alert: 362.4818539619446
+Execute-Time: 1.0338881015777588
+Mon Apr  6 16:00:00 CST 2020
+149.46 147.22591278816745 66
+Execute-Time: 1.2699668407440186
+0.32395839108997837
+Alert: 242.07109665870667
+Execute-Time: 1.1184189319610596
+Mon Apr  6 16:30:00 CST 2020
+150.22 147.7325794548341 66
+Execute-Time: 1.4519879817962646
+0.3750125221441172
+Alert: 123.7045567035675
+Execute-Time: 1.16097092628479
+Mon Apr  6 17:00:00 CST 2020
+149.77 147.43257945483413 66
+Execute-Time: 1.5096919536590576
+0.34565639678797755
+Alert: 2.983319044113159
+Execute-Time: 1.1163480281829834
+Mon Apr  6 17:30:00 CST 2020
+154.69 150.71257945483413 66
+Execute-Time: 1.352146863937378
+0.6628301859617625
+Alert: 843.4026439189911
+Execute-Time: 1.3313260078430176
+Mon Apr  6 18:00:00 CST 2020
+154.14 150.34591278816745 66
+Execute-Time: 1.182636022567749
+0.6264541175856824
+Alert: 721.1168179512024
+Execute-Time: 1.0057098865509033
+Mon Apr  6 18:30:01 CST 2020
+154.43 150.5392461215008 66
+Execute-Time: 1.6085739135742188
+0.6462375933691749
+Alert: 603.444041967392
+Execute-Time: 1.2401621341705322
+Mon Apr  6 19:00:00 CST 2020
+153.04 149.6125794548341 66
+Execute-Time: 1.2220051288604736
+0.5556165107480968
+Alert: 482.88816714286804
+Execute-Time: 1.3330440521240234
+Mon Apr  6 19:30:00 CST 2020
+153.83 150.1392461215008 66
+Execute-Time: 1.2855801582336426
+0.6034797586113303
+Alert: 365.028785943985
+Execute-Time: 1.3280041217803955
+Mon Apr  6 20:00:00 CST 2020
+154.24 150.41257945483414 66
+Execute-Time: 1.4411859512329102
+0.8927563860944829
+Alert: 244.4587140083313
+Execute-Time: 1.4693098068237305
+Mon Apr  6 20:30:00 CST 2020
+154.19 150.3792461215008 66
+Execute-Time: 1.4410300254821777
+0.8863746197126958
+Alert: 124.23870897293091
+Execute-Time: 1.4975957870483398
+Mon Apr  6 21:00:00 CST 2020
+156.21 151.72591278816745 66
+Execute-Time: 1.132936954498291
+1.0165626539007362
+Ready_toBuy: 1083.1195850372314
+Execute-Time: 1.1276440620422363
+Mon Apr  6 21:30:00 CST 2020
+158.39 153.1792461215008 66
+Execute-Time: 1.3768658638000488
+1.1601523974904824
+Ready_toBuy: 1080.1931676864624
+Execute-Time: 1.092026948928833
+Mon Apr  6 22:00:00 CST 2020
+155.84 151.47924612150078 66
+Execute-Time: 1.27876615524292
+0.9955028248409135
+Execute-Time: 1.1362102031707764
+Mon Apr  6 22:30:00 CST 2020
+155.16 151.02591278816746 66
+Execute-Time: 1.572655200958252
+0.9521068134449151
+Alert: 844.9151639938354
+Execute-Time: 1.2047679424285889
+Mon Apr  6 23:00:01 CST 2020
+155.94 151.54591278816747 66
+Execute-Time: 1.4069609642028809
+1.0044372977753837
+Ready_toBuy: 1318.6767196655273
+Execute-Time: 1.1100308895111084
+Mon Apr  6 23:30:00 CST 2020
+156.69 152.04591278816747 66
+Execute-Time: 1.164193868637085
+1.0542150755531692
+Ready_toBuy: 1201.5798528194427
+Execute-Time: 1.3069159984588623
+Tue Apr  7 00:00:00 CST 2020
+161.39 155.1792461215008 66
+Execute-Time: 1.3852591514587402
+1.6960742873644685
+Buy: 2.6637909412384033
+Execute-Time: 1.0754239559173584
+Tue Apr  7 00:30:00 CST 2020
+163.0 156.25257945483415 66
+Execute-Time: 1.6539571285247803
+1.7981825494727457
+Buy: 3.4638259410858154
+Execute-Time: 1.1985268592834473
+Tue Apr  7 01:00:00 CST 2020
+163.6 156.65257945483413 66
+Execute-Time: 1.4262869358062744
+1.8466839739741783
+Buy: 1799.3737909793854
+Execute-Time: 1.1903729438781738
+Tue Apr  7 01:30:00 CST 2020
+164.59 157.31257945483412 66
+Execute-Time: 1.2106752395629883
+1.9060344013246104
+Buy: 1682.7426581382751
+Execute-Time: 1.2092211246490479
+Tue Apr  7 02:00:00 CST 2020
+165.91 158.19257945483412 66
+Execute-Time: 1.4345359802246094
+1.9870828343730191
+Buy: 1563.7438173294067
+Execute-Time: 1.1793200969696045
+Tue Apr  7 02:30:00 CST 2020
+164.23 157.0725794548341 66
+Execute-Time: 1.2467682361602783
+1.8843363956266113
+Buy: 1562.8639471530914
+Execute-Time: 1.1791250705718994
+Tue Apr  7 03:00:00 CST 2020
+165.91 158.19257945483412 66
+Execute-Time: 1.2757368087768555
+1.9877210110112182
+Buy: 1562.3208429813385
+Execute-Time: 1.212224006652832
+Tue Apr  7 03:30:00 CST 2020
+166.67 158.69924612150078 66
+Execute-Time: 1.2760403156280518
+2.0438805551707686
+Buy: 1442.2934620380402
+Execute-Time: 1.1607611179351807
+Tue Apr  7 04:00:01 CST 2020
+165.22 157.7325794548341 66
+Execute-Time: 1.2846307754516602
+2.1836886112963665
+Execute-Time: 1.3746051788330078
+Tue Apr  7 04:30:00 CST 2020
+163.6 156.65257945483413 66
+Execute-Time: 1.2645702362060547
+2.0815803491881124
+Execute-Time: 1.1170191764831543
+Tue Apr  7 05:00:00 CST 2020
+163.84 156.81257945483412 66
+Execute-Time: 1.8392870426177979
+2.100725648333406
+Execute-Time: 1.240476131439209
+Tue Apr  7 05:30:00 CST 2020
+165.62 157.99924612150082 66
+Execute-Time: 1.4095878601074219
+2.2143210899288586
+Execute-Time: 1.3517062664031982
+Tue Apr  7 06:00:00 CST 2020
+165.95 158.2192461215008 66
+Execute-Time: 1.5049033164978027
+2.234742742350505
+Execute-Time: 1.1814472675323486
+Tue Apr  7 06:30:00 CST 2020
+164.47 157.2325794548341 66
+Execute-Time: 1.9671638011932373
+2.1447598363675806
+Execute-Time: 1.276521921157837
+Tue Apr  7 07:00:00 CST 2020
+165.54 157.94591278816745 66
+Execute-Time: 1.1879210472106934
+2.2124065600143292
+Execute-Time: 1.2374799251556396
+Tue Apr  7 07:30:00 CST 2020
+168.31 159.79257945483414 66
+Execute-Time: 1.6224448680877686
+2.39109601870378
+Execute-Time: 1.2996389865875244
+Tue Apr  7 08:00:01 CST 2020
+171.32 168.1464153738336 67
+Execute-Time: 1.521702766418457
+2.809799363392135
+Execute-Time: 1.2169528007507324
+Tue Apr  7 08:30:00 CST 2020
+174.63 170.35308204050025 67
+Execute-Time: 1.3900108337402344
+3.022312183904937
+Execute-Time: 1.117422103881836
+Tue Apr  7 09:00:00 CST 2020
+171.41 168.2064153738336 67
+Execute-Time: 1.321899175643921
+2.8117138933066412
+Execute-Time: 1.0689711570739746
+Tue Apr  7 09:30:00 CST 2020
+172.91 169.2064153738336 67
+Execute-Time: 1.2340202331542969
+2.9099930955858593
+Execute-Time: 1.0121898651123047
+Tue Apr  7 10:00:00 CST 2020
+170.0 167.2664153738336 67
+Execute-Time: 1.3543920516967773
+2.7198164574092107
+Execute-Time: 1.032911777496338
+Tue Apr  7 10:30:01 CST 2020
+168.1 165.99974870716693 67
+Execute-Time: 1.2592189311981201
+2.600477426070192
+Execute-Time: 1.248363971710205
+Tue Apr  7 11:00:00 CST 2020
+169.94 167.2264153738336 67
+Execute-Time: 1.168414831161499
+2.7223691639619165
+Execute-Time: 1.0979957580566406
+Tue Apr  7 11:30:00 CST 2020
+169.3 166.79974870716694 67
+Execute-Time: 1.352733850479126
+2.6796113292040946
+Execute-Time: 0.9768340587615967
+Tue Apr  7 12:00:00 CST 2020
+170.99 167.9264153738336 67
+Execute-Time: 1.189824104309082
+2.734504484366683
+Execute-Time: 0.9858222007751465
+Tue Apr  7 12:30:00 CST 2020
+170.14 167.35974870716691 67
+Execute-Time: 1.2867069244384766
+2.6751540570162513
+Execute-Time: 1.0669729709625244
+Tue Apr  7 13:00:00 CST 2020
+169.33 166.81974870716695 67
+Execute-Time: 1.2579011917114258
+2.6279289857911943
+Execute-Time: 1.065753698348999
+Tue Apr  7 13:30:00 CST 2020
+169.79 167.1264153738336 67
+Execute-Time: 1.363044023513794
+2.6566469345091344
+Execute-Time: 0.9904892444610596
+Tue Apr  7 14:00:00 CST 2020
+170.14 167.35974870716691 67
+Execute-Time: 1.1490259170532227
+2.6726013504635455
+Execute-Time: 0.9778990745544434
+Tue Apr  7 14:30:00 CST 2020
+169.81 167.13974870716694 67
+Execute-Time: 1.2463247776031494
+2.65919964106184
+Execute-Time: 1.1722970008850098
+Tue Apr  7 15:00:00 CST 2020
+170.99 167.9264153738336 67
+Execute-Time: 1.2561399936676025
+2.7293990712612715
+Execute-Time: 1.1100130081176758
+Tue Apr  7 15:30:00 CST 2020
+173.25 169.43308204050027 67
+Execute-Time: 1.510653018951416
+2.881285111147312
+Execute-Time: 1.1997039318084717
+Tue Apr  7 16:00:01 CST 2020
+173.8 169.79974870716694 67
+Execute-Time: 1.415499210357666
+2.7929473376024294
+Execute-Time: 1.1166987419128418
+Tue Apr  7 16:30:00 CST 2020
+172.66 169.03974870716692 67
+Execute-Time: 1.3100740909576416
+2.718280670935762
+Execute-Time: 0.990166187286377
+Tue Apr  7 17:00:00 CST 2020
+172.96 169.23974870716694 67
+Execute-Time: 1.1477627754211426
+2.736787793442879
+Execute-Time: 1.1177358627319336
+Tue Apr  7 17:30:00 CST 2020
+172.08 168.65308204050027 67
+Execute-Time: 1.6893181800842285
+2.6774373660924464
+Execute-Time: 1.0651047229766846
+Tue Apr  7 18:00:01 CST 2020
+173.74 169.75974870716695 67
+Execute-Time: 1.180840253829956
+2.786565571220665
+Execute-Time: 1.029458999633789
+Tue Apr  7 18:30:00 CST 2020
+173.91 169.87308204050026 67
+Execute-Time: 1.1619560718536377
+2.796776397431488
+Execute-Time: 1.0670931339263916
+Tue Apr  7 19:00:00 CST 2020
+174.41 170.2064153738336 67
+Execute-Time: 1.157088041305542
+2.8248561695112517
+Execute-Time: 1.203523874282837
+Tue Apr  7 19:30:00 CST 2020
+173.26 169.43974870716693 67
+Execute-Time: 1.322479009628296
+2.754018562673643
+Execute-Time: 1.1177489757537842
+Tue Apr  7 20:00:01 CST 2020
+172.35 168.83308204050027 67
+Execute-Time: 3.5887928009033203
+2.379244029276741
+Execute-Time: 1.2992987632751465
+Tue Apr  7 20:30:01 CST 2020
+173.01 169.27308204050027 67
+Execute-Time: 1.6306331157684326
+2.413705567738292
+Execute-Time: 1.5771069526672363
+Tue Apr  7 21:00:01 CST 2020
+170.4 167.53308204050026 67
+Execute-Time: 1.4376780986785889
+2.245226935259642
+Execute-Time: 1.2243280410766602
+Tue Apr  7 21:30:00 CST 2020
+172.29 168.79308204050025 67
+Execute-Time: 1.258504867553711
+2.369033203065918
+Execute-Time: 0.999143123626709
+Tue Apr  7 22:00:00 CST 2020
+171.04 167.95974870716694 67
+Execute-Time: 1.5450539588928223
+2.2841557101884273
+Execute-Time: 1.1957759857177734
+Tue Apr  7 22:30:00 CST 2020
+168.93 166.55308204050027 67
+Execute-Time: 1.3863720893859863
+2.153967676000387
+Execute-Time: 0.9794509410858154
+Tue Apr  7 23:00:00 CST 2020
+168.28 166.11974870716693 67
+Execute-Time: 1.752472162246704
+2.113124371157072
+Execute-Time: 1.113917350769043
+Tue Apr  7 23:30:00 CST 2020
+169.48 166.91974870716692 67
+Execute-Time: 1.382331132888794
+2.186514684547409
+Execute-Time: 1.162611961364746
+Wed Apr  8 00:00:00 CST 2020
+169.05 166.63308204050028 67
+Execute-Time: 1.5700302124023438
+1.6523677039081655
+Execute-Time: 1.8404409885406494
+Wed Apr  8 00:30:00 CST 2020
+171.71 168.4064153738336 67
+Execute-Time: 1.4218828678131104
+1.8202081597486162
+Execute-Time: 1.213721752166748
+Wed Apr  8 01:00:00 CST 2020
+172.73 169.0864153738336 67
+Execute-Time: 1.396704912185669
+1.889769413309872
+Execute-Time: 1.001006841659546
+Wed Apr  8 01:30:00 CST 2020
+171.14 168.0264153738336 67
+Execute-Time: 1.4634449481964111
+1.784470268010713
+Execute-Time: 1.1334547996520996
+Wed Apr  8 02:00:01 CST 2020
+171.97 168.57974870716694 67
+Execute-Time: 1.365664005279541
+1.8406298121702624
+Execute-Time: 1.4080169200897217
+Wed Apr  8 02:30:00 CST 2020
+169.84 167.15974870716693 67
+Execute-Time: 1.3646509647369385
+1.7021454816859283
+Execute-Time: 1.5076279640197754
+Wed Apr  8 03:00:00 CST 2020
+169.61 167.00641537383362 67
+Execute-Time: 1.727640151977539
+1.6823620059024584
+Execute-Time: 1.1246941089630127
+Wed Apr  8 03:30:00 CST 2020
+170.09 167.3264153738336 67
+Execute-Time: 1.2866322994232178
+1.7200144275548919
+Execute-Time: 1.0219812393188477
+Wed Apr  8 04:00:00 CST 2020
+169.09 166.65974870716693 67
+Execute-Time: 1.393326997756958
+1.1849442468803515
+Execute-Time: 1.162160873413086
+Wed Apr  8 04:30:00 CST 2020
+165.79 164.45974870716694 67
+Execute-Time: 1.3688890933990479
+0.9666878366239384
+Alert: 2.4411940574645996
+Execute-Time: 1.1512451171875
+Wed Apr  8 05:00:00 CST 2020
+163.55 162.9664153738336 67
+Execute-Time: 1.3393516540527344
+0.8320325659686629
+Alert: 722.2608981132507
+Execute-Time: 1.079754114151001
+Wed Apr  8 05:30:00 CST 2020
+165.38 164.1864153738336 67
+Execute-Time: 1.2957179546356201
+0.9494570673931522
+Alert: 541.6321411132812
+Execute-Time: 1.1066491603851318
+Wed Apr  8 06:00:00 CST 2020
+166.94 165.2264153738336 67
+Execute-Time: 1.3622939586639404
+1.0439072098433115
+Execute-Time: 1.1277408599853516
+Wed Apr  8 06:30:00 CST 2020
+165.56 164.3064153738336 67
+Execute-Time: 1.191525936126709
+0.9564770104131153
+Alert: 183.24669814109802
+Execute-Time: 1.1052119731903076
+Wed Apr  8 07:00:00 CST 2020
+166.38 164.85308204050025 67
+Execute-Time: 1.300901174545288
+1.0119983779344892
+Execute-Time: 1.4820489883422852
+Wed Apr  8 07:30:00 CST 2020
+164.46 163.57308204050028 67
+Execute-Time: 1.3692851066589355
+0.8932975232336249
+Alert: 542.0203950405121
+Execute-Time: 0.9779303073883057
+Wed Apr  8 08:00:00 CST 2020
+164.59 164.2888051246112 68
+Execute-Time: 1.457563877105713
+0.31708213272813524
+Alert: 362.8154399394989
+Execute-Time: 1.0459110736846924
+Wed Apr  8 08:30:00 CST 2020
+164.58 164.28213845794454 68
+Execute-Time: 1.3176190853118896
+0.31708213272813524
+Alert: 183.03534317016602
+Execute-Time: 1.1866250038146973
+Wed Apr  8 09:00:00 CST 2020
+164.46 164.20213845794453 68
+Execute-Time: 1.3480861186981201
+0.3068713065173121
+Alert: 2.3751730918884277
+Execute-Time: 1.132314920425415
+Wed Apr  8 09:30:01 CST 2020
+165.03 164.58213845794452 68
+Execute-Time: 1.2368929386138916
+0.34324737489339263
+Alert: 902.1597492694855
+Execute-Time: 1.2350709438323975
+Wed Apr  8 10:00:00 CST 2020
+163.87 163.8088051246112 68
+Execute-Time: 1.4536447525024414
+0.26921888486490175
+Alert: 723.9024367332458
+Execute-Time: 1.3227479457855225
+Wed Apr  8 10:30:00 CST 2020
+165.85 165.1288051246112 68
+Execute-Time: 1.8995139598846436
+0.3949396825856848
+Alert: 365.0168011188507
+Execute-Time: 1.2021729946136475
+Wed Apr  8 11:00:01 CST 2020
+168.76 167.0688051246112 68
+Execute-Time: 1.4366919994354248
+0.5768200244660395
+Alert: 363.716609954834
+Execute-Time: 1.2367558479309082
+Wed Apr  8 11:30:00 CST 2020
+172.54 169.58880512461118 68
+Execute-Time: 1.394899845123291
+0.8193271469731354
+Alert: 2.502257823944092
+Execute-Time: 1.1503889560699463
+Wed Apr  8 12:00:00 CST 2020
+172.29 169.42213845794453 68
+Execute-Time: 1.3310189247131348
+0.6349375996996676
+Alert: 902.011552810669
+Execute-Time: 1.1216940879821777
+Wed Apr  8 12:30:00 CST 2020
+171.65 168.99547179127788 68
+Execute-Time: 1.2017688751220703
+0.5883507051127648
+Alert: 723.2940838336945
+Execute-Time: 1.1309289932250977
+Wed Apr  8 13:00:00 CST 2020
+172.39 169.4888051246112 68
+Execute-Time: 1.4374310970306396
+0.6406811894432556
+Alert: 723.375675201416
+Execute-Time: 1.1368920803070068
+Wed Apr  8 13:30:00 CST 2020
+171.95 169.19547179127787 68
+Execute-Time: 1.1726140975952148
+0.6119632407253155
+Alert: 362.6759150028229
+Execute-Time: 1.0853350162506104
+Wed Apr  8 14:00:00 CST 2020
+174.17 170.67547179127783 68
+Execute-Time: 1.5774259567260742
+0.7561911609532377
+Alert: 362.9372470378876
+Execute-Time: 1.2514100074768066
+Wed Apr  8 14:30:00 CST 2020
+171.01 168.5688051246112 68
+Execute-Time: 1.4446048736572266
+0.5526128133748838
+Alert: 2.3499069213867188
+Execute-Time: 1.173759937286377
+Wed Apr  8 15:00:00 CST 2020
+170.18 168.01547179127786 68
+Execute-Time: 1.311769962310791
+0.501558682320745
+Alert: 725.0730350017548
+Execute-Time: 1.095466136932373
+Wed Apr  8 15:30:00 CST 2020
+171.04 168.58880512461118 68
+Execute-Time: 1.405310869216919
+0.5545273432894131
+Alert: 721.897164106369
+Execute-Time: 1.0537400245666504
+Wed Apr  8 16:00:00 CST 2020
+170.32 168.1088051246112 68
+Execute-Time: 1.4325368404388428
+0.23166977212398177
+Alert: 362.2260789871216
+Execute-Time: 1.1238200664520264
+Wed Apr  8 16:30:00 CST 2020
+169.99 167.8888051246112 68
+Execute-Time: 1.5080339908599854
+0.20805723651145325
+Alert: 182.70090317726135
+Execute-Time: 1.5922648906707764
+Wed Apr  8 17:00:00 CST 2020
+168.76 167.0688051246112 68
+Execute-Time: 1.2938928604125977
+0.12381792027214011
+Alert: 2.438596725463867
+Execute-Time: 1.1246931552886963
+Wed Apr  8 17:30:00 CST 2020
+170.1 167.96213845794452 68
+Execute-Time: 3.0209529399871826
+0.2074190598732768
+Alert: 890.8766691684723
+Execute-Time: 1.1590218544006348
+Wed Apr  8 18:00:00 CST 2020
+168.9 167.16213845794454 68
+Execute-Time: 1.3311707973480225
+0.14232504277925706
+Alert: 542.3994481563568
+Execute-Time: 1.4553756713867188
+Wed Apr  8 18:30:00 CST 2020
+169.48 167.5488051246112 68
+Execute-Time: 1.3676948547363281
+0.17933928779351316
+Alert: 363.0910210609436
+Execute-Time: 1.1194891929626465
+Wed Apr  8 19:00:00 CST 2020
+167.14 165.9888051246112 68
+Execute-Time: 1.305840253829956
+0.030005954460156303
+Alert: 182.51560187339783
+Execute-Time: 1.074375867843628
+Wed Apr  8 19:30:00 CST 2020
+168.26 166.73547179127786 68
+Execute-Time: 1.3643410205841064
+0.09382361827782404
+Alert: 3.064110040664673
+Execute-Time: 1.0613789558410645
+Wed Apr  8 20:00:00 CST 2020
+168.62 166.97547179127787 68
+Execute-Time: 1.2212440967559814
+-0.1850908869979886
+Alert: 2.4232680797576904
+Execute-Time: 1.1134529113769531
+Wed Apr  8 20:30:00 CST 2020
+168.19 166.6888051246112 68
+Execute-Time: 1.3065409660339355
+-0.2125324824395758
+Alert: 722.5117189884186
+Execute-Time: 1.4021739959716797
+Wed Apr  8 21:00:00 CST 2020
+168.97 167.2088051246112 68
+Execute-Time: 1.2941501140594482
+-0.1672219411290259
+Alert: 362.76801800727844
+Execute-Time: 1.3221681118011475
+Wed Apr  8 21:30:00 CST 2020
+168.64 166.9888051246112 68
+Execute-Time: 1.2032840251922607
+-0.18955812346522372
+Alert: 183.0022702217102
+Execute-Time: 1.0133402347564697
+Wed Apr  8 22:00:00 CST 2020
+166.83 165.78213845794454 68
+Execute-Time: 1.2952518463134766
+-0.2993245052315956
+Alert: 2.3433542251586914
+Execute-Time: 0.9829471111297607
+Wed Apr  8 22:30:00 CST 2020
+168.43 166.8488051246112 68
+Execute-Time: 1.3245949745178223
+-0.19976894967602465
+Alert: 722.5032589435577
+Execute-Time: 1.0052690505981445
+Wed Apr  8 23:00:00 CST 2020
+168.56 166.93547179127788 68
+Execute-Time: 1.428299903869629
+-0.19593988984698818
+Alert: 541.9426889419556
+Execute-Time: 1.0709819793701172
+Wed Apr  8 23:30:00 CST 2020
+169.76 167.73547179127786 68
+Execute-Time: 1.4852981567382812
+-0.11616781007488708
+Alert: 540.4082040786743
+Execute-Time: 1.1936938762664795
+Thu Apr  9 00:00:00 CST 2020
+168.98 167.21547179127785 68
+Execute-Time: 1.7361500263214111
+-0.40306204189562767
+Alert: 186.2128667831421
+Execute-Time: 1.2864010334014893
+Thu Apr  9 00:30:00 CST 2020
+169.99 167.8888051246112 68
+Execute-Time: 2.008985996246338
+-0.34115890799248927
+Alert: 2.6997740268707275
+Execute-Time: 1.0904738903045654
+Thu Apr  9 01:00:00 CST 2020
+170.48 168.21547179127785 68
+Execute-Time: 1.4184720516204834
+-0.30542101625463136
+Alert: 720.442461013794
+Execute-Time: 1.2823622226715088
