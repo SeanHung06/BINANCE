@@ -79,6 +79,20 @@ close = [float(x) for x in four_df['close']]
 four_df['MACD'],four_df['MACDsignal'],four_df['MACDhist'] = talib.MACD(np.array(close),
                             fastperiod=12, slowperiod=26, signalperiod=9) 
 
+# Trying to predict the next Price to Corss MACD hist
+for pa in range(int(float(trade_price)-50),int(float(trade_price)+50)):
+    A = [float(x) for x in four_df['close']]
+    predict = A[:-1]
+    predict.append(pa)
+    four_df['MACDpre'],four_df['MACDpresignal'],four_df['MACDprehis'] = talib.MACD(np.array(predict),
+                            fastperiod=12, slowperiod=26, signalperiod=9) 
+    if(four_df['MACDprehis'].iloc[-1]>1):
+        print('Predict_price',four_df['MACDprehis'].iloc[-1],pa)
+        break
+Predict_price = open('./Signal/Predict_price.txt', 'w')   
+Predict_price.write(str(pa))
+
+
 four_df.sort_values(by=['Open_time'], inplace=True, ascending=False)
 four_df.to_excel("./Data/binance_ETHUSDT_MACD.xlsx")
 

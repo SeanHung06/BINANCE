@@ -24,6 +24,8 @@ reader_f1 = csv.reader(f_1)
 EMA_ALL = open('./Signal/EMA.txt', 'r')
 MACD = open('./Signal/MACD.txt', 'r')
 MACD_data = MACD.read()
+Predict_price = open('./Signal/Predict_price.txt', 'r')
+Predict_price_data = Predict_price.read()
 
 for row in reader:
     content += '<font size="6">'+str(row)+'<br></font>'
@@ -35,6 +37,7 @@ for row_f1 in reader_f1:
 for row_ema in EMA_ALL:
     content += '<font size="6">'+'EMA:'+str(row_ema)+'<br></font>'
 content += '<font size="6">'+'MACD:'+MACD_data+'<br></font>'
+content += '<font size="6">'+'Predict Price:'+Predict_price_data+'<br></font>'
 content += '<font size="6">Regards Sean</font>'
 part1 = MIMEText(content)
 

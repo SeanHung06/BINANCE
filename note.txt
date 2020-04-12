@@ -69,3 +69,7 @@ grep permitted  /var/log/system.log *
 --Shell
 check for working shell 
 ps -p $$   
+
+--ipython 
+
+pd.set_option('display.max_columns', None)
