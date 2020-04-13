@@ -40,7 +40,8 @@ Price = open('./Signal/Price.txt', 'r')
 Price_data = Price.read()
 Predict_price = open('./Signal/Predict_price.txt', 'r')
 Predict_price_data = Predict_price.read()
-
+Predict_sell_price = open('./Signal/Predict_sell_price.txt', 'r')
+Predict_sell_price_data = Predict_sell_price.read()
 
 #For EMA strategy
 if buy_sell == '0' :
@@ -71,6 +72,7 @@ elif MACD_signal == '5' :
 content1 += '<font size="6">'+'MACD:'+MACD_data+'<br></font>'
 content1 += '<font size="6">'+'Price:'+Price_data+'<br></font>'
 content1 += '<font size="6">'+'Predict Price:'+Predict_price_data+'<br></font>'
+content1 += '<font size="6">'+'Predict Sell Price:'+Predict_sell_price_data+'<br></font>'
 
 
 content += '<font size="6">Regards Sean</font>'

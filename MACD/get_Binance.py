@@ -92,6 +92,21 @@ for pa in range(int(float(trade_price)-50),int(float(trade_price)+50)):
 Predict_price = open('./Signal/Predict_price.txt', 'w')   
 Predict_price.write(str(pa))
 
+for ps in reversed(range(int(float(trade_price)-50),int(float(trade_price)+50))):
+    S = [float(x) for x in four_df['close']]
+    predict_sell = S[:-1]
+    predict_sell.append(ps)
+    four_df['MACD_sell'],four_df['MACD_sell_signal'],four_df['MACD_sell_his'] = talib.MACD(np.array(predict_sell),
+                            fastperiod=12, slowperiod=26, signalperiod=9) 
+    if(four_df['MACD_sell_his'].iloc[-1]<-1):
+        print('Predict_Sell_price',four_df['MACD_sell_his'].iloc[-1],ps)
+        break
+
+Predict_sell_price = open('./Signal/Predict_sell_price.txt', 'w')   
+Predict_sell_price.write(str(ps))
+
+
+
 
 four_df.sort_values(by=['Open_time'], inplace=True, ascending=False)
 four_df.to_excel("./Data/binance_ETHUSDT_MACD.xlsx")
