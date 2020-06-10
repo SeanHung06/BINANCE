@@ -160,7 +160,7 @@ elif (float(four_df['MACDhist'].iloc[2]) > -1 and float(four_df['MACDhist'].iloc
       
     
     
-elif (float(four_df['MACDhist'].iloc[0]) > -0.99 and float(four_df['MACDhist'].iloc[0]) < 0.99 ):
+elif (float(four_df['MACDhist'].iloc[0]) > 0.49 or float(four_df['MACDhist'].iloc[0]) < -0.5 ):
     Alert_time = time.time()
     ## Warning
     Alert_time_pre_data = open('./Signal/Alert_time.txt', 'r')
