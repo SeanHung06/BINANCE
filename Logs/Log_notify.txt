@@ -49604,3 +49604,496 @@ Predict_price 1.010474539559855 474
 Predict_Sell_price -1.0316907026053652 442
 -1.9564086513233088
 Execute-Time: 1.2466211318969727
+Mon Aug 17 20:30:00 CST 2020
+428.74 430.1110195055732 78
+Execute-Time: 1.4726440906524658
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.8772747481893841
+Execute-Time: 1.6964008808135986
+Mon Aug 17 20:45:00 CST 2020
+429.47 430.5976861722399 78
+Execute-Time: 1.4513897895812988
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.835155090069784
+Execute-Time: 1.5399341583251953
+Mon Aug 17 21:00:01 CST 2020
+425.9 428.21768617223984 78
+Execute-Time: 2.818319320678711
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-2.068089563004187
+Execute-Time: 2.068527936935425
+Mon Aug 17 21:15:00 CST 2020
+427.3 429.1510195055732 78
+Execute-Time: 1.5862410068511963
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.9698103607250141
+Execute-Time: 1.491938829421997
+Mon Aug 17 21:30:00 CST 2020
+426.15 428.3843528389065 78
+Execute-Time: 1.3188018798828125
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-2.060431443346115
+Execute-Time: 1.367192029953003
+Mon Aug 17 21:45:00 CST 2020
+429.08 430.3376861722398 78
+Execute-Time: 1.3132169246673584
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.8530240359386791
+Execute-Time: 1.5051510334014893
+Mon Aug 17 22:00:00 CST 2020
+429.81 430.82435283890646 78
+Execute-Time: 1.2012312412261963
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.8006935516082105
+Execute-Time: 1.121734857559204
+Mon Aug 17 22:15:00 CST 2020
+429.67 430.73101950557316 78
+Execute-Time: 1.4532420635223389
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.8383459732606662
+Execute-Time: 1.2671871185302734
+Mon Aug 17 22:30:01 CST 2020
+428.19 429.7443528389065 78
+Execute-Time: 1.1727769374847412
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.912374463289134
+Execute-Time: 1.2391738891601562
+Mon Aug 17 22:45:00 CST 2020
+431.31 431.82435283890646 78
+Execute-Time: 1.7245028018951416
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.7075197624344494
+Execute-Time: 1.4021151065826416
+Mon Aug 17 23:00:00 CST 2020
+431.37 431.86435283890654 78
+Execute-Time: 1.547058343887329
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.7094342923489325
+Execute-Time: 1.3790318965911865
+Mon Aug 17 23:15:00 CST 2020
+430.4 431.21768617223984 78
+Execute-Time: 1.5993428230285645
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.7706992496138714
+Execute-Time: 1.2149620056152344
+Mon Aug 17 23:30:00 CST 2020
+431.43 431.9043528389065 78
+Execute-Time: 1.431839942932129
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.69730893622358
+Execute-Time: 1.5563430786132812
+Mon Aug 17 23:45:00 CST 2020
+432.1 432.3510195055732 78
+Execute-Time: 1.537914752960205
+Predict_price 1.010474539559855 474
+Predict_Sell_price -1.0316907026053652 442
+-1.6768872838019337
+Execute-Time: 1.2340648174285889
+Tue Aug 18 00:00:01 CST 2020
+440.94 438.2443528389065 78
+Execute-Time: 1.2775120735168457
+Predict_price 1.0165230675281762 465
+Predict_Sell_price -1.0256421746371345 433
+-0.5240353370302655
+Alert: 3.450019121170044
+Execute-Time: 1.25736403465271
+Tue Aug 18 00:15:00 CST 2020
+439.59 437.34435283890645 78
+Execute-Time: 1.710817813873291
+Predict_price 1.0165230675281762 465
+Predict_Sell_price -1.0256421746371345 433
+-0.6038074168023666
+Alert: 901.838103055954
+Execute-Time: 1.322667121887207
+Tue Aug 18 00:30:00 CST 2020
+442.1 439.01768617223985 78
+Execute-Time: 1.394577980041504
+Predict_price 1.0165230675281762 465
+Predict_Sell_price -1.0256421746371345 433
+-0.45702679002169333
+Execute-Time: 1.137402057647705
+Tue Aug 18 19:15:00 CST 2020
+431.47 431.4947842796355 79
+Execute-Time: 1.163290023803711
+Predict_price 1.0464682154896598 468
+Predict_Sell_price -1.059514690493204 435
+-1.2841528671314046
+Execute-Time: 1.3416619300842285
+Tue Aug 18 19:30:01 CST 2020
+430.69 430.9747842796355 79
+Execute-Time: 1.4392671585083008
+Predict_price 1.0464682154896598 468
+Predict_Sell_price -1.059514690493204 435
+-1.3441414711199906
+Execute-Time: 1.1976430416107178
+Tue Aug 18 19:45:00 CST 2020
+429.02 429.8614509463021 79
+Execute-Time: 1.2225658893585205
+Predict_price 1.0464682154896598 468
+Predict_Sell_price -1.059514690493204 435
+-1.450078793057326
+Execute-Time: 1.324826955795288
+Tue Aug 18 20:00:00 CST 2020
+426.88 428.4347842796355 79
+Execute-Time: 1.5212290287017822
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.702111965552362
+Execute-Time: 1.5059378147125244
+Tue Aug 18 20:15:00 CST 2020
+427.25 428.68145094630216 79
+Execute-Time: 1.4939029216766357
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.6657358971763045
+Execute-Time: 1.4030349254608154
+Tue Aug 18 20:30:00 CST 2020
+429.28 430.03478427963546 79
+Execute-Time: 1.4301159381866455
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.543844159284558
+Execute-Time: 1.239598035812378
+Tue Aug 18 20:45:00 CST 2020
+428.13 429.2681176129688 79
+Execute-Time: 1.5433149337768555
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.6287216521620707
+Execute-Time: 1.4247121810913086
+Tue Aug 18 21:00:00 CST 2020
+429.43 430.13478427963554 79
+Execute-Time: 2.6197261810302734
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.53810056954097
+Execute-Time: 6.117316961288452
+Tue Aug 18 21:30:00 CST 2020
+427.75 429.0147842796355 79
+Execute-Time: 1.8701200485229492
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.6446760681164818
+Execute-Time: 2.281752109527588
+Tue Aug 18 21:45:00 CST 2020
+424.72 426.9947842796355 79
+Execute-Time: 1.0360689163208008
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.8463398857802842
+Execute-Time: 1.2790300846099854
+Tue Aug 18 22:00:00 CST 2020
+426.07 427.89478427963553 79
+Execute-Time: 1.355086088180542
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.766567806008183
+Execute-Time: 1.139610767364502
+Tue Aug 18 22:15:01 CST 2020
+421.5 424.8481176129688 79
+Execute-Time: 1.4542810916900635
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-2.076721652162073
+Execute-Time: 1.214883804321289
+Tue Aug 18 22:30:01 CST 2020
+415.33 420.7347842796355 79
+Execute-Time: 1.1436679363250732
+Predict_Sell_price -1.0562772077176161 437
+-2.4513313387717375
+Execute-Time: 1.1537981033325195
+Tue Aug 18 22:45:00 CST 2020
+420.08 423.9014509463022 79
+Execute-Time: 1.4218521118164062
+Predict_Sell_price -1.0562772077176161 437
+-2.1379866094270117
+Execute-Time: 1.2707619667053223
+Tue Aug 18 23:00:00 CST 2020
+422.24 425.34145094630213 79
+Execute-Time: 1.1705679893493652
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.9905678060082064
+Execute-Time: 1.3283939361572266
+Tue Aug 18 23:15:01 CST 2020
+425.57 427.56145094630216 79
+Execute-Time: 1.1468837261199951
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.8054965809369916
+Execute-Time: 1.2443809509277344
+Tue Aug 18 23:30:01 CST 2020
+423.41 426.1214509463022 79
+Execute-Time: 1.3231987953186035
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.94142820486862
+Execute-Time: 1.1871259212493896
+Tue Aug 18 23:45:00 CST 2020
+422.19 425.30811761296883 79
+Execute-Time: 1.9805622100830078
+Predict_price 1.049705698265294 470
+Predict_Sell_price -1.0562772077176161 437
+-1.995673219113618
+Execute-Time: 1.6751072406768799
+Wed Aug 19 00:00:00 CST 2020
+419.91 423.78811761296885 79
+Execute-Time: 1.2728869915008545
+Predict_Sell_price -1.0262589450366324 442
+-2.4423729051505756
+Execute-Time: 1.3812899589538574
+Wed Aug 19 00:15:00 CST 2020
+421.38 424.7681176129688 79
+Execute-Time: 1.5247108936309814
+Predict_Sell_price -1.0262589450366324 442
+-2.3504754692531673
+Execute-Time: 1.4772248268127441
+Wed Aug 19 00:30:00 CST 2020
+421.82 425.06145094630216 79
+Execute-Time: 1.3269000053405762
+Predict_Sell_price -1.0262589450366324 442
+-2.3179284607061232
+Execute-Time: 1.1037440299987793
+Wed Aug 19 00:45:00 CST 2020
+423.63 426.2681176129688 79
+Execute-Time: 1.3129501342773438
+Predict_Sell_price -1.0262589450366324 442
+-2.2081620789397745
+Execute-Time: 1.2013750076293945
+Wed Aug 19 21:30:00 CST 2020
+412.47 416.696039204323 80
+Execute-Time: 1.578139066696167
+Predict_Sell_price -1.0301976696901207 442
+-2.9147332822257126
+Execute-Time: 1.3856251239776611
+Wed Aug 19 21:45:00 CST 2020
+410.35 415.2827058709897 80
+Execute-Time: 1.857706069946289
+Predict_Sell_price -1.0301976696901207 442
+-3.053855789348269
+Execute-Time: 1.5522420406341553
+Wed Aug 19 22:00:00 CST 2020
+412.44 416.67603920432293 80
+Execute-Time: 1.3392157554626465
+Predict_Sell_price -1.0301976696901207 442
+-2.9166478121402877
+Execute-Time: 1.423790693283081
+Wed Aug 19 22:15:01 CST 2020
+413.52 417.39603920432296 80
+Execute-Time: 1.5837690830230713
+Predict_Sell_price -1.0301976696901207 442
+-2.846448381940833
+Execute-Time: 1.2192909717559814
+Wed Aug 19 22:30:00 CST 2020
+413.21 417.18937253765625 80
+Execute-Time: 1.3716368675231934
+Predict_Sell_price -1.0301976696901207 442
+-2.8662318577243027
+Execute-Time: 1.4851408004760742
+Wed Aug 19 22:45:00 CST 2020
+412.43 416.6693725376563 80
+Execute-Time: 1.2927501201629639
+Predict_Sell_price -1.0301976696901207 442
+-2.9166478121402877
+Execute-Time: 1.3150370121002197
+Wed Aug 19 23:00:00 CST 2020
+408.7 414.1827058709896 80
+Execute-Time: 1.3626391887664795
+Predict_Sell_price -1.0301976696901207 442
+-3.1731948206872644
+Execute-Time: 1.2933309078216553
+Wed Aug 19 23:15:00 CST 2020
+407.51 413.3893725376563 80
+Execute-Time: 1.6634559631347656
+Predict_Sell_price -1.0301976696901207 442
+-3.236374307866778
+Execute-Time: 1.4713881015777588
+Wed Aug 19 23:30:00 CST 2020
+408.6 414.116039204323 80
+Execute-Time: 1.351942777633667
+Predict_Sell_price -1.0301976696901207 442
+-3.171280290772735
+Execute-Time: 1.4111239910125732
+Wed Aug 19 23:45:00 CST 2020
+407.45 413.3493725376563 80
+Execute-Time: 1.3027472496032715
+Predict_Sell_price -1.0301976696901207 442
+-3.2408415443339678
+Execute-Time: 1.2732138633728027
+Thu Aug 20 00:00:00 CST 2020
+409.29 414.57603920432297 80
+Execute-Time: 2.7334539890289307
+Predict_Sell_price -1.0200005757424981 441
+-3.049402285144189
+Execute-Time: 3.0116219520568848
+Thu Aug 20 00:15:00 CST 2020
+411.15 415.816039204323 80
+Execute-Time: 1.2944340705871582
+Predict_Sell_price -1.0200005757424981 441
+-2.92431966406156
+Execute-Time: 1.5035641193389893
+Thu Aug 20 19:15:00 CST 2020
+407.76 409.625346401441 81
+Execute-Time: 2.0937652587890625
+Predict_Sell_price -1.0428727781504183 426
+-2.2056306129082675
+Execute-Time: 1.5528008937835693
+Thu Aug 20 19:30:00 CST 2020
+407.84 409.6786797347743 81
+Execute-Time: 1.271212100982666
+Predict_Sell_price -1.0428727781504183 426
+-2.203716082993693
+Execute-Time: 1.318721055984497
+Fri Aug 21 20:30:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f9ddf08b430>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9ddf08b430>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9ddf08b430>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fc44ead8b50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc44ead8b50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./MACD/get_Binance.py", line 26, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc44ead8b50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 85, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Fri Aug 21 20:45:01 CST 2020
+404.8 408.2262265782581 82
+Execute-Time: 1.5203111171722412
+Predict_price 1.0251773894322929 427
+Predict_Sell_price -1.0169878527329268 395
+-0.4011473968924739
+Execute-Time: 1.489640235900879
