@@ -50097,3 +50097,1027 @@ Predict_price 1.0251773894322929 427
 Predict_Sell_price -1.0169878527329268 395
 -0.4011473968924739
 Execute-Time: 1.489640235900879
+Fri Aug 21 21:00:01 CST 2020
+406.82 409.5728932449247 82
+Execute-Time: 1.7470331192016602
+Predict_price 1.0251773894322929 427
+Predict_Sell_price -1.0169878527329268 395
+-0.26266306640813974
+Execute-Time: 1.4882261753082275
+Fri Aug 21 23:00:01 CST 2020
+405.31 408.56622657825807 82
+Execute-Time: 1.537517786026001
+Predict_price 1.0251773894322929 427
+Predict_Sell_price -1.0169878527329268 395
+-0.35902773877282845
+Execute-Time: 1.625312089920044
+Fri Aug 21 23:15:00 CST 2020
+404.02 407.7062265782581 82
+Execute-Time: 2.1293840408325195
+Predict_price 1.0251773894322929 427
+Predict_Sell_price -1.0169878527329268 395
+-0.4573069410520012
+Execute-Time: 1.9943392276763916
+Fri Aug 21 23:30:01 CST 2020
+405.27 408.5395599115914 82
+Execute-Time: 2.65739107131958
+Predict_price 1.0251773894322929 427
+Predict_Sell_price -1.0169878527329268 395
+-0.3488169125620053
+Execute-Time: 3.5237557888031006
+Fri Aug 21 23:45:00 CST 2020
+406.2 409.15955991159143 82
+Execute-Time: 3.1006288528442383
+Predict_price 1.0251773894322929 427
+Predict_Sell_price -1.0169878527329268 395
+-0.30286819461325587
+Execute-Time: 3.708936929702759
+Sat Aug 22 00:00:00 CST 2020
+404.19 407.8195599115914 82
+Execute-Time: 2.8971219062805176
+Predict_price 1.0010564662960681 429
+Predict_Sell_price -1.0411087758691515 397
+-0.5867270094873853
+Alert: 6.25908088684082
+Execute-Time: 2.8221521377563477
+Sat Aug 22 00:15:00 CST 2020
+404.4 407.95955991159144 82
+Execute-Time: 1.4720509052276611
+Predict_price 1.0010564662960681 429
+Predict_Sell_price -1.0411087758691515 397
+-0.5726871234475035
+Alert: 896.4234759807587
+Execute-Time: 1.3553950786590576
+Sat Aug 22 00:30:00 CST 2020
+405.76 408.86622657825814 82
+Execute-Time: 3.3812379837036133
+Predict_price 1.0010564662960681 429
+Predict_Sell_price -1.0411087758691515 397
+-0.48717145393181394
+Execute-Time: 1.606734037399292
+Sat Aug 22 01:19:11 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7ffbff89c400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ffbff89c400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ffbff89c400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fda882d6b20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fda882d6b20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./MACD/get_Binance.py", line 26, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fda882d6b20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 85, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Sat Aug 22 01:30:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fc86d88b460>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc86d88b460>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc86d88b460>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fd9f39a6b20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fd9f39a6b20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./MACD/get_Binance.py", line 26, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fd9f39a6b20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 85, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Sat Aug 22 02:30:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fa7a91b8430>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa7a91b8430>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa7a91b8430>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fc22f2adaf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc22f2adaf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./MACD/get_Binance.py", line 26, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc22f2adaf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 85, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Sat Aug 22 10:45:00 CST 2020
+386.59 390.06207552608606 83
+Execute-Time: 1.938598871231079
+Predict_Sell_price -1.0497357456202558 408
+-2.423730047614554
+Execute-Time: 1.3174431324005127
+Sat Aug 22 11:00:00 CST 2020
+385.13 389.0887421927527 83
+Execute-Time: 1.7224540710449219
+Predict_Sell_price -1.0497357456202558 408
+-2.514989306873786
+Execute-Time: 1.7742202281951904
+Sat Aug 22 11:15:00 CST 2020
+385.81 389.5420755260861 83
+Execute-Time: 1.7011420726776123
+Predict_Sell_price -1.0497357456202558 408
+-2.470955118839611
+Execute-Time: 1.4711527824401855
+Sat Aug 22 11:30:00 CST 2020
+384.21 388.47540885941936 83
+Execute-Time: 1.8745689392089844
+Predict_Sell_price -1.0497357456202558 408
+-2.569234321118829
+Execute-Time: 1.672407865524292
+Sat Aug 22 11:45:01 CST 2020
+386.04 389.6954088594194 83
+Execute-Time: 1.8236799240112305
+Predict_Sell_price -1.0497357456202558 408
+-2.4613824692669644
+Execute-Time: 2.0435121059417725
+Sat Aug 22 12:00:00 CST 2020
+385.26 389.17540885941935 83
+Execute-Time: 6.618478059768677
+Predict_Sell_price -1.0595033335983084 411
+-2.717486239581171
+Execute-Time: 6.3592140674591064
+Sat Aug 22 12:15:00 CST 2020
+383.88 388.25540885941933 83
+Execute-Time: 1.5138721466064453
+Predict_Sell_price -1.0595033335983084 411
+-2.790238376333286
+Execute-Time: 3.9574379920959473
+Sat Aug 22 12:30:01 CST 2020
+383.14 387.762075526086 83
+Execute-Time: 1.606477975845337
+Predict_Sell_price -1.0595033335983084 411
+-2.840016154111094
+Execute-Time: 1.7213969230651855
+Sat Aug 22 12:45:00 CST 2020
+382.44 387.2954088594194 83
+Execute-Time: 1.588331937789917
+Predict_Sell_price -1.0595033335983084 411
+-2.882773988868961
+Execute-Time: 1.4344661235809326
+Sat Aug 22 13:00:01 CST 2020
+382.44 387.2954088594194 83
+Execute-Time: 1.180267095565796
+Predict_Sell_price -1.0595033335983084 411
+-2.8693722794672105
+Execute-Time: 1.2559993267059326
+Sat Aug 22 13:15:00 CST 2020
+384.26 388.50874219275266 83
+Execute-Time: 1.5807828903198242
+Predict_Sell_price -1.0595033335983084 411
+-2.7793893734843316
+Execute-Time: 1.316540002822876
+Sat Aug 22 13:30:00 CST 2020
+384.72 388.8154088594194 83
+Execute-Time: 1.3359441757202148
+Predict_Sell_price -1.0595033335983084 411
+-2.7328024788974057
+Execute-Time: 1.2575600147247314
+Sat Aug 22 13:45:00 CST 2020
+385.22 389.1487421927527 83
+Execute-Time: 1.7591276168823242
+Predict_Sell_price -1.0595033335983084 411
+-2.7059990600940402
+Execute-Time: 1.2740938663482666
+Sat Aug 22 14:00:00 CST 2020
+386.21 389.80874219275273 83
+Execute-Time: 1.5086102485656738
+Predict_Sell_price -1.0595033335983084 411
+-2.6364378065327623
+Execute-Time: 1.277420997619629
+Sat Aug 22 14:15:00 CST 2020
+388.33 391.22207552608603 83
+Execute-Time: 1.7024781703948975
+Predict_Sell_price -1.0595033335983084 411
+-2.507526125621075
+Execute-Time: 1.519864797592163
+Sat Aug 22 14:30:00 CST 2020
+391.16 393.10874219275274 83
+Execute-Time: 1.3892009258270264
+Predict_Sell_price -1.0595033335983084 411
+-2.3211785472735063
+Execute-Time: 1.53426194190979
+Sat Aug 22 14:45:00 CST 2020
+389.94 392.2954088594194 83
+Execute-Time: 1.3062050342559814
+Predict_Sell_price -1.0595033335983084 411
+-2.4028651569601376
+Execute-Time: 1.2635040283203125
+Sat Aug 22 15:00:00 CST 2020
+392.2 393.80207552608607 83
+Execute-Time: 1.286391019821167
+Predict_Sell_price -1.0595033335983084 411
+-2.2599135900085674
+Execute-Time: 1.496898889541626
+Sat Aug 22 15:15:00 CST 2020
+390.83 392.8887421927527 83
+Execute-Time: 1.3209269046783447
+Predict_Sell_price -1.0595033335983084 411
+-2.3460674361623877
+Execute-Time: 1.2164561748504639
+Sat Aug 22 15:30:00 CST 2020
+390.35 392.5687421927527 83
+Execute-Time: 1.933953046798706
+Predict_Sell_price -1.0595033335983084 411
+-2.3760617381566806
+Execute-Time: 1.3681879043579102
+Sat Aug 22 15:45:00 CST 2020
+391.32 393.21540885941937 83
+Execute-Time: 1.2843482494354248
+Predict_Sell_price -1.0595033335983084 411
+-2.3154349575299182
+Execute-Time: 1.4682209491729736
+Sat Aug 22 16:00:00 CST 2020
+391.16 393.10874219275274 83
+Execute-Time: 1.4551160335540771
+Predict_price 1.0600629351365578 440
+Predict_Sell_price -1.0459199708463522 407
+-2.059344472270822
+Execute-Time: 1.2532501220703125
+Sat Aug 22 16:15:00 CST 2020
+391.17 393.1154088594194 83
+Execute-Time: 1.454834222793579
+Predict_price 1.0600629351365578 440
+Predict_Sell_price -1.0459199708463522 407
+-2.047857292783646
+Execute-Time: 1881.9814448356628
+Sat Aug 22 17:45:01 CST 2020
+392.54 394.02874219275276 83
+Execute-Time: 1.4873480796813965
+Predict_price 1.0600629351365578 440
+Predict_Sell_price -1.0459199708463522 407
+-1.975105156031531
+Execute-Time: 1.2418627738952637
+Sat Aug 22 18:00:00 CST 2020
+392.46 393.97540885941936 83
+Execute-Time: 1.5796170234680176
+Predict_price 1.0600629351365578 440
+Predict_Sell_price -1.0459199708463522 407
+-1.9617034466298255
+Execute-Time: 2.5106921195983887
+Sat Aug 22 18:15:01 CST 2020
+392.02 393.682075526086 83
+Execute-Time: 1.4516117572784424
+Predict_price 1.0600629351365578 440
+Predict_Sell_price -1.0459199708463522 407
+-2.001270398196765
+Execute-Time: 1.2504448890686035
+Sat Aug 22 18:30:00 CST 2020
+393.25 394.502075526086 83
+Execute-Time: 1.8044562339782715
+Predict_price 1.0600629351365578 440
+Predict_Sell_price -1.0459199708463522 407
+-1.9234128483391935
+Execute-Time: 1.3449680805206299
+Sat Aug 22 18:45:00 CST 2020
+392.2 393.80207552608607 83
+Execute-Time: 1.3990540504455566
+Predict_price 1.0600629351365578 440
+Predict_Sell_price -1.0459199708463522 407
+-1.9904213953477656
+Execute-Time: 1.3045079708099365
+Sat Aug 22 19:00:00 CST 2020
+391.0 393.002075526086 83
+Execute-Time: 1.2637817859649658
+Predict_Sell_price -1.0459199708463522 407
+-2.0574299423562925
+Execute-Time: 1.3012170791625977
+Sat Aug 22 19:15:01 CST 2020
+389.58 392.0554088594194 83
+Execute-Time: 1.2847177982330322
+Predict_Sell_price -1.0459199708463522 407
+-2.1512419081682754
+Execute-Time: 1.1260161399841309
+Sat Aug 22 19:30:00 CST 2020
+388.52 391.3487421927527 83
+Execute-Time: 1.3197917938232422
+Predict_Sell_price -1.0459199708463522 407
+-2.2067632756896263
+Execute-Time: 1.161485195159912
+Sat Aug 22 19:45:00 CST 2020
+389.55 392.0354088594194 83
+Execute-Time: 1.5087480545043945
+Predict_Sell_price -1.0459199708463522 407
+-2.1518800848064066
+Execute-Time: 1.5271539688110352
+Sat Aug 22 20:00:00 CST 2020
+390.0 392.3354088594194 83
+Execute-Time: 1.0944623947143555
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.831194994364104
+Execute-Time: 1.4406030178070068
+Sat Aug 22 20:15:00 CST 2020
+391.03 393.022075526086 83
+Execute-Time: 1.231929063796997
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.7814172165863864
+Execute-Time: 1.1508450508117676
+Sat Aug 22 20:30:00 CST 2020
+390.49 392.662075526086 83
+Execute-Time: 1.3377678394317627
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.8158787550478692
+Execute-Time: 1.1885020732879639
+Sat Aug 22 20:45:00 CST 2020
+393.0 394.3354088594194 83
+Execute-Time: 1.6550359725952148
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.6601636553328163
+Execute-Time: 1.3671939373016357
+Sat Aug 22 21:00:00 CST 2020
+392.1 393.73540885941935 83
+Execute-Time: 1.1286938190460205
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.7144086695778142
+Execute-Time: 1.3395438194274902
+Sat Aug 22 21:15:00 CST 2020
+390.2 392.4687421927527 83
+Execute-Time: 1.2870609760284424
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.8305568177259728
+Execute-Time: 1.2246668338775635
+Sat Aug 22 21:30:00 CST 2020
+390.4 392.602075526086 83
+Execute-Time: 1.218386173248291
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.826727757896914
+Execute-Time: 1.2646410465240479
+Sat Aug 22 21:45:01 CST 2020
+390.01 392.34207552608603 83
+Execute-Time: 1.2188200950622559
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.8465112336803386
+Execute-Time: 1.2208919525146484
+Sat Aug 22 22:00:00 CST 2020
+391.3 393.20207552608605 83
+Execute-Time: 1.3492989540100098
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.764186447355577
+Execute-Time: 1.2061412334442139
+Sat Aug 22 22:15:00 CST 2020
+389.79 392.1954088594194 83
+Execute-Time: 1.501420021057129
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.862465649634795
+Execute-Time: 1.3546390533447266
+Sat Aug 22 22:30:00 CST 2020
+389.58 392.0554088594194 83
+Execute-Time: 1.293670892715454
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.8745910057601476
+Execute-Time: 1.3897171020507812
+Sat Aug 22 22:45:01 CST 2020
+390.92 392.9487421927527 83
+Execute-Time: 1.1810169219970703
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.7909898661589878
+Execute-Time: 1.2047579288482666
+Sat Aug 22 23:00:01 CST 2020
+391.96 393.64207552608605 83
+Execute-Time: 1.084406852722168
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.7163231994922983
+Execute-Time: 1.2577972412109375
+Sat Aug 22 23:15:00 CST 2020
+392.19 393.7954088594194 83
+Execute-Time: 1.8202600479125977
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.7073887265578733
+Execute-Time: 1.5925469398498535
+Sat Aug 22 23:30:00 CST 2020
+391.05 393.0354088594194 83
+Execute-Time: 1.490691900253296
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.7775881567573277
+Execute-Time: 2.810169219970703
+Sat Aug 22 23:45:00 CST 2020
+391.25 393.1687421927527 83
+Execute-Time: 3.7286322116851807
+Predict_price 1.0246454614763127 435
+Predict_Sell_price -1.0175197806889074 403
+-1.7692918604609886
+Execute-Time: 1.4067490100860596
+Sun Aug 23 00:00:00 CST 2020
+390.37 392.58207552608604 83
+Execute-Time: 1.2025399208068848
+Predict_price 1.0458714044974196 430
+Predict_Sell_price -1.0601115014854905 397
+-1.4825844359584348
+Execute-Time: 1.3266870975494385
+Sun Aug 23 00:15:00 CST 2020
+389.6 392.0687421927527 83
+Execute-Time: 1.5176918506622314
+Predict_price 1.0458714044974196 430
+Predict_Sell_price -1.0601115014854905 397
+-1.5393821567561385
+Execute-Time: 1.2139339447021484
+Sun Aug 23 00:30:00 CST 2020
+389.92 392.2820755260861 83
+Execute-Time: 1.1439881324768066
+Predict_price 1.0458714044974196 430
+Predict_Sell_price -1.0601115014854905 397
+-1.5119405613145513
+Execute-Time: 1.26350998878479
+Sun Aug 23 22:00:00 CST 2020
+388.81 391.14958073091753 84
+Execute-Time: 1.5870859622955322
+Predict_price 1.003040896502931 409
+Predict_Sell_price -1.0391243456623345 377
+-0.28416138269932567
+Execute-Time: 1.2931227684020996
+Sun Aug 23 22:15:00 CST 2020
+389.18 391.3962473975842 84
+Execute-Time: 1.815730333328247
+Predict_price 1.003040896502931 409
+Predict_Sell_price -1.0391243456623345 377
+-0.25799614053413666
+Execute-Time: 1.7616996765136719
+Sun Aug 23 22:30:00 CST 2020
+389.33 391.4962473975842 84
+Execute-Time: 1.3094398975372314
+Predict_price 1.003040896502931 409
+Predict_Sell_price -1.0391243456623345 377
+-0.24395625449420955
+Execute-Time: 1.2533159255981445
+Sun Aug 23 22:45:00 CST 2020
+388.56 390.9829140642509 84
+Execute-Time: 1.5020458698272705
+Predict_price 1.003040896502931 409
+Predict_Sell_price -1.0391243456623345 377
+-0.29756309210107634
+Execute-Time: 1.5302610397338867
+Sun Aug 23 23:00:00 CST 2020
+389.79 391.8029140642509 84
+Execute-Time: 1.3528571128845215
+Predict_price 1.003040896502931 409
+Predict_Sell_price -1.0391243456623345 377
+-0.22608730862526905
+Execute-Time: 1.2809348106384277
+Sun Aug 23 23:15:00 CST 2020
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 161, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa57e1a0610>, 'Connection to api.binance.com timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa57e1a0610>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "binance1.py", line 20, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa57e1a0610>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 334, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py", line 161, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa82faaec10>, 'Connection to api.binance.com timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa82faaec10>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./MACD/get_Binance.py", line 26, in <module>
+    client = Client(api_key, api_secret)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 97, in __init__
+    self.ping()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 378, in ping
+    return self._get('ping')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 222, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 191, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/binance/client.py", line 185, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa82faaec10>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "email_price_notify.py", line 85, in <module>
+    server = smtplib.SMTP('smtp.gmail.com', 587) 
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 807, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 51] Network is unreachable
+Sun Aug 23 23:30:00 CST 2020
+391.11 392.68291406425095 84
+Execute-Time: 2.9937331676483154
+Predict_price 1.003040896502931 409
+Predict_Sell_price -1.0391243456623345 377
+-0.14057163910962522
+Execute-Time: 1.6640889644622803
+Mon Aug 24 21:00:00 CST 2020
+405.37 401.05208246586136 85
+Execute-Time: 1.9605870246887207
+Predict_price 1.0296009939913668 381
+2.591219227609586
+Execute-Time: 2.0632009506225586
+Mon Aug 24 21:15:00 CST 2020
+406.42 401.7520824658614 85
+Execute-Time: 1.3548390865325928
+Predict_price 1.0296009939913668 381
+2.6518460082363937
+Execute-Time: 1.5292189121246338
+Mon Aug 24 21:30:01 CST 2020
+406.25 401.63874913252806 85
+Execute-Time: 2.0055220127105713
+Predict_price 1.0296009939913668 381
+2.6333388857292768
+Execute-Time: 1.897171974182129
+Mon Aug 24 21:45:00 CST 2020
+407.79 402.66541579919476 85
+Execute-Time: 10.492456197738647
+Predict_price 1.0296009939913668 381
+2.7316180880084495
+Execute-Time: 6.249640226364136
+Mon Aug 24 22:00:00 CST 2020
+405.54 401.16541579919476 85
+Execute-Time: 6.245764970779419
+Predict_price 1.0296009939913668 381
+2.593771934162292
+Execute-Time: 3.841297149658203
+Mon Aug 24 22:15:00 CST 2020
+404.79 400.66541579919476 85
+Execute-Time: 24.0649573802948
+Predict_price 1.0296009939913668 381
+2.556757689148058
+Execute-Time: 5.2706732749938965
+Mon Aug 24 22:30:00 CST 2020
+405.75 401.3054157991947 85
+Execute-Time: 2.4415760040283203
+Predict_price 1.0296009939913668 381
+2.6084499968403954
+Execute-Time: 2.5077948570251465
+Mon Aug 24 22:45:00 CST 2020
+404.04 400.16541579919476 85
+Execute-Time: 1.3066301345825195
+Predict_price 1.0296009939913668 381
+2.4974072617976484
+Execute-Time: 1.3565430641174316
+Mon Aug 24 23:00:00 CST 2020
+402.21 398.94541579919473 85
+Execute-Time: 1.3941309452056885
+Predict_price 1.0296009939913668 381
+2.3850881734785485
+Execute-Time: 1.2490577697753906
+Mon Aug 24 23:15:00 CST 2020
+403.27 399.6520824658614 85
+Execute-Time: 1.5680909156799316
+Predict_price 1.0296009939913668 381
+2.439971364361723
+Execute-Time: 1.5105862617492676
