@@ -147,8 +147,7 @@ email_signal_temp = email_data.read()
   
   
   
-  
-if MACD_signal == '1' or MACD_signal == '2' or MACD_signal == '3' or MACD_signal == '4':
+if MACD_signal == '1' or MACD_signal == '2' or MACD_signal == '3' or MACD_signal == '4' or MACD_signal == '5':
   server.starttls()
   server.login(username,password)  
   server.sendmail(from_address, to_address, msg1.as_string())  
