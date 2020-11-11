@@ -31,9 +31,9 @@ date1 = '10 Dec, 2019'
 klines_4hr = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_4HOUR, '25 Sep, 2020')
 
 
+       
 
-
-
+                            
 trade_price = client.get_recent_trades(symbol='ETHUSDT')[250]['price']
 trade_time = client.get_recent_trades(symbol='ETHUSDT')[250]['time']
 trades = client.get_recent_trades(symbol='ETHUSDT')
@@ -78,6 +78,19 @@ close = [float(x) for x in four_df['close']]
 
 four_df['MACD'],four_df['MACDsignal'],four_df['MACDhist'] = talib.MACD(np.array(close),
                             fastperiod=12, slowperiod=26, signalperiod=9) 
+
+def retreive_Position():
+    Position = open('./Signal/Position.txt', 'r')   
+    pos =  Position.read()
+    Position.close()
+    return pos 
+
+def Update_Position(Update):
+    Position = open('./Signal/Position.txt', 'w')   
+    Position.write(Update)
+    
+
+Current_Pos = retreive_Position()
 
 # Trying to predict the next Price to Corss MACD hist
 for pa in range(int(float(trade_price)-50),int(float(trade_price)+50)):
@@ -142,6 +155,7 @@ elif (float(four_df['MACDhist'].iloc[1]) > -1 and float(four_df['MACDhist'].iloc
     else:
         data = open('./Signal/MACD_Signal.txt', 'w')
         data.write('0')
+        
 ## Sell        
 elif (float(four_df['MACDhist'].iloc[2]) > -1 and float(four_df['MACDhist'].iloc[1]) < -1 and float(four_df['MACDhist'].iloc[0]) < -1 ):
 
