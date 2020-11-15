@@ -3,9 +3,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import csv
 import sys
-sys.path.insert(0, '/Users/seanhung06/Binance/MACD')
-from get_Binance import retreive_Position
-
+# 從套件中引用模組
+from MACD.get_Binance import retreive_Position
 
 
 
