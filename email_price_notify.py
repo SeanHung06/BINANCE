@@ -3,7 +3,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import csv
 # 從套件中引用模組
-from MACD.position import retreive_Position
+from MACD.position import *
 
 from_address = "u8351574@gmail.com"
 to_address = "u8351574@gmail.com"

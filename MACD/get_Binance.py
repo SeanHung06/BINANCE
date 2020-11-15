@@ -11,9 +11,8 @@ import matplotlib.pyplot as plt
 import csv
 from talib import abstract
 import talib
-from position import retreive_Position
-from position import Update_Position
-from transform_time import transform_time
+from position import *
+from transform_time import *
 
 start = time.time()
 
