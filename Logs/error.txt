@@ -1,5 +1,0 @@
-Deferred spawn of service failed: 35: Resource temporarily unavailable
-Feb  8 19:49:05 seanhung06 com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0C000000-0500-0000-0000-000000000000): Could not spawn process /usr/libexec/xpcproxy: 35: Resource temporarily unavailable
-預設	19:34:44.125840+0800	routined	Reconciliation algorithm chosen, per device
-預設	19:34:44.128253+0800	routined	creating os_transaction for obj, <private>
-預設	19:34:44.132355+0800	kernel	PMRD: setAggressiveness(0) kPMMinutesToSleep = 0
