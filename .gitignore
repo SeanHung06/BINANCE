@@ -11,3 +11,10 @@ Data/binance_ETHUSDT_MACD.xlsx
 Data/trades_df.xlsx
 Data/trade_details.csv
 Signal/Price.txt
+Logs/*
+Data/*/.csv
+Data/*/.xlxs
+Signal/*
+Signal/MACD.txt
+Signal/MACD.txt
+Signal/Price.txt
