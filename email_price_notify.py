@@ -2,9 +2,8 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import csv
-import sys
-sys.path.insert(0, '/Users/seanhung06/Binance/MACD')
-from get_Binance import retreive_Position
+# 從套件中引用模組
+from MACD.position import retreive_Position
 
 from_address = "u8351574@gmail.com"
 to_address = "u8351574@gmail.com"
