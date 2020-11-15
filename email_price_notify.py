@@ -2,6 +2,9 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import csv
+import sys
+sys.path.insert(0, '/Users/seanhung06/Binance/MACD')
+from get_Binance import retreive_Position
 
 from_address = "u8351574@gmail.com"
 to_address = "u8351574@gmail.com"
@@ -11,6 +14,9 @@ msg = MIMEMultipart('alternative')
 msg['From'] = from_address
 msg['To'] = to_address
 # Create the message (CSV).
+
+#Retreive Current Position 
+Current_Pos = retreive_Position()
 
 # Open the file csv and input the content in the loop 
 f = open('./Data/trade_details.csv')
@@ -39,6 +45,10 @@ for row_f1 in reader_f1:
 content += '<font size="6">'+'MACD:'+MACD_data+'<br></font>'
 content += '<font size="6">'+'Predict Price:'+Predict_price_data+'<br></font>'
 content += '<font size="6">'+'Predict Sell Price:'+Predict_sell_price_data+'<br></font>'
+if Current_Pos == '0':
+    content += '<font size="6">Current Position : Sell </font>'
+if Current_Pos == '1':
+    content += '<font size="6">Current Position : Buy </font>'
 for row_ema in EMA_ALL:
     content += '<font size="6">'+'EMA:'+str(row_ema)+'<br></font>'
 

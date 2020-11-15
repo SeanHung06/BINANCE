@@ -2,6 +2,10 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import csv
+import sys
+sys.path.insert(0, '/Users/seanhung06/Binance/MACD')
+from get_Binance import retreive_Position
+
 
 
 
@@ -13,6 +17,9 @@ to_address = "u8351574@gmail.com"
 # Create message container - the correct MIME type is multipart/alternative.
 msg = MIMEMultipart('alternative')
 msg1 = MIMEMultipart('alternative')
+
+#Retreive Current Position 
+Current_Pos = retreive_Position()
 
 msg['From'] = from_address
 msg1['From'] = from_address
@@ -68,7 +75,10 @@ elif MACD_signal == '4' :
 elif MACD_signal == '5' :
   content1 += '<font size="6">SELL<br></font>'
 
-
+if Current_Pos == '0':
+    content1 += '<font size="6">Current Position : Sell </font>'
+if Current_Pos == '1':
+    content1 += '<font size="6">Current Position : Buy </font>'
 content1 += '<font size="6">'+'MACD:'+MACD_data+'<br></font>'
 content1 += '<font size="6">'+'Price:'+Price_data+'<br></font>'
 content1 += '<font size="6">'+'Predict Price:'+Predict_price_data+'<br></font>'

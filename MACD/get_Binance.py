@@ -91,7 +91,6 @@ def Update_Position(Update):
     
 
 Current_Pos = retreive_Position()
-
 # Trying to predict the next Price to Corss MACD hist
 for pa in range(int(float(trade_price)-50),int(float(trade_price)+50)):
     A = [float(x) for x in four_df['close']]
@@ -165,10 +164,12 @@ elif (float(four_df['MACDhist'].iloc[2]) > -1 and float(four_df['MACDhist'].iloc
     Sell_time_data_pre = Sell_time_pre_data.read()
     print("Sell:",Sell_time-float(Sell_time_data_pre))
     if(Sell_time-float(Sell_time_data_pre)>1800):
-        data_time = open('./Signal/Sell_time.txt', 'w')
-        data_time.write(str(Sell_time))
-        data = open('./Signal/MACD_Signal.txt', 'w')
-        data.write('5')
+        if Current_Pos == '1':
+            Update_Position('0')
+            data_time = open('./Signal/Sell_time.txt', 'w')
+            data_time.write(str(Sell_time))
+            data = open('./Signal/MACD_Signal.txt', 'w')
+            data.write('5')
     else:
         data = open('./Signal/MACD_Signal.txt', 'w')
         data.write('0')
@@ -197,6 +198,9 @@ elif (float(four_df['MACDhist'].iloc[1]) > 1 and float(four_df['MACDhist'].iloc[
     Buy_time_data_pre = Buy_time_pre_data.read()
     print("Buy:",Buy_time-float(Buy_time_data_pre))
     if(Buy_time-float(Buy_time_data_pre)>1800):
+        if Current_Pos == '0':
+            Update_Position('1')
+
         data_time = open('./Signal/Buy_time.txt', 'w')
         data_time.write(str(Buy_time))
         data = open('./Signal/MACD_Signal.txt', 'w')
