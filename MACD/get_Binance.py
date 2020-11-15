@@ -12,6 +12,7 @@ import csv
 from talib import abstract
 import talib
 from position import retreive_Position
+from position import Update_Position
 from transform_time import transform_time
 
 start = time.time()
@@ -136,7 +137,7 @@ elif (float(four_df['MACDhist'].iloc[1]) > -1 and float(four_df['MACDhist'].iloc
     Ready_Sell_time_pre_data = open('./Signal/Ready_Sell_time.txt', 'r')
     Ready_Sell_time_data_pre = Ready_Sell_time_pre_data.read()
     print("Ready_Sell:",Ready_Sell_time-float(Ready_Sell_time_data_pre))
-    if(Ready_Sell_time-float(Ready_Sell_time_data_pre)>1800) and  Current_Pos == '0':
+    if(Ready_Sell_time-float(Ready_Sell_time_data_pre)>1800) and  Current_Pos == '1':
         data_time = open('./Signal/Ready_Sell_time.txt', 'w')
         data_time.write(str(Ready_Sell_time))
         data = open('./Signal/MACD_Signal.txt', 'w')
@@ -166,20 +167,21 @@ elif (float(four_df['MACDhist'].iloc[2]) > -1 and float(four_df['MACDhist'].iloc
       
     
 ## Warning   
-elif ((float(four_df['MACDhist'].iloc[0]) > 0.49 and float(four_df['MACDhist'].iloc[0]) < 1) or (float(four_df['MACDhist'].iloc[0]) < -0.5 and float(four_df['MACDhist'].iloc[0]) > -1)):
-    Alert_time = time.time()
+
+# elif ((float(four_df['MACDhist'].iloc[0]) > 0.49 and float(four_df['MACDhist'].iloc[0]) < 1) or (float(four_df['MACDhist'].iloc[0]) < -0.5 and float(four_df['MACDhist'].iloc[0]) > -1)):
+#     Alert_time = time.time()
     
-    Alert_time_pre_data = open('./Signal/Alert_time.txt', 'r')
-    Alert_time_data_pre = Alert_time_pre_data.read()
-    print("Alert:",Alert_time-float(Alert_time_data_pre))
-    if(Alert_time-float(Alert_time_data_pre)>1800):
-        data_time = open('./Signal/Alert_time.txt', 'w')
-        data_time.write(str(Alert_time))
-        data = open('./Signal/MACD_Signal.txt', 'w')
-        data.write('3')
-    else:
-        data = open('./Signal/MACD_Signal.txt', 'w')
-        data.write('0')
+#     Alert_time_pre_data = open('./Signal/Alert_time.txt', 'r')
+#     Alert_time_data_pre = Alert_time_pre_data.read()
+#     print("Alert:",Alert_time-float(Alert_time_data_pre))
+#     if(Alert_time-float(Alert_time_data_pre)>1800):
+#         data_time = open('./Signal/Alert_time.txt', 'w')
+#         data_time.write(str(Alert_time))
+#         data = open('./Signal/MACD_Signal.txt', 'w')
+#         data.write('3')
+#     else:
+#         data = open('./Signal/MACD_Signal.txt', 'w')
+#         data.write('0')
 ##Buy
 elif (float(four_df['MACDhist'].iloc[1]) > 1 and float(four_df['MACDhist'].iloc[0]) > 1  and float(four_df['MACDhist'].iloc[2]) < 1): 
     Buy_time = time.time()
