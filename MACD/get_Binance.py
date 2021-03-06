@@ -182,7 +182,7 @@ elif (float(four_df['MACDhist'].iloc[2]) > -1 and float(four_df['MACDhist'].iloc
 #         data = open('./Signal/MACD_Signal.txt', 'w')
 #         data.write('0')
 ##Buy
-elif (float(four_df['MACDhist'].iloc[1]) > 1 and float(four_df['MACDhist'].iloc[0]) > 1  and float(four_df['MACDhist'].iloc[2]) < 1): 
+elif (float(four_df['MACDhist'].iloc[1]) > 1 and float(four_df['MACDhist'].iloc[0]) > 1  and float(four_df['MACDhist'].iloc[2]) < 1  ): 
     Buy_time = time.time()
     
     Buy_time_pre_data = open('./Signal/Buy_time.txt', 'r')
