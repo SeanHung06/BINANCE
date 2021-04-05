@@ -19,3 +19,5 @@ Signal/MACD.txt
 Signal/Price.txt
 email_price_notify.py
 email_send.py
+Signal/Predict_price.txt
+Signal/Predict_sell_price.txt
